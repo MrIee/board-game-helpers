@@ -47,8 +47,10 @@ export default defineComponent({
 .dice {
   box-shadow: inset 0 0 4px 0 rgb(0 0 0 / 0.4);
 
-  @apply tw-h-24
-  tw-w-24
+  @apply tw-h-[72px]
+  sm:tw-h-24
+  tw-w-[72px]
+  sm:tw-w-24
   tw-m-1
   tw-relative
   tw-rounded-lg
@@ -65,8 +67,10 @@ export default defineComponent({
 .dot-tr,
 .dot-mr,
 .dot-br {
-  @apply tw-h-5
-  tw-w-5
+  @apply tw-h-4
+  sm:tw-h-5
+  tw-w-4
+  sm:tw-w-5
   tw-absolute
   tw-top-1/2
   -tw-translate-y-1/2

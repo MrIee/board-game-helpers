@@ -10,19 +10,21 @@
         <option value="6">solo</option>
       </select>
     </div>
-    <div class="tw-flex tw-justify-center">
-      <div
-        v-for="(shell, index) in seashells"
-        :key="index"
-        class="tw-h-16 tw-w-16 tw-m-1 tw-border-[3px] tw-border-white tw-rounded-lg"
-      >
-        <img v-if="shell" :src="getSeashellUrl(shell)" :alt="shell" />
+    <div class="tw-flex tw-flex-row-reverse sm:tw-flex-col tw-justify-center">
+      <div class="tw-flex tw-flex-col sm:tw-flex-row tw-justify-center">
+        <div
+          v-for="(shell, index) in seashells"
+          :key="index"
+          class="tw-h-[72px] tw-w-[72px] tw-m-1 tw-border-[3px] tw-border-white tw-rounded-lg"
+        >
+          <img v-if="shell" class="tw-p-2" :src="getSeashellUrl(shell)" :alt="shell" />
+        </div>
+      </div>
+      <div class="tw-flex tw-flex-col sm:tw-flex-row tw-justify-center">
+        <Dice v-for="die in dice" :index="die" :number="die" />
       </div>
     </div>
-    <div class="tw-flex tw-justify-center tw-mb-3">
-      <Dice v-for="die in dice" :index="die" :number="die" />
-    </div>
-    <div class="tw-flex tw-justify-center">
+    <div class="tw-flex tw-justify-center tw-mt-3">
       <button @click="rollDicePool">Roll</button>
     </div>
   <Footer />
@@ -54,7 +56,7 @@ export default defineComponent({
     getRandomNumber(max = 6): number {
       return Math.ceil(Math.random() * max);
     },
-    setNumberOfGameComponents(event: InputEvent): void {
+    setNumberOfGameComponents(event: Event): void {
       const number: number = parseInt((event.target as HTMLInputElement).value, 10);
       this.dice = new Array<number>;
       this.seashells = new Array<string>;
