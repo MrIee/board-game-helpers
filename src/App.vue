@@ -10,6 +10,10 @@
         <option value="6">solo</option>
       </select>
     </div>
+    <div class="tw-flex tw-justify-center tw-mb-3">
+      <span class="tw-mr-2">Chance to land on seashell (%):</span>
+      <NumberInput v-model="seashellProbability" :max="100" />
+    </div>
     <div class="tw-flex tw-flex-row-reverse sm:tw-flex-col tw-justify-center">
       <div class="tw-flex tw-flex-col sm:tw-flex-row tw-justify-center">
         <div
@@ -38,18 +42,21 @@ import starfishImgUrl from './assets/images/starfish.png';
 import Topbar from './components/Topbar.vue';
 import Footer from './components/Footer.vue';
 import Dice from './components/Dice.vue';
+import NumberInput from './components/NumberInput.vue';
 
 export default defineComponent({
   components: {
     Topbar,
     Footer,
     Dice,
+    NumberInput,
   },
   data() {
     return {
       dice: [0, 0, 0, 0, 0],
       seashells: ['', '', '', '', ''],
       seashellTypes: ['conch', 'scallop', 'starfish'],
+      seashellProbability: 25,
     };
   },
   methods: {
@@ -117,10 +124,9 @@ export default defineComponent({
     },
     setSeashell(index: number): void {
       const maxProbability: number = 100;
-      const shellProbability: number = 25;
       const chance = this.getRandomNumber(maxProbability);
 
-      if (chance > 0 && chance <= shellProbability) {
+      if (chance > 0 && chance <= this.seashellProbability) {
         this.setSeashellType(index);
       } else {
         this.seashells[index] = '';
