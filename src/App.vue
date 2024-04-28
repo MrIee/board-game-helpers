@@ -15,7 +15,7 @@
         <div
           v-for="(shell, index) in seashells"
           :key="index"
-          class="tw-h-[72px] tw-w-[72px] tw-m-1 tw-border-[3px] tw-border-white tw-rounded-lg"
+          class="tw-h-[72px] sm:tw-h-24 tw-w-[72px] sm:tw-w-24 tw-m-1 tw-border-[3px] tw-border-white tw-rounded-lg"
         >
           <img v-if="shell" class="tw-p-2" :src="getSeashellUrl(shell)" :alt="shell" />
         </div>
