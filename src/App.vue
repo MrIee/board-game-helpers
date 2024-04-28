@@ -32,6 +32,9 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import conchImgUrl from './assets/images/conch.png';
+import scallopImgUrl from './assets/images/scallop.png';
+import starfishImgUrl from './assets/images/starfish.png';
 import Topbar from './components/Topbar.vue';
 import Footer from './components/Footer.vue';
 import Dice from './components/Dice.vue';
@@ -51,7 +54,21 @@ export default defineComponent({
   },
   methods: {
     getSeashellUrl(shell: string): string {
-      return `../src/assets/images/${shell}.png`;
+      let shellImgUrl: string = '';
+
+      switch (shell) {
+        case this.seashellTypes[0]:
+          shellImgUrl = conchImgUrl;
+          break;
+        case this.seashellTypes[1]:
+          shellImgUrl = scallopImgUrl;
+          break;
+        case this.seashellTypes[2]:
+          shellImgUrl = starfishImgUrl;
+          break;
+      }
+
+      return shellImgUrl;
     },
     getRandomNumber(max = 6): number {
       return Math.ceil(Math.random() * max);
