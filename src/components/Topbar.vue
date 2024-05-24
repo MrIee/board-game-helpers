@@ -9,7 +9,9 @@
         <span class="topbar__nav-icon"></span>
       </a>
       <h2 class="tw-text-base sm:tw-text-xl tw-mr-6">
-        <a href="">{{ title }}</a>
+        <router-link to="/" @click="isExpanded = false">
+          {{ title }}
+        </router-link>
       </h2>
       <div
         :class="{

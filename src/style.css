@@ -13,6 +13,9 @@
 
     @apply tw-bg-[rgb(90,184,193)];
   }
+  h1 > a, h2 > a, h3 > a, h4 > a {
+    text-decoration-line: none;
+  }
 
   h1 {
     @apply tw-text-5xl;
@@ -24,6 +27,10 @@
 
   button {
     @apply tw-text-2xl tw-text-white tw-font-bold tw-px-12 tw-py-4 tw-rounded-xl tw-bg-[rgb(14,127,120)];
+  }
+
+  .container {
+    @apply tw-flex tw-flex-col tw-mx-auto tw-pt-20 tw-pb-14;
   }
 
   .wrapper {
