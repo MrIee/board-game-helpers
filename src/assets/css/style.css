@@ -1,3 +1,4 @@
+@import url('./themes/wreckraiders.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,9 +11,8 @@
 
   body {
     font-family: Helvetica, sans-serif;
-
-    @apply tw-bg-[rgb(90,184,193)];
   }
+
   h1 > a, h2 > a, h3 > a, h4 > a {
     text-decoration-line: none;
   }
@@ -25,8 +25,8 @@
     @apply tw-underline;
   }
 
-  button {
-    @apply tw-text-2xl tw-text-white tw-font-bold tw-px-12 tw-py-4 tw-rounded-xl tw-bg-[rgb(14,127,120)];
+  .app {
+    @apply tw-min-h-full tw-h-full;
   }
 
   .container {

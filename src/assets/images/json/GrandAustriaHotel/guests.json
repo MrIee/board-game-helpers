@@ -1,0 +1,578 @@
+[
+  {
+    "id": 49,
+    "name": "Sculptor",
+    "description": "You can prepare one room (of any color) at no cost; you must choose a room in the bottom two floors of your hotel board.",
+    "notes": "If the bottom two floors are full of rooms already, you get nothing from this, I’m afraid"
+  },
+  {
+    "id": 50,
+    "name": "Musician",
+    "description": "Draw 1 staff card from the deck and add it to your hand. Additionally, you can prepare one room (of any color) by paying the normal cost.",
+    "notes": ""
+  },
+  {
+    "id": 51,
+    "name": "Composer",
+    "description": "You get 1 strudel.",
+    "notes": ""
+  },
+  {
+    "id": 52,
+    "name": "Tailor",
+    "description": "You get 1 strudel and 2 krones",
+    "notes": ""
+  },
+  {
+    "id": 53,
+    "name": "Flamenco Dancer",
+    "description": "You get 1 coffee and you can advance 2 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 54,
+    "name": "Portrait Painter",
+    "description": "You get 1 dish or drink of your choice, and 2 krones",
+    "notes": ""
+  },
+  {
+    "id": 55,
+    "name": "Photographer",
+    "description": "Draw 2 staff cards from the deck and add them to your hand.",
+    "notes": ""
+  },
+  {
+    "id": 56,
+    "name": "Vocalist",
+    "description": "You get 1 cake. Additionally, you can play a staff card from hand, paying up to 3 krones less.",
+    "notes": ""
+  },
+  {
+    "id": 57,
+    "name": "Architect",
+    "description": "You can prepare up to two rooms (of any color), paying 1 krone less each.",
+    "notes": ""
+  },
+  {
+    "id": 58,
+    "name": "Actress",
+    "description": "You can occupy an additional room (of any color) by turning it to the occupied side.",
+    "notes": "The actress could use an additional room for her staff"
+  },
+  {
+    "id": 59,
+    "name": "Poet",
+    "description": "You get 1 cake. Additionally, you can play a staff card from hand, paying up to 2 krones less.",
+    "notes": ""
+  },
+  {
+    "id": 60,
+    "name": "Jewelry Designer",
+    "description": "You get 1 coffee and 3 krones.",
+    "notes": ""
+  },
+  {
+    "id": 61,
+    "name": "Painter",
+    "description": "You can prepare up to two rooms: Pay 1 krone less for one of them; if you choose to prepare a second, you must pay the normal cost.",
+    "notes": ""
+  },
+  {
+    "id": 62,
+    "name": "Opera Singer",
+    "description": "You can take a guest from the queue at no cost. Additionally, you can advance 3 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 63,
+    "name": "Dame",
+    "description": "You can take a guest from the queue at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 64,
+    "name": "Duchess",
+    "description": "You can play a staff card from hand, paying 1 krone less.",
+    "notes": ""
+  },
+  {
+    "id": 65,
+    "name": "Knight of the Empire",
+    "description": "No effect.",
+    "notes": "At least he is worth 3 VP."
+  },
+  {
+    "id": 66,
+    "name": "Landgrave",
+    "description": "You can play a staff card from hand, paying 1 krone less. Additionally, you can prepare one room (of any color) by paying the normal cost.",
+    "notes": ""
+  },
+  {
+    "id": 67,
+    "name": "Sovereign",
+    "description": "Draw 2 staff cards from the deck and add them to your hand. Additionally, you can advance 2 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 68,
+    "name": "Princess",
+    "description": "You can advance 3 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 69,
+    "name": "Countess",
+    "description": "You get 3 krones.",
+    "notes": ""
+  },
+  {
+    "id": 70,
+    "name": "Elector",
+    "description": "You can play a staff card from hand, paying 1 krone less. Additionally, you can advance 3 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 71,
+    "name": "Baron",
+    "description": "You can prepare one room (of any color) at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 72,
+    "name": "Prince",
+    "description": "You can occupy an additional room (of any color) by turning it to the occupied side.",
+    "notes": "The prince could use an additional room for his entourage."
+  },
+  {
+    "id": 73,
+    "name": "Count",
+    "description": "You can play up to two staff cards from hand, paying 1 krone less each.",
+    "notes": ""
+  },
+  {
+    "id": 74,
+    "name": "Earl",
+    "description": "You get 1 krone.",
+    "notes": ""
+  },
+  {
+    "id": 75,
+    "name": "Baroness",
+    "description": "Draw 3 staff cards from the deck and play one of them immediately, paying up to 3 krones less. Return the other two cards to the bottom of the deck, in an order of your choice.",
+    "notes": "If all three cards are too expensive for you, or you don’t want to play any of them, you must return all three to the bottom of the deck."
+  },
+  {
+    "id": 76,
+    "name": "Duke",
+    "description": "Draw 3 staff cards from the deck and immediately play one of them at no cost. Return the other two cards to the bottom of the deck, in an order of your choice.",
+    "notes": ""
+  },
+  {
+    "id": 77,
+    "name": "Apothecary",
+    "description": "You get 1 krone.",
+    "notes": ""
+  },
+  {
+    "id": 78,
+    "name": "Post Councillor",
+    "description": "You can take a guest from the queue at no cost",
+    "notes": ""
+  },
+  {
+    "id": 79,
+    "name": "Privy Councillor",
+    "description": "You get 1 krone and you can advance 1 space on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 80,
+    "name": "Professor Emeritus",
+    "description": "You can take a guest from the queue at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 81,
+    "name": "General",
+    "description": "You get 1 wine and 3 krones.",
+    "notes": ""
+  },
+  {
+    "id": 82,
+    "name": "Senior Councillor",
+    "description": "You can occupy an additional room (of any color) by turning it to the occupied side.",
+    "notes": "The senior councillor could use an additional room for his secretary."
+  },
+  {
+    "id": 83,
+    "name": "Councillor of Commerce",
+    "description": "You get 5 krones.",
+    "notes": ""
+  },
+  {
+    "id": 84,
+    "name": "Court Councillor",
+    "description": "You get 3 krones. Additionally, you can take a guest from the queue at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 85,
+    "name": "Major",
+    "description": "You get 3 krones",
+    "notes": ""
+  },
+  {
+    "id": 86,
+    "name": "Veterinary Councillor",
+    "description": "You can play a staff card from hand, paying up to 3 krones less.",
+    "notes": ""
+  },
+  {
+    "id": 87,
+    "name": "Medicinal Councillor",
+    "description": "You get 3 krones. Additionally, you can take up to two guests from the queue at no cost. Replenish the queue before taking the second guest.",
+    "notes": ""
+  },
+  {
+    "id": 88,
+    "name": "Procurator",
+    "description": "You can prepare up to two rooms (of any color), both at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 89,
+    "name": "Lord High Commissioner",
+    "description": "You get 4 krones.",
+    "notes": ""
+  },
+  {
+    "id": 90,
+    "name": "Senior Legal Secretary",
+    "description": "You get 1 wine and 3 krones",
+    "notes": ""
+  },
+  {
+    "id": 91,
+    "name": "Tezcatlipoca",
+    "description": "Draw 3 staff cards from the deck and add them to your hand.",
+    "notes": ""
+  },
+  {
+    "id": 92,
+    "name": "Capt. Goldhaken",
+    "description": "You get 1 krone",
+    "notes": ""
+  },
+  {
+    "id": 93,
+    "name": "Mr. Horsa",
+    "description": "You can advance 1 space on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 94,
+    "name": "M. Ingalls",
+    "description": "You can play a staff card from hand, paying 1 krone less.",
+    "notes": ""
+  },
+  {
+    "id": 95,
+    "name": "Mr. Boydell",
+    "description": "You can advance 2 spaces on the Emperor track.",
+    "notes": "Please note: This does not allow you to clear rubble from the track—all staff must stay in the hotel during this game."
+  },
+  {
+    "id": 96,
+    "name": "Mr. Oundo",
+    "description": "You can play a staff card from hand, paying up to 3 krones less.",
+    "notes": ""
+  },
+  {
+    "id": 97,
+    "name": "E. Gizia",
+    "description": "Select an action space with at least one die and carry out the action as normal, but without taking a die from that space. You cannot boost this action. Staff cards providing benefits for taking a specific die cannot be used, because you are not taking a die with this.",
+    "notes": "This is not a bonus turn, but part of your current turn, right after sending E. Gizia to a room and collecting all other benefits from him. This does not affect your main action, for which you do take a die, in any way. For your information: We’ve weakened the effect from previous editions, in which you would get an additional turn."
+  },
+  {
+    "id": 98,
+    "name": "M. Polo",
+    "description": "You get 4 krones.",
+    "notes": ""
+  },
+  {
+    "id": 99,
+    "name": "Cramersopholus",
+    "description": "Draw 1 staff card from the deck and add it to your hand. Additionally, you can advance 2 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 100,
+    "name": "Farmer Franz",
+    "description": "You can advance 3 spaces on the Emperor track. Additionally, you can occupy an additional room (of any color) by turning it to the occupied side.",
+    "notes": "Farmer Franz and his spouse could use an additional room for their five children."
+  },
+  {
+    "id": 101,
+    "name": "Brother Uwe",
+    "description": "You can advance 3 spaces on the Emperor track. Additionally, you can take a guest from the queue at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 102,
+    "name": "Conductor",
+    "description": "You can advance 1 space on the Emperor track. Additionally, you can occupy an additional room (of any color) by turning it to the occupied side.",
+    "notes": "The conductor could use an additional room for his colleague."
+  },
+  {
+    "id": 103,
+    "name": "Durgoing",
+    "description": "Draw 2 staff cards from the deck and add them to your hand.",
+    "notes": ""
+  },
+  {
+    "id": 104,
+    "name": "MacLeod",
+    "description": "You can play a staff card from hand at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 117,
+    "name": "Mag. Ferdinand",
+    "description": "You can advance 3 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 118,
+    "name": "Mr. Moras",
+    "description": "You can take a guest from the queue at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 134,
+    "name": "Debutante",
+    "description": "You get 1 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 135,
+    "name": "Lady Companion",
+    "description": "You can advance 1 space on the Emperor track. Additionally, you can play a staff card from hand at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 136,
+    "name": "Governess",
+    "description": "You get 1 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 137,
+    "name": "Prima Ballerina",
+    "description": "You get 2 krones. Additionally, you can send up to two dancers to the same or different ballrooms by paying the normal cost.",
+    "notes": "The Prima Ballerina can book a room or go dancing; in either case, her two friends definitely go dancing."
+  },
+  {
+    "id": 138,
+    "name": "Mannequin",
+    "description": "n You get 1 champagne. Additionally, you can play a staff card from hand for up to 3 krones less",
+    "notes": ""
+  },
+  {
+    "id": 139,
+    "name": "Diva",
+    "description": "You get 2 champagne",
+    "notes": ""
+  },
+  {
+    "id": 140,
+    "name": "Waltz Queen",
+    "description": "No effect.",
+    "notes": ""
+  },
+  {
+    "id": 141,
+    "name": "Khan",
+    "description": "You get 1 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 142,
+    "name": "Tenno",
+    "description": "You get 1 champagne. Additionally, you can prepare one room (of any color) for 1 krone less.",
+    "notes": ""
+  },
+  {
+    "id": 143,
+    "name": "Laird",
+    "description": "You get 2 dishes and/or drinks of your choice (no champagne).",
+    "notes": "You can mix and match, e.g., take one cake and one coffee."
+  },
+  {
+    "id": 144,
+    "name": "Maharani",
+    "description": "You get 1 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 145,
+    "name": "Marquis",
+    "description": "You get 2 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 146,
+    "name": "Contessa",
+    "description": "No effect.",
+    "notes": "But she is worth 15 VP!"
+  },
+  {
+    "id": 147,
+    "name": "Tsarina",
+    "description": "You can send a dancer to a ballroom for 1 champagne less.",
+    "notes": "The Tsarina can book a room or go dancing; in either case, her spouse definitely goes dancing."
+  },
+  {
+    "id": 148,
+    "name": "Ambassador",
+    "description": "You can send a dancer to a ballroom for the normal cost.",
+    "notes": "The Ambassador can book a room or go dancing; in either case, her assistant definitely goes dancing."
+  },
+  {
+    "id": 149,
+    "name": "Abbess",
+    "description": "You get 5 krones.",
+    "notes": ""
+  },
+  {
+    "id": 150,
+    "name": "Consigliere",
+    "description": "You get 1 champagne and 2 krones.",
+    "notes": ""
+  },
+  {
+    "id": 151,
+    "name": "Admiral Winterbottom",
+    "description": "You can advance 2 spaces on the Emperor track. Additionally, you can send a dancer to a ballroom by paying the normal cost.",
+    "notes": "The Admiral can book a room or go dancing; in either case, his lieutenant definitely goes dancing."
+  },
+  {
+    "id": 152,
+    "name": "Impresario",
+    "description": "You get 1 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 153,
+    "name": "Cardinal",
+    "description": "No effect.",
+    "notes": "But he is worth 14 VP!"
+  },
+  {
+    "id": 154,
+    "name": "Mayor",
+    "description": "You get 2 champagne. Additionally, you can send a dancer to a ballroom by paying the normal cost.",
+    "notes": "The Mayor can book a room or go dancing; in either case, his secretary definitely goes dancing."
+  },
+  {
+    "id": 155,
+    "name": "The Beast",
+    "description": "You get 1 champagne. Additionally, you can prepare one room (of any color) by paying the normal cost.",
+    "notes": "Note that you lose 1 VP for the Beast."
+  },
+  {
+    "id": 156,
+    "name": "Kapellmeister Palfy",
+    "description": "You get 2 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 157,
+    "name": "C. Inderella",
+    "description": "You can send a dancer to a ballroom by paying the normal cost. Additionally, you can occupy a room (of any color) by turning it to the occupied side.",
+    "notes": "C. Inderella can book a room or go dancing; in either case, one of her friends definitely goes dancing—the other goes to bed."
+  },
+  {
+    "id": 158,
+    "name": "Phantom",
+    "description": "You get 1 champagne. Additionally, you can take a guest from the queue at no cost.",
+    "notes": "Note that you lose 2 VP for the Phantom."
+  },
+  {
+    "id": 159,
+    "name": "The Beauty",
+    "description": "You can send a dancer to a ballroom by paying the normal cost.<br />Additionally, draw 3 staff cards from the deck and play one of them immediately, paying up to 3 krones less. Return the other two cards to the bottom of the deck, in an order of your choice.",
+    "notes": "The beauty can book a room or go dancing; in either case, her sister definitely goes dancing. If all three cards are too expensive for you, or you don’t want to play any of them, you must return all three to the bottom of the deck."
+  },
+  {
+    "id": 160,
+    "name": "Medium",
+    "description": "You get 2 dishes and/or drinks of your choice (no champagne). Additionally, you get 1 champagne.",
+    "notes": "You can mix and match, e.g., take one cake and one coffee. And you get a champagne on top!"
+  },
+  {
+    "id": 161,
+    "name": "Partyer",
+    "description": "You can send a dancer to a ballroom for up to 2 champagne less.",
+    "notes": "The Partyer can book a room or go dancing; in either case, his plus one definitely goes dancing."
+  },
+  {
+    "id": 162,
+    "name": "Pope",
+    "description": "The Pope must move into a room; he cannot be sent to a ballroom. In return, you can occupy an additional room (of any color) by turning it to the occupied side.",
+    "notes": "The Pope could use an additional room for his entourage."
+  },
+  {
+    "id": 184,
+    "name": "E. Doolittle",
+    "description": "Eliza must be sent to a ballroom; she cannot move into a room. In return, you can send an additional dancer that you must place on the same ballroom space as Eliza. You must pay the cost printed on the space only once (for Eliza only) and you get the row bonus only once.<br />Afterwards, score 1 VP for each dancer token you have in a ballroom, including Eliza and the second dancer token on the same space.",
+    "notes": ""
+  },
+  {
+    "id": 185,
+    "name": "M. Antoinette",
+    "description": "Marie must move into a room. Additionally, you can send a dancer to a ballroom by paying 1 fewer champagne per other player in the game. In return, each other player gets 1 dish or 1 drink of their choice (no champagne).<br />If you move Marie to her room in rounds 1-3, score 8 VP; in rounds 4-5, score 5 VP; in rounds 6-7, score 2 VP.",
+    "notes": "Marie occupies a room and goes dancing anyway."
+  },
+  {
+    "id": 186,
+    "name": "Lord Mayor of London",
+    "description": "Immediately score the current ballroom. It will be scored again as normal after the next Emperor scoring.",
+    "notes": "Of course, all players must participate in this additional scoring."
+  },
+  {
+    "id": 187,
+    "name": "J. Gatsby & D. Buchanan",
+    "description": "Jay and Daisy must move into a room; they cannot be sent to a ballroom. In return, you can occupy an additional room (of any color) by turning it to the occupied side. Additionally, advance 4 spaces on the Emperor track. Please note that the cost is two of each depicted item.",
+    "notes": "They prefer to stay in their rooms."
+  },
+  {
+    "id": 188,
+    "name": "Ms. Hildegard",
+    "description": "Ms. Hildegard must move into a room; she cannot be sent to a ballroom.",
+    "notes": ""
+  },
+  {
+    "id": 189,
+    "name": "Dr. Hagedorn",
+    "description": "Dr. Hagedorn cannot be sent to a ballroom and he must occupy two horizontally adjacent rooms (of the same or different colors).",
+    "notes": "Dr. Hagedorn requires a double suite. If your hotel doesn’t have one, he’ll wait at his table until you make one available."
+  },
+  {
+    "id": 190,
+    "name": "Mr. Schulze",
+    "description": "Mr. Schulze can neither be sent to a ballroom nor occupy a room—he stays at his table indefinitely (which is why he has no cost). Instead, he is like a staff card (but he is not considered one) that allows you, once per round, to spend any one item (dish, drink, or champagne). If you do, you can immediately play a staff card from hand by paying its cost, score 1 VP, and advance 1 space on the Emperor track. During final scoring, you do not lose 5 victory points for Mr. Schulze, even though he is still sitting in your café.",
+    "notes": ""
+  },
+  {
+    "id": 191,
+    "name": "J. Kesselhut",
+    "description": "Immediately fill the wine orders of your remaining guests with wine from the supply.",
+    "notes": ""
+  },
+  {
+    "id": 192,
+    "name": "Mrs. Kunkel",
+    "description": "Mrs. Kunkel cannot be sent to a ballroom and she must occupy a room in the bottom floor",
+    "notes": "If you have no vacant rooms in the bottom floor left, you must make do with one fewer table for the rest of the game and, during final scoring, suffer the negative 5 victory points penalty for Mrs. Kunkel."
+  }
+]

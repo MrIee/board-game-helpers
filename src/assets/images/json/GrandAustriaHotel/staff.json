@@ -1,0 +1,470 @@
+[
+  {
+    "id": 1,
+    "name": "Breakfast Server",
+    "description": "Once per round, you can use this card to get 1 strudel",
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "name": "Waitress",
+    "description": "Once per round, you can use this card to get 1 cake",
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Barkeeper",
+    "description": "Once per round, you can use this card to get 1 wine",
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "name": "Sous-Chef",
+    "description": "Once per round, you can use this card to get 1 coffee",
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "name": "Groom",
+    "description": "Each time you remove a red guest whose order you completed from your café, you get 2 krones.",
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "name": "Stableman",
+    "description": "Each time you remove a blue guest whose order you completed from your café, you can advance 1 space on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "name": "Masseuse",
+    "description": "Each time you remove a yellow guest whose order you completed from your café, you get 1 krone.",
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "name": "Tour Guide",
+    "description": "Each time you remove a green guest whose order you completed from your café, score 2 VP.",
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "name": "Butler",
+    "description": "From now on, whenever you prepare a blue room (from any action or effect), it is free to do so (pay 0 krones).",
+    "notes": "This does not grant a free action; it merely removes the cost."
+  },
+  {
+    "id": 10,
+    "name": "Chauffeur",
+    "description": "From now on, whenever you prepare a red room (from any action or effect), it is free to do so (pay 0 krones).",
+    "notes": "This does not grant a free action; it merely removes the cost."
+  },
+  {
+    "id": 11,
+    "name": "Florist",
+    "description": "From now on, whenever you prepare a yellow room (from any action or effect), it is free to do so (pay 0 krones).",
+    "notes": "This does not grant a free action; it merely removes the cost."
+  },
+  {
+    "id": 12,
+    "name": "Executive Housekeeper",
+    "description": "Each time you take a die showing 3 or 4, immediately score 2 VP.",
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "name": "Restaurant Manager",
+    "description": "Each time you take a die showing 1 or 2, you can add 1 to the strength of that action.",
+    "notes": "As always, you can boost this further by paying 1 krone."
+  },
+  {
+    "id": 14,
+    "name": "Decorator",
+    "description": "Each time you take a die showing 1 or 2, before or after taking the main action, you can also prepare one room (of any color) by paying the normal cost.",
+    "notes": "You may not take any additional actions between the main action and preparing that room."
+  },
+  {
+    "id": 15,
+    "name": "Bootblack",
+    "description": "You no longer have to choose when taking a die showing 4: For each die on the action space, you get 1 krone and you can advance 1 space on the Emperor track.",
+    "notes": "As always, you can boost this by paying 1 krone, for which you will also get 1 krone (back) and advance 1 space on the Emperor track, effectively gaining one space for free."
+  },
+  {
+    "id": 16,
+    "name": "Laundress",
+    "description": "Each time you take a die showing 4, immediately score 4 VP.",
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "name": "Kitchen Hand",
+    "description": "You no longer have to pay 1 krone when taking a die showing 6; additionally, you can add 1 to the strength of this action.",
+    "notes": "As always, you can boost this further by paying 1 krone. For your information: We increased the cost of this card from 3 krones (in previous editions) to 5 krones."
+  },
+  {
+    "id": 18,
+    "name": "Checker",
+    "description": "Each time you take a die showing 5, you can add 2 to the strength of this action.",
+    "notes": "In other words, you are getting an additional discount of 2 krones."
+  },
+  {
+    "id": 19,
+    "name": "Interior Architect",
+    "description": "Each time you take a die showing 3, immediately score 5 VP.",
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "name": "Detective",
+    "description": "Each time you take a die showing 5, before or after taking the main action, you can also advance 2 spaces on the Emperor track.",
+    "notes": "You may not take any additional actions between the main action and advancing on the Emperor track."
+  },
+  {
+    "id": 21,
+    "name": "Chef",
+    "description": "Immediately (and only once) gain 1 strudel, 1 cake, 1 wine, and 1 coffee.",
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "name": "Staff Manager",
+    "description": "Each time you take a die showing 3, before or after taking the main action, you can also play a staff card from hand by paying its cost.",
+    "notes": "You may not take any additional actions between the main action and playing the staff card."
+  },
+  {
+    "id": 23,
+    "name": "Custodian",
+    "description": "Each time you occupy a room (by whichever means), you also get 1 krone.",
+    "notes": ""
+  },
+  {
+    "id": 24,
+    "name": "Chief Waiter",
+    "description": "From now on, moving items from your kitchen onto your guests costs you nothing.",
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "name": "Delivery Boy",
+    "description": "From now on, taking guests from the queue costs you nothing",
+    "notes": "This does not provide a guest; it merely removes the cost."
+  },
+  {
+    "id": 26,
+    "name": "Conference Manager",
+    "description": "From now on, you can pay 1 krone to ignore the penalty during an Emperor scoring.",
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "name": "Booking Manager",
+    "description": "During final scoring, score an additional 3 VP for each occupied red room in your hotel.",
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "name": "Concierge",
+    "description": "During final scoring, score an additional 3 VP for each occupied blue room in your hotel.",
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "name": "Secretary",
+    "description": "During final scoring, select an opponent’s staff card in play with the ⇥ symbol and apply its effect to your hotel.",
+    "notes": "You may not use this to copy one of your staff. If none of your opponents have staff with the ⇥ symbol in play, the Secretary scores nothing"
+  },
+  {
+    "id": 30,
+    "name": "Reception Clerk",
+    "description": "During final scoring, score an additional 3 VP for each occupied yellow room in your hotel.",
+    "notes": ""
+  },
+  {
+    "id": 31,
+    "name": "Chambermaid",
+    "description": "During final scoring, score an additional 1 VP for each occupied room in your hotel, regardless of color.",
+    "notes": ""
+  },
+  {
+    "id": 32,
+    "name": "Assistant Manager",
+    "description": "During final scoring, score 2 VP for each staff card you played (regardless of type), including this.",
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "name": "Male Floor Housekeeper",
+    "description": "Each time you get the rewards for completing a guest’s order that required 4 (or more) items to complete it, in addition, score 4 VP.",
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "name": "Receptionist",
+    "description": "During final scoring, score (an additional) 1 VP for each room tile in your hotel, regardless of color and which side is facing up.",
+    "notes": ""
+  },
+  {
+    "id": 35,
+    "name": "Page Boy",
+    "description": "Immediately (and only once) occupy up to 2 rooms (of any color) in your hotel by turning them to the occupied side.",
+    "notes": ""
+  },
+  {
+    "id": 36,
+    "name": "Sommelier",
+    "description": "Immediately (and only once) gain 4 wine.",
+    "notes": ""
+  },
+  {
+    "id": 37,
+    "name": "Room Service",
+    "description": "During final scoring, score 2 VP for each fully occupied group of rooms (of any color) in your hotel.",
+    "notes": ""
+  },
+  {
+    "id": 38,
+    "name": "Porter",
+    "description": "Immediately (and only once) fill a guest’s order by taking the required items from the supply.",
+    "notes": ""
+  },
+  {
+    "id": 39,
+    "name": "Confectioner",
+    "description": "Immediately (and only once) gain 4 cake.",
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "name": "Marketing Director",
+    "description": "During final scoring, score 5 VP for each objective card that has your marker on it.",
+    "notes": ""
+  },
+  {
+    "id": 41,
+    "name": "Operator",
+    "description": "During final scoring, score a number of VP equal to double your position on the Emperor track.",
+    "notes": "Remember, you lose 7 spaces after the final Emperor scoring; as such, you will usually score at most 12 VP from the Operator. Under the right conditions, though, you can get more than 12 VP from this. This wasn’t allowed in earlier prints, but it is now."
+  },
+  {
+    "id": 42,
+    "name": "Gardener",
+    "description": "Each time you get the reward during an Emperor scoring, in addition, score 5 VP",
+    "notes": ""
+  },
+  {
+    "id": 43,
+    "name": "Barista",
+    "description": "Immediately (and only once) gain 4 coffee",
+    "notes": ""
+  },
+  {
+    "id": 44,
+    "name": "Larder Cook",
+    "description": "Immediately (and only once) gain 4 strudel.",
+    "notes": ""
+  },
+  {
+    "id": 45,
+    "name": "Pool Attendant",
+    "description": "Immediately (and only once) advance 3 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 46,
+    "name": "Female Floor Housekeeper",
+    "description": "During final scoring, score 5 VP for each floor in your hotel that has all of its rooms occupied.",
+    "notes": ""
+  },
+  {
+    "id": 47,
+    "name": "Liftboy",
+    "description": "During final scoring, score 5 VP for each column in your hotel that has all of its rooms occupied.",
+    "notes": ""
+  },
+  {
+    "id": 48,
+    "name": "Hotel Manager",
+    "description": "During final scoring, score 4 VP for each set of occupied red, blue, and yellow rooms that you have in your hotel.",
+    "notes": "In other words, you get 4 VP for each occupied room of the color that you have the least of."
+  },
+  {
+    "id": 119,
+    "name": "Dancing Master",
+    "description": "Each time you take a die showing 3, before or after taking the main action, you can also send a dancer to a ballroom by paying the normal cost. Additionally, you get 1 krone.",
+    "notes": "You may not take any additional actions between the main action and sending the dancer."
+  },
+  {
+    "id": 120,
+    "name": "Violinist",
+    "description": "Immediately (and only once), you get 3 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 121,
+    "name": "Concertmaster",
+    "description": "Each time you take a die showing 1, after performing the action as normal, you get 1 champagne and score 1 VP.",
+    "notes": "The additional champagne has no impact on the minimum quantities of strudel and cake."
+  },
+  {
+    "id": 122,
+    "name": "Symphonist",
+    "description": "Once per round, you can spend exactly 1 champagne from your kitchen to score 5 VP",
+    "notes": ""
+  },
+  {
+    "id": 123,
+    "name": "Usherette",
+    "description": "Once per round, you can spend exactly 2 krones to get 1 champagne and score 3 VP.",
+    "notes": ""
+  },
+  {
+    "id": 124,
+    "name": "Conductor",
+    "description": "Each time you take a die showing 4, you also get 1 champagne and 1 krone.",
+    "notes": ""
+  },
+  {
+    "id": 125,
+    "name": "Choirmaster",
+    "description": "Each time you take a die showing 5, before or after taking the main action, you can also send a dancer to a ballroom, paying 1 champagne less.",
+    "notes": "You may not take any additional actions between the main action and sending the dancer."
+  },
+  {
+    "id": 126,
+    "name": "Leading Dancer",
+    "description": "During final scoring, score 2 VP for each dancer you have in all ballrooms (including the balcony).",
+    "notes": ""
+  },
+  {
+    "id": 127,
+    "name": "Harpist",
+    "description": "Immediately (and only once) send up to 2 dancers to the same or different ballrooms, paying up to 2 champagne less for the first and 1 champagne less for the second.",
+    "notes": "You may not take any additional actions in-between."
+  },
+  {
+    "id": 128,
+    "name": "Cellist",
+    "description": "Once per round, you can spend exactly 1 dish or drink from your kitchen to send a dancer to a ballroom for 1 champagne less.",
+    "notes": ""
+  },
+  {
+    "id": 129,
+    "name": "Pianist",
+    "description": "Once per round, you can use this card to get 1 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 130,
+    "name": "Ballet Master",
+    "description": "Each time you send a dancer to a ballroom, you also get 1 krone and you can draw 1 staff card from the deck.",
+    "notes": ""
+  },
+  {
+    "id": 131,
+    "name": "Trumpeter",
+    "description": "Each time you take a die showing 2, after performing the action as normal, you get 1 champagne and you can draw 1 staff card from the deck.",
+    "notes": "The additional champagne has no impact on the minimum quantities of strudel and cake."
+  },
+  {
+    "id": 132,
+    "name": "Arranger",
+    "description": "Each time you place a marker on an objective card, you also get 2 champagne.",
+    "notes": ""
+  },
+  {
+    "id": 133,
+    "name": "Danube Steamship Captain",
+    "description": "Once per round, after you play a staff card (except this one), you can send a dancer to a ballroom, paying 1 champagne less.",
+    "notes": ""
+  },
+  {
+    "id": 166,
+    "name": "Handmaid",
+    "description": "After you advance 3 or more spaces on the Emperor track during an action, you can turn this card face down. If you do, you can immediately (and only once) prepare up to 2 rooms (of any color) at no cost and immediately occupy them by turning them to the occupied side.",
+    "notes": ""
+  },
+  {
+    "id": 167,
+    "name": "Apprentice",
+    "description": "After you complete a blue guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 3 strudel and 3 cake.",
+    "notes": ""
+  },
+  {
+    "id": 168,
+    "name": "Dishwasher",
+    "description": "After you complete a red guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 3 wine and 3 coffee.",
+    "notes": ""
+  },
+  {
+    "id": 169,
+    "name": "Tapster",
+    "description": "After you complete a yellow guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 6 krones.",
+    "notes": ""
+  },
+  {
+    "id": 170,
+    "name": "Coachwoman",
+    "description": "Once per round, you can spend exactly 1 coffee from your kitchen. If you do, score 3 VP and you can take a guest from the queue at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 171,
+    "name": "Bookkeeper",
+    "description": "Once per round, you can spend exactly 1 cake from your kitchen. If you do, you can prepare one room (of any color), paying up to 2 krones less.",
+    "notes": ""
+  },
+  {
+    "id": 172,
+    "name": "Chef de Rang",
+    "description": "After you get 3 or more drinks (wine and/or coffee) from an action, you can turn this card face down. If you do, immediately (and only once) advance 5 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 173,
+    "name": "Interpreter",
+    "description": "Once per round, you can spend exactly 2 strudel from your kitchen to get 2 krones and score 2 VP.",
+    "notes": ""
+  },
+  {
+    "id": 174,
+    "name": "Bartender",
+    "description": "After you get 3 or more dishes (strudel and/or cake) during an action, you can turn this card face down. If you do, you can immediately (and only once) take a guest from the queue at no cost and immediately fill their order by taking all of their required items from the supply.",
+    "notes": ""
+  },
+  {
+    "id": 175,
+    "name": "Wagon Master",
+    "description": "Once per round, you can spend exactly 2 dishes and/or drinks (no champagne) from your kitchen to get 2 other dishes and/or drinks (different from those spent; no champagne) and score 2 VP.",
+    "notes": ""
+  },
+  {
+    "id": 176,
+    "name": "Dog Walker",
+    "description": "Once per round, you can spend exactly 2 wine from your kitchen to score 2 VP and advance 2 spaces on the Emperor track.",
+    "notes": ""
+  },
+  {
+    "id": 177,
+    "name": "Hairdresser",
+    "description": "Once per round, you can retreat exactly 2 spaces on the Emperor track to play a staff card from hand for up to 3 krones less.",
+    "notes": ""
+  },
+  {
+    "id": 178,
+    "name": "Janitor",
+    "description": "After you fully occupy a group (of any color) comprising at least 3 rooms, you can turn this card face down. If you do, you can immediately (and only once) play up to 2 staff cards from hand at no cost.",
+    "notes": ""
+  },
+  {
+    "id": 179,
+    "name": "Entertainer",
+    "description": "After you place a marker on an objective card, you can turn this card face down. If you do, you can immediately (and only once) fill up to two guests’ orders by taking the required items from the supply.",
+    "notes": ""
+  },
+  {
+    "id": 183,
+    "name": "Manager's Son",
+    "description": "Each time you spend at least 1 champagne during an action, you get 1 krone.",
+    "notes": ""
+  }
+]

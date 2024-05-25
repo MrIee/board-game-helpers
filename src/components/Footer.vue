@@ -5,7 +5,7 @@
     >
       <span>
         For more info or suggestions, visit the project page on
-        <a href="https://github.com/MrIee/wreck-raiders-dice-roller">
+        <a href="https://github.com/MrIee/board-game-helpers">
           github
         </a>
       </span>

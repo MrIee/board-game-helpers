@@ -1,35 +1,37 @@
 <template>
-  <div class="wrapper container">
-    <div class="tw-flex tw-justify-center tw-mb-3">
-      <span class="tw-mr-2">Number of players:</span>
-      <select @change="setNumberOfGameComponents">
-        <option value="5">2</option>
-        <option value="4">3</option>
-        <option value="5">4</option>
-        <option value="6">5</option>
-        <option value="6">solo</option>
-      </select>
-    </div>
-    <div class="tw-flex tw-justify-center tw-mb-3">
-      <span class="tw-mr-2">Chance to land on seashell (%):</span>
-      <NumberInput v-model="seashellProbability" :max="100" />
-    </div>
-    <div class="tw-flex tw-flex-row-reverse sm:tw-flex-col tw-justify-center">
-      <div class="tw-flex tw-flex-col sm:tw-flex-row tw-justify-center">
-        <div
-          v-for="(shell, index) in seashells"
-          :key="index"
-          class="tw-h-[72px] sm:tw-h-24 tw-w-[72px] sm:tw-w-24 tw-m-1 tw-border-[3px] tw-border-white tw-rounded-lg"
-        >
-          <img v-if="shell" class="tw-p-2" :src="getSeashellUrl(shell)" :alt="shell" />
+  <div class="theme-wreck-raiders">
+    <div class="wrapper container">
+      <div class="tw-flex tw-justify-center tw-mb-3">
+        <span class="tw-mr-2">Number of players:</span>
+        <select @change="setNumberOfGameComponents">
+          <option value="5">2</option>
+          <option value="4">3</option>
+          <option value="5">4</option>
+          <option value="6">5</option>
+          <option value="6">solo</option>
+        </select>
+      </div>
+      <div class="tw-flex tw-justify-center tw-mb-3">
+        <span class="tw-mr-2">Chance to land on seashell (%):</span>
+        <NumberInput v-model="seashellProbability" :max="100" />
+      </div>
+      <div class="tw-flex tw-flex-row-reverse sm:tw-flex-col tw-justify-center">
+        <div class="tw-flex tw-flex-col sm:tw-flex-row tw-justify-center">
+          <div
+            v-for="(shell, index) in seashells"
+            :key="index"
+            class="tw-h-[72px] sm:tw-h-24 tw-w-[72px] sm:tw-w-24 tw-m-1 tw-border-[3px] tw-border-white tw-rounded-lg"
+          >
+            <img v-if="shell" class="tw-p-2" :src="getSeashellUrl(shell)" :alt="shell" />
+          </div>
+        </div>
+        <div class="tw-flex tw-flex-col sm:tw-flex-row tw-justify-center">
+          <Dice v-for="die in dice" :index="die" :number="die" />
         </div>
       </div>
-      <div class="tw-flex tw-flex-col sm:tw-flex-row tw-justify-center">
-        <Dice v-for="die in dice" :index="die" :number="die" />
+      <div class="tw-flex tw-justify-center tw-mt-3">
+        <button @click="rollDicePool">Roll</button>
       </div>
-    </div>
-    <div class="tw-flex tw-justify-center tw-mt-3">
-      <button @click="rollDicePool">Roll</button>
     </div>
   </div>
 </template>

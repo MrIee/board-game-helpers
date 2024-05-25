@@ -1,0 +1,7 @@
+.theme-wreck-raiders {
+  @apply tw-min-h-full tw-bg-[rgb(90,184,193)];
+}
+
+.theme-wreck-raiders button {
+  @apply tw-text-2xl tw-text-white tw-font-bold tw-px-12 tw-py-4 tw-rounded-xl tw-bg-[rgb(14,127,120)];
+}
