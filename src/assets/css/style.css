@@ -1,3 +1,4 @@
+@import url('./themes/hotelaustria.css');
 @import url('./themes/wreckraiders.css');
 @tailwind base;
 @tailwind components;
@@ -11,6 +12,8 @@
 
   body {
     font-family: Helvetica, sans-serif;
+
+    @apply tw-text-gray-800;
   }
 
   h1 > a, h2 > a, h3 > a, h4 > a {

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Home from '../containers/Home.vue';
+import GrandAustriaHotelReferenceTool from '../containers/GrandAustriaHotelReferenceTool.vue';
 import WreckRaidersDiceRoller from '../containers/WreckRaidersDiceRoller.vue';
 
 const routes: Array<RouteRecordRaw> = [
@@ -12,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/wreckraidersdiceroller',
     name: 'wreckraidersdiceroller',
     component: WreckRaidersDiceRoller,
+  },
+  {
+    path: '/grandaustriahotelreferencetool',
+    name: 'grandaustriahotelreferencetool',
+    component: GrandAustriaHotelReferenceTool,
   },
 ];
 
