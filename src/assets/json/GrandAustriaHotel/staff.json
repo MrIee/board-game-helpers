@@ -170,8 +170,8 @@
   {
     "id": 29,
     "name": "Secretary",
-    "description": "During final scoring, select an opponent’s staff card in play with the ⇥ symbol and apply its effect to your hotel.",
-    "notes": "You may not use this to copy one of your staff. If none of your opponents have staff with the ⇥ symbol in play, the Secretary scores nothing"
+    "description": "During final scoring, select an opponent’s staff card in play with the <strong>⇥</strong> symbol and apply its effect to your hotel.",
+    "notes": "You may not use this to copy one of your staff. If none of your opponents have staff with the <strong>⇥</strong> symbol in play, the Secretary scores nothing"
   },
   {
     "id": 30,

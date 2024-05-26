@@ -38,9 +38,9 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import conchImgUrl from '../assets/images/conch.png';
-import scallopImgUrl from '../assets/images/scallop.png';
-import starfishImgUrl from '../assets/images/starfish.png';
+import conchImgUrl from '../assets/images/wreckraiders/conch.png';
+import scallopImgUrl from '../assets/images/wreckraiders/scallop.png';
+import starfishImgUrl from '../assets/images/wreckraiders/starfish.png';
 import Topbar from '../components/Topbar.vue';
 import Footer from '../components/Footer.vue';
 import Dice from '../components/Dice.vue';
