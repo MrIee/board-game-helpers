@@ -1,0 +1,110 @@
+[
+  {
+    "uid": "1",
+    "description": "<p>You have 20 krones.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-A-20Krone.jpg",
+    "tag": "A"
+  },
+  {
+    "uid": "2",
+    "description": "<p>Your marker is on space 10 of the Emperor track or higher.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-A-10Emperor.jpg",
+    "tag": "A"
+  },
+  {
+    "uid": "3",
+    "description": "<p>You have played at least 6 staff cards (of any types).</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-A-6Staff.jpg",
+    "tag": "A"
+  },
+  {
+    "uid": "4",
+    "description": "<p>There are at least 12 room tiles (of any color) on your hotel board. It does not matter whether they are vacant or occupied.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-A-12Rooms.jpg",
+    "tag": "A"
+  },
+  {
+    "uid": "5",
+    "description": "<p>You have at least 7 champagne in your kitchen.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-A-7Champagne.jpg",
+    "tag": "A"
+  },
+  {
+    "uid": "6",
+    "description": "<p>You have at least 3 strudel, at least 3 cake, at least 3 wine, and at least 3 coffee in your kitchen.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-A-3ofEachDishDrink.jpg",
+    "tag": "A"
+  },
+  {
+    "uid": "7",
+    "description": "<p>At least 2 floors in your hotel are fully occupied. These floors need not be adjacent.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-B-2Floors.jpg",
+    "tag": "B"
+  },
+  {
+    "uid": "8",
+    "description": "<p>At least 2 columns in your hotel are fully occupied. These columns need not be adjacent.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-B-2Columns.jpg",
+    "tag": "B"
+  },
+  {
+    "uid": "9",
+    "description": "<p>At least 6 groups of rooms in your hotel (of any colors) are fully occupied. The groups need not be contiguous.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-B-6Groups.jpg",
+    "tag": "B"
+  },
+  {
+    "uid": "10",
+    "description": "<p>All rooms of at least one color in your hotel are occupied.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-B-AllOfOneColour.jpg",
+    "tag": "B"
+  },
+  {
+    "uid": "11",
+    "description": "<p>You have at least 7 dancers across any number of ballrooms (including the balcony).</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-B-7Dancers.jpg",
+    "tag": "B"
+  },
+  {
+    "uid": "12",
+    "description": "<p>At least 3 rooms (of any color) in the top floor of your hotel are occupied.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-B-3RoomsInTopFloor.jpg",
+    "tag": "B"
+  },
+  {
+    "uid": "13",
+    "description": "<p>You have at least 3 red, at least 3 blue, and at least 3 yellow occupied rooms in your hotel.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-C-3ofEachRoom.jpg",
+    "tag": "C"
+  },
+  {
+    "uid": "14",
+    "description": "<p>You have at least 4 red and at least 3 yellow occupied rooms in your hotel.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-C-4Red3Yellow.jpg",
+    "tag": "C"
+  },
+  {
+    "uid": "15",
+    "description": "<p>You have at least 4 yellow and at least 3 blue occupied rooms in your hotel.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-C-4Yellow3Blue.jpg",
+    "tag": "C"
+  },
+  {
+    "uid": "16",
+    "description": "<p>You have at least 4 blue and at least 3 red occupied rooms in your hotel.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-C-4Blue3Red.jpg",
+    "tag": "C"
+  },
+  {
+    "uid": "17",
+    "description": "<p>You have completed the orders of at least 4 green guests.</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-C-Completed4GreenGuests.jpg",
+    "tag": "C"
+  },
+  {
+    "uid": "18",
+    "description": "<p>You have completed the orders of at least 5 guests who each ordered 3 or more items</p>",
+    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Objective-C-Completed5GuestsWith3Items.jpg",
+    "tag": "C"
+  }
+]

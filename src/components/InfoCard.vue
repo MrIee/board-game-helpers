@@ -4,18 +4,17 @@
       <div v-if="id" class="infoCell tw-min-w-12 tw-max-w-12 tw-border-r tw-border-solid tw-border-gray-800">
         <strong>{{ id }}</strong>
       </div>
-      <div class="infoCell tw-min-w-40 tw-max-w-40">
+      <div v-if="name" class="infoCell tw-min-w-40 tw-max-w-40">
         <strong>{{ name }}</strong>
       </div>
     </div>
     <div class="infoCell tw-w-full md:tw-border-l tw-border-solid tw-border-gray-800">
-      <p v-html="description"></p>
+      <div v-html="description" />
       <div
         v-if="notes"
-        class="tw-w-full tw-bg-white tw-p-2 tw-rounded-md tw-border tw-border-solid tw-border-gray-800"
+        class="tw-w-full tw-p-2 tw-mt-1.5 tw-bg-white tw-rounded-md tw-border tw-border-solid tw-border-gray-800"
         v-html="infoNotes"
-      >
-      </div>
+      />
     </div>
   </div>
 </template>
@@ -26,20 +25,16 @@ import { defineComponent, computed } from 'vue';
 export default defineComponent({
   props: {
     id: {
-      type: Number,
+      type: String,
     },
     name: {
       type: String,
-      required: true,
     },
     description: {
       type: String,
       required: true,
     },
     notes: {
-      type: String,
-    },
-    imageUrl: {
       type: String,
     },
   },
@@ -57,19 +52,20 @@ export default defineComponent({
 
 <style>
 .infoCard {
-  width: 850px;
-
-  @apply max-lg:tw-w-full
+  @apply tw-w-full
   tw-flex
   tw-flex-col
   md:tw-flex-row
   tw-border-b
   tw-border-solid
-  last:tw-border-b-0
   tw-border-gray-800;
 }
 
 .infoCard .infoCell {
   @apply tw-py-1 tw-px-3;
+}
+
+.infoCard .infoCell p {
+  @apply tw-mb-1.5 last:tw-mb-0;
 }
 </style>

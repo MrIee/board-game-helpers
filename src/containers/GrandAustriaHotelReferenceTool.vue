@@ -14,17 +14,43 @@
         >
           <option value="0">Staff</option>
           <option value="1">Guests</option>
+          <option value="2">Objectives</option>
+          <option value="3">Emperor Tiles</option>
         </select>
       </div>
-      <InfoCard
-        v-for="item in filteredList"
-        :key="item.id"
-        :id="item.id"
-        :name="item.name"
-        :description="item.description"
-        :notes="item.notes"
-        :imageUrl="item.imageUrl"
-      />
+      <div
+        :class="{
+          'tw-flex tw-flex-wrap': true,
+          'tw-pt-px tw-pl-px': isColumnView,
+        }"
+      >
+        <div
+          :class="{
+            'tw-w-full': columns === 1,
+            'tw-w-1/2': columns === 2,
+            'tw-w-1/4': columns === 4,
+          }"
+          v-for="item in filteredList"
+          :key="item.uid"
+        >
+          <InfoCardWithImage
+            v-if="item.imageUrl"
+            :display="isColumnView ? 'col' : 'row'"
+            :id="item.id"
+            :name="item.name"
+            :description="item.description"
+            :notes="item.notes"
+            :imageUrl="item.imageUrl"
+          />
+          <InfoCard
+            v-else
+            :id="item.id"
+            :name="item.name"
+            :description="item.description"
+            :notes="item.notes"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -32,20 +58,28 @@
 <script lang="ts">
 import { defineComponent, ref, computed, watch, onMounted  } from 'vue';
 import InfoCard from '../components/InfoCard.vue';
+import InfoCardWithImage from '../components/InfoCardWithImage.vue';
 import { InfoItem } from '../util/interfaces';
 import staffJSON from '../assets/json/GrandAustriaHotel/staff.json';
 import guestsJSON from '../assets/json/GrandAustriaHotel/guests.json';
+import objectivesJSON from '../assets/json/GrandAustriaHotel/objectives.json';
+import emperorTilesJSON from '../assets/json/GrandAustriaHotel/emperor_tiles.json';
 
 export default defineComponent({
   components: {
     InfoCard,
+    InfoCardWithImage,
   },
   setup() {
     const searchTerm = ref<string>('');
     const staffList = ref<Array<InfoItem>>(staffJSON);
     const guestList = ref<Array<InfoItem>>(guestsJSON);
+    const objectivesList = ref<Array<InfoItem>>(objectivesJSON);
+    const emperorTilessList = ref<Array<InfoItem>>(emperorTilesJSON);
     const list = ref<Array<InfoItem>>([]);
     const listType = ref<string>('0');
+    const columns = ref<number>(1);
+    const isColumnView = ref<boolean>(false);
 
     onMounted((): void => {
       list.value = staffList.value;
@@ -59,11 +93,15 @@ export default defineComponent({
 
         const id = searchTerm.value.replace(/[^0-9]/g, '');
 
-        if (item.id.toString() === id) {
+        if (item.tag?.toLowerCase() === searchTerm.value.toLowerCase()) {
           return true;
         }
 
-        if (item.name.toLowerCase().indexOf(searchTerm.value.toLowerCase()) > -1) {
+        if (item.id?.toString() === id) {
+          return true;
+        }
+
+        if (item.name && item.name.toLowerCase().indexOf(searchTerm.value.toLowerCase()) > -1) {
           return true;
         }
       });
@@ -75,9 +113,23 @@ export default defineComponent({
       switch (type) {
         case '0':
           list.value = staffList.value;
+          columns.value = 1;
+          isColumnView.value = false;
           break;
         case '1':
           list.value = guestList.value;
+          columns.value = 1;
+          isColumnView.value = false;
+          break;
+        case '2':
+          list.value = objectivesList.value;
+          columns.value = 4;
+          isColumnView.value = true;
+          break;
+        case '3':
+          list.value = emperorTilessList.value;
+          columns.value = 2;
+          isColumnView.value = false;
           break;
       }
     });
@@ -86,6 +138,8 @@ export default defineComponent({
       searchTerm,
       listType,
       filteredList,
+      isColumnView,
+      columns,
     }
   },
 });

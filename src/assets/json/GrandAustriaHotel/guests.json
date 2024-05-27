@@ -1,578 +1,674 @@
 [
   {
-    "id": 49,
+    "uid": "49",
+    "id": "49",
     "name": "Sculptor",
-    "description": "You can prepare one room (of any color) at no cost; you must choose a room in the bottom two floors of your hotel board.",
-    "notes": "If the bottom two floors are full of rooms already, you get nothing from this, I’m afraid"
+    "description": "<p>You can prepare one room (of any color) at no cost; you must choose a room in the bottom two floors of your hotel board.</p>",
+    "notes": "<p>If the bottom two floors are full of rooms already, you get nothing from this, I’m afraid</p>"
   },
   {
-    "id": 50,
+    "uid": "50",
+    "id": "50",
     "name": "Musician",
-    "description": "Draw 1 staff card from the deck and add it to your hand. Additionally, you can prepare one room (of any color) by paying the normal cost.",
+    "description": "<p>Draw 1 staff card from the deck and add it to your hand. Additionally, you can prepare one room (of any color) by paying the normal cost.</p>",
     "notes": ""
   },
   {
-    "id": 51,
+    "uid": "51",
+    "id": "51",
     "name": "Composer",
-    "description": "You get 1 strudel.",
+    "description": "<p>You get 1 strudel.</p>",
     "notes": ""
   },
   {
-    "id": 52,
+    "uid": "52",
+    "id": "52",
     "name": "Tailor",
-    "description": "You get 1 strudel and 2 krones",
+    "description": "<p>You get 1 strudel and 2 krones</p>",
     "notes": ""
   },
   {
-    "id": 53,
+    "uid": "53",
+    "id": "53",
     "name": "Flamenco Dancer",
-    "description": "You get 1 coffee and you can advance 2 spaces on the Emperor track.",
+    "description": "<p>You get 1 coffee and you can advance 2 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 54,
+    "uid": "54",
+    "id": "54",
     "name": "Portrait Painter",
-    "description": "You get 1 dish or drink of your choice, and 2 krones",
+    "description": "<p>You get 1 dish or drink of your choice, and 2 krones</p>",
     "notes": ""
   },
   {
-    "id": 55,
+    "uid": "55",
+    "id": "55",
     "name": "Photographer",
-    "description": "Draw 2 staff cards from the deck and add them to your hand.",
+    "description": "<p>Draw 2 staff cards from the deck and add them to your hand.</p>",
     "notes": ""
   },
   {
-    "id": 56,
+    "uid": "56",
+    "id": "56",
     "name": "Vocalist",
-    "description": "You get 1 cake. Additionally, you can play a staff card from hand, paying up to 3 krones less.",
+    "description": "<p>You get 1 cake. Additionally, you can play a staff card from hand, paying up to 3 krones less.</p>",
     "notes": ""
   },
   {
-    "id": 57,
+    "uid": "57",
+    "id": "57",
     "name": "Architect",
-    "description": "You can prepare up to two rooms (of any color), paying 1 krone less each.",
+    "description": "<p>You can prepare up to two rooms (of any color), paying 1 krone less each.</p>",
     "notes": ""
   },
   {
-    "id": 58,
+    "uid": "58",
+    "id": "58",
     "name": "Actress",
-    "description": "You can occupy an additional room (of any color) by turning it to the occupied side.",
-    "notes": "The actress could use an additional room for her staff"
+    "description": "<p>You can occupy an additional room (of any color) by turning it to the occupied side.</p>",
+    "notes": "<p>The actress could use an additional room for her staff</p>"
   },
   {
-    "id": 59,
+    "uid": "59",
+    "id": "59",
     "name": "Poet",
-    "description": "You get 1 cake. Additionally, you can play a staff card from hand, paying up to 2 krones less.",
+    "description": "<p>You get 1 cake. Additionally, you can play a staff card from hand, paying up to 2 krones less.</p>",
     "notes": ""
   },
   {
-    "id": 60,
+    "uid": "60",
+    "id": "60",
     "name": "Jewelry Designer",
-    "description": "You get 1 coffee and 3 krones.",
+    "description": "<p>You get 1 coffee and 3 krones.</p>",
     "notes": ""
   },
   {
-    "id": 61,
+    "uid": "61",
+    "id": "61",
     "name": "Painter",
-    "description": "You can prepare up to two rooms: Pay 1 krone less for one of them; if you choose to prepare a second, you must pay the normal cost.",
+    "description": "<p>You can prepare up to two rooms: Pay 1 krone less for one of them; if you choose to prepare a second, you must pay the normal cost.</p>",
     "notes": ""
   },
   {
-    "id": 62,
+    "uid": "62",
+    "id": "62",
     "name": "Opera Singer",
-    "description": "You can take a guest from the queue at no cost. Additionally, you can advance 3 spaces on the Emperor track.",
+    "description": "<p>You can take a guest from the queue at no cost. Additionally, you can advance 3 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 63,
+    "uid": "63",
+    "id": "63",
     "name": "Dame",
-    "description": "You can take a guest from the queue at no cost.",
+    "description": "<p>You can take a guest from the queue at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 64,
+    "uid": "64",
+    "id": "64",
     "name": "Duchess",
-    "description": "You can play a staff card from hand, paying 1 krone less.",
+    "description": "<p>You can play a staff card from hand, paying 1 krone less.</p>",
     "notes": ""
   },
   {
-    "id": 65,
+    "uid": "65",
+    "id": "65",
     "name": "Knight of the Empire",
-    "description": "No effect.",
-    "notes": "At least he is worth 3 VP."
+    "description": "<p>No effect.</p>",
+    "notes": "<p>At least he is worth 3 VP.</p>"
   },
   {
-    "id": 66,
+    "uid": "66",
+    "id": "66",
     "name": "Landgrave",
-    "description": "You can play a staff card from hand, paying 1 krone less. Additionally, you can prepare one room (of any color) by paying the normal cost.",
+    "description": "<p>You can play a staff card from hand, paying 1 krone less. Additionally, you can prepare one room (of any color) by paying the normal cost.</p>",
     "notes": ""
   },
   {
-    "id": 67,
+    "uid": "67",
+    "id": "67",
     "name": "Sovereign",
-    "description": "Draw 2 staff cards from the deck and add them to your hand. Additionally, you can advance 2 spaces on the Emperor track.",
+    "description": "<p>Draw 2 staff cards from the deck and add them to your hand. Additionally, you can advance 2 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 68,
+    "uid": "68",
+    "id": "68",
     "name": "Princess",
-    "description": "You can advance 3 spaces on the Emperor track.",
+    "description": "<p>You can advance 3 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 69,
+    "uid": "69",
+    "id": "69",
     "name": "Countess",
-    "description": "You get 3 krones.",
+    "description": "<p>You get 3 krones.</p>",
     "notes": ""
   },
   {
-    "id": 70,
+    "uid": "70",
+    "id": "70",
     "name": "Elector",
-    "description": "You can play a staff card from hand, paying 1 krone less. Additionally, you can advance 3 spaces on the Emperor track.",
+    "description": "<p>You can play a staff card from hand, paying 1 krone less. Additionally, you can advance 3 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 71,
+    "uid": "71",
+    "id": "71",
     "name": "Baron",
-    "description": "You can prepare one room (of any color) at no cost.",
+    "description": "<p>You can prepare one room (of any color) at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 72,
+    "uid": "72",
+    "id": "72",
     "name": "Prince",
-    "description": "You can occupy an additional room (of any color) by turning it to the occupied side.",
-    "notes": "The prince could use an additional room for his entourage."
+    "description": "<p>You can occupy an additional room (of any color) by turning it to the occupied side.</p>",
+    "notes": "<p>The prince could use an additional room for his entourage.</p>"
   },
   {
-    "id": 73,
+    "uid": "73",
+    "id": "73",
     "name": "Count",
-    "description": "You can play up to two staff cards from hand, paying 1 krone less each.",
+    "description": "<p>You can play up to two staff cards from hand, paying 1 krone less each.</p>",
     "notes": ""
   },
   {
-    "id": 74,
+    "uid": "74",
+    "id": "74",
     "name": "Earl",
-    "description": "You get 1 krone.",
+    "description": "<p>You get 1 krone.</p>",
     "notes": ""
   },
   {
-    "id": 75,
+    "uid": "75",
+    "id": "75",
     "name": "Baroness",
-    "description": "Draw 3 staff cards from the deck and play one of them immediately, paying up to 3 krones less. Return the other two cards to the bottom of the deck, in an order of your choice.",
-    "notes": "If all three cards are too expensive for you, or you don’t want to play any of them, you must return all three to the bottom of the deck."
+    "description": "<p>Draw 3 staff cards from the deck and play one of them immediately, paying up to 3 krones less. Return the other two cards to the bottom of the deck, in an order of your choice.</p>",
+    "notes": "<p>If all three cards are too expensive for you, or you don’t want to play any of them, you must return all three to the bottom of the deck.</p>"
   },
   {
-    "id": 76,
+    "uid": "76",
+    "id": "76",
     "name": "Duke",
-    "description": "Draw 3 staff cards from the deck and immediately play one of them at no cost. Return the other two cards to the bottom of the deck, in an order of your choice.",
+    "description": "<p>Draw 3 staff cards from the deck and immediately play one of them at no cost. Return the other two cards to the bottom of the deck, in an order of your choice.</p>",
     "notes": ""
   },
   {
-    "id": 77,
+    "uid": "77",
+    "id": "77",
     "name": "Apothecary",
-    "description": "You get 1 krone.",
+    "description": "<p>You get 1 krone.</p>",
     "notes": ""
   },
   {
-    "id": 78,
+    "uid": "78",
+    "id": "78",
     "name": "Post Councillor",
-    "description": "You can take a guest from the queue at no cost",
+    "description": "<p>You can take a guest from the queue at no cost</p>",
     "notes": ""
   },
   {
-    "id": 79,
+    "uid": "79",
+    "id": "79",
     "name": "Privy Councillor",
-    "description": "You get 1 krone and you can advance 1 space on the Emperor track.",
+    "description": "<p>You get 1 krone and you can advance 1 space on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 80,
+    "uid": "80",
+    "id": "80",
     "name": "Professor Emeritus",
-    "description": "You can take a guest from the queue at no cost.",
+    "description": "<p>You can take a guest from the queue at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 81,
+    "uid": "81",
+    "id": "81",
     "name": "General",
-    "description": "You get 1 wine and 3 krones.",
+    "description": "<p>You get 1 wine and 3 krones.</p>",
     "notes": ""
   },
   {
-    "id": 82,
+    "uid": "82",
+    "id": "82",
     "name": "Senior Councillor",
-    "description": "You can occupy an additional room (of any color) by turning it to the occupied side.",
-    "notes": "The senior councillor could use an additional room for his secretary."
+    "description": "<p>You can occupy an additional room (of any color) by turning it to the occupied side.</p>",
+    "notes": "<p>The senior councillor could use an additional room for his secretary.</p>"
   },
   {
-    "id": 83,
+    "uid": "83",
+    "id": "83",
     "name": "Councillor of Commerce",
-    "description": "You get 5 krones.",
+    "description": "<p>You get 5 krones.</p>",
     "notes": ""
   },
   {
-    "id": 84,
+    "uid": "84",
+    "id": "84",
     "name": "Court Councillor",
-    "description": "You get 3 krones. Additionally, you can take a guest from the queue at no cost.",
+    "description": "<p>You get 3 krones. Additionally, you can take a guest from the queue at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 85,
+    "uid": "85",
+    "id": "85",
     "name": "Major",
-    "description": "You get 3 krones",
+    "description": "<p>You get 3 krones</p>",
     "notes": ""
   },
   {
-    "id": 86,
+    "uid": "86",
+    "id": "86",
     "name": "Veterinary Councillor",
-    "description": "You can play a staff card from hand, paying up to 3 krones less.",
+    "description": "<p>You can play a staff card from hand, paying up to 3 krones less.</p>",
     "notes": ""
   },
   {
-    "id": 87,
+    "uid": "87",
+    "id": "87",
     "name": "Medicinal Councillor",
-    "description": "You get 3 krones. Additionally, you can take up to two guests from the queue at no cost. Replenish the queue before taking the second guest.",
+    "description": "<p>You get 3 krones. Additionally, you can take up to two guests from the queue at no cost. Replenish the queue before taking the second guest.</p>",
     "notes": ""
   },
   {
-    "id": 88,
+    "uid": "88",
+    "id": "88",
     "name": "Procurator",
-    "description": "You can prepare up to two rooms (of any color), both at no cost.",
+    "description": "<p>You can prepare up to two rooms (of any color), both at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 89,
+    "uid": "89",
+    "id": "89",
     "name": "Lord High Commissioner",
-    "description": "You get 4 krones.",
+    "description": "<p>You get 4 krones.</p>",
     "notes": ""
   },
   {
-    "id": 90,
+    "uid": "90",
+    "id": "90",
     "name": "Senior Legal Secretary",
-    "description": "You get 1 wine and 3 krones",
+    "description": "<p>You get 1 wine and 3 krones</p>",
     "notes": ""
   },
   {
-    "id": 91,
+    "uid": "91",
+    "id": "91",
     "name": "Tezcatlipoca",
-    "description": "Draw 3 staff cards from the deck and add them to your hand.",
+    "description": "<p>Draw 3 staff cards from the deck and add them to your hand.</p>",
     "notes": ""
   },
   {
-    "id": 92,
+    "uid": "92",
+    "id": "92",
     "name": "Capt. Goldhaken",
-    "description": "You get 1 krone",
+    "description": "<p>You get 1 krone</p>",
     "notes": ""
   },
   {
-    "id": 93,
+    "uid": "93",
+    "id": "93",
     "name": "Mr. Horsa",
-    "description": "You can advance 1 space on the Emperor track.",
+    "description": "<p>You can advance 1 space on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 94,
+    "uid": "94",
+    "id": "94",
     "name": "M. Ingalls",
-    "description": "You can play a staff card from hand, paying 1 krone less.",
+    "description": "<p>You can play a staff card from hand, paying 1 krone less.</p>",
     "notes": ""
   },
   {
-    "id": 95,
+    "uid": "95",
+    "id": "95",
     "name": "Mr. Boydell",
-    "description": "You can advance 2 spaces on the Emperor track.",
-    "notes": "Please note: This does not allow you to clear rubble from the track—all staff must stay in the hotel during this game."
+    "description": "<p>You can advance 2 spaces on the Emperor track.</p>",
+    "notes": "<p>Please note: This does not allow you to clear rubble from the track—all staff must stay in the hotel during this game.</p>"
   },
   {
-    "id": 96,
+    "uid": "96",
+    "id": "96",
     "name": "Mr. Oundo",
-    "description": "You can play a staff card from hand, paying up to 3 krones less.",
+    "description": "<p>You can play a staff card from hand, paying up to 3 krones less.</p>",
     "notes": ""
   },
   {
-    "id": 97,
+    "uid": "97",
+    "id": "97",
     "name": "E. Gizia",
-    "description": "Select an action space with at least one die and carry out the action as normal, but without taking a die from that space. You cannot boost this action. Staff cards providing benefits for taking a specific die cannot be used, because you are not taking a die with this.",
-    "notes": "This is not a bonus turn, but part of your current turn, right after sending E. Gizia to a room and collecting all other benefits from him. This does not affect your main action, for which you do take a die, in any way. For your information: We’ve weakened the effect from previous editions, in which you would get an additional turn."
+    "description": "<p>Select an action space with at least one die and carry out the action as normal, but without taking a die from that space. You cannot boost this action. Staff cards providing benefits for taking a specific die cannot be used, because you are not taking a die with this.</p>",
+    "notes": "<p>This is not a bonus turn, but part of your current turn, right after sending E. Gizia to a room and collecting all other benefits from him. This does not affect your main action, for which you do take a die, in any way. For your information: We’ve weakened the effect from previous editions, in which you would get an additional turn.</p>"
   },
   {
-    "id": 98,
+    "uid": "98",
+    "id": "98",
     "name": "M. Polo",
-    "description": "You get 4 krones.",
+    "description": "<p>You get 4 krones.</p>",
     "notes": ""
   },
   {
-    "id": 99,
+    "uid": "99",
+    "id": "99",
     "name": "Cramersopholus",
-    "description": "Draw 1 staff card from the deck and add it to your hand. Additionally, you can advance 2 spaces on the Emperor track.",
+    "description": "<p>Draw 1 staff card from the deck and add it to your hand. Additionally, you can advance 2 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 100,
+    "uid": "100",
+    "id": "100",
     "name": "Farmer Franz",
-    "description": "You can advance 3 spaces on the Emperor track. Additionally, you can occupy an additional room (of any color) by turning it to the occupied side.",
-    "notes": "Farmer Franz and his spouse could use an additional room for their five children."
+    "description": "<p>You can advance 3 spaces on the Emperor track. Additionally, you can occupy an additional room (of any color) by turning it to the occupied side.</p>",
+    "notes": "<p>Farmer Franz and his spouse could use an additional room for their five children.</p>"
   },
   {
-    "id": 101,
+    "uid": "101",
+    "id": "101",
     "name": "Brother Uwe",
-    "description": "You can advance 3 spaces on the Emperor track. Additionally, you can take a guest from the queue at no cost.",
+    "description": "<p>You can advance 3 spaces on the Emperor track. Additionally, you can take a guest from the queue at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 102,
+    "uid": "102",
+    "id": "102",
     "name": "Conductor",
-    "description": "You can advance 1 space on the Emperor track. Additionally, you can occupy an additional room (of any color) by turning it to the occupied side.",
-    "notes": "The conductor could use an additional room for his colleague."
+    "description": "<p>You can advance 1 space on the Emperor track. Additionally, you can occupy an additional room (of any color) by turning it to the occupied side.</p>",
+    "notes": "<p>The conductor could use an additional room for his colleague.</p>"
   },
   {
-    "id": 103,
+    "uid": "103",
+    "id": "103",
     "name": "Durgoing",
-    "description": "Draw 2 staff cards from the deck and add them to your hand.",
+    "description": "<p>Draw 2 staff cards from the deck and add them to your hand.</p>",
     "notes": ""
   },
   {
-    "id": 104,
+    "uid": "104",
+    "id": "104",
     "name": "MacLeod",
-    "description": "You can play a staff card from hand at no cost.",
+    "description": "<p>You can play a staff card from hand at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 117,
+    "uid": "117",
+    "id": "117",
     "name": "Mag. Ferdinand",
-    "description": "You can advance 3 spaces on the Emperor track.",
+    "description": "<p>You can advance 3 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 118,
+    "uid": "118",
+    "id": "118",
     "name": "Mr. Moras",
-    "description": "You can take a guest from the queue at no cost.",
+    "description": "<p>You can take a guest from the queue at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 134,
+    "uid": "134",
+    "id": "134",
     "name": "Debutante",
-    "description": "You get 1 champagne.",
+    "description": "<p>You get 1 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 135,
+    "uid": "135",
+    "id": "135",
     "name": "Lady Companion",
-    "description": "You can advance 1 space on the Emperor track. Additionally, you can play a staff card from hand at no cost.",
+    "description": "<p>You can advance 1 space on the Emperor track. Additionally, you can play a staff card from hand at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 136,
+    "uid": "136",
+    "id": "136",
     "name": "Governess",
-    "description": "You get 1 champagne.",
+    "description": "<p>You get 1 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 137,
+    "uid": "137",
+    "id": "137",
     "name": "Prima Ballerina",
-    "description": "You get 2 krones. Additionally, you can send up to two dancers to the same or different ballrooms by paying the normal cost.",
-    "notes": "The Prima Ballerina can book a room or go dancing; in either case, her two friends definitely go dancing."
+    "description": "<p>You get 2 krones. Additionally, you can send up to two dancers to the same or different ballrooms by paying the normal cost.</p>",
+    "notes": "<p>The Prima Ballerina can book a room or go dancing; in either case, her two friends definitely go dancing.</p>"
   },
   {
-    "id": 138,
+    "uid": "138",
+    "id": "138",
     "name": "Mannequin",
-    "description": "n You get 1 champagne. Additionally, you can play a staff card from hand for up to 3 krones less",
+    "description": "<p>n You get 1 champagne. Additionally, you can play a staff card from hand for up to 3 krones less</p>",
     "notes": ""
   },
   {
-    "id": 139,
+    "uid": "139",
+    "id": "139",
     "name": "Diva",
-    "description": "You get 2 champagne",
+    "description": "<p>You get 2 champagne</p>",
     "notes": ""
   },
   {
-    "id": 140,
+    "uid": "140",
+    "id": "140",
     "name": "Waltz Queen",
-    "description": "No effect.",
+    "description": "<p>No effect.</p>",
     "notes": ""
   },
   {
-    "id": 141,
+    "uid": "141",
+    "id": "141",
     "name": "Khan",
-    "description": "You get 1 champagne.",
+    "description": "<p>You get 1 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 142,
+    "uid": "142",
+    "id": "142",
     "name": "Tenno",
-    "description": "You get 1 champagne. Additionally, you can prepare one room (of any color) for 1 krone less.",
+    "description": "<p>You get 1 champagne. Additionally, you can prepare one room (of any color) for 1 krone less.</p>",
     "notes": ""
   },
   {
-    "id": 143,
+    "uid": "143",
+    "id": "143",
     "name": "Laird",
-    "description": "You get 2 dishes and/or drinks of your choice (no champagne).",
-    "notes": "You can mix and match, e.g., take one cake and one coffee."
+    "description": "<p>You get 2 dishes and/or drinks of your choice (no champagne).</p>",
+    "notes": "<p>You can mix and match, e.g., take one cake and one coffee.</p>"
   },
   {
-    "id": 144,
+    "uid": "144",
+    "id": "144",
     "name": "Maharani",
-    "description": "You get 1 champagne.",
+    "description": "<p>You get 1 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 145,
+    "uid": "145",
+    "id": "145",
     "name": "Marquis",
-    "description": "You get 2 champagne.",
+    "description": "<p>You get 2 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 146,
+    "uid": "146",
+    "id": "146",
     "name": "Contessa",
-    "description": "No effect.",
-    "notes": "But she is worth 15 VP!"
+    "description": "<p>No effect.</p>",
+    "notes": "<p>But she is worth 15 VP!</p>"
   },
   {
-    "id": 147,
+    "uid": "147",
+    "id": "147",
     "name": "Tsarina",
-    "description": "You can send a dancer to a ballroom for 1 champagne less.",
-    "notes": "The Tsarina can book a room or go dancing; in either case, her spouse definitely goes dancing."
+    "description": "<p>You can send a dancer to a ballroom for 1 champagne less.</p>",
+    "notes": "<p>The Tsarina can book a room or go dancing; in either case, her spouse definitely goes dancing.</p>"
   },
   {
-    "id": 148,
+    "uid": "148",
+    "id": "148",
     "name": "Ambassador",
-    "description": "You can send a dancer to a ballroom for the normal cost.",
-    "notes": "The Ambassador can book a room or go dancing; in either case, her assistant definitely goes dancing."
+    "description": "<p>You can send a dancer to a ballroom for the normal cost.</p>",
+    "notes": "<p>The Ambassador can book a room or go dancing; in either case, her assistant definitely goes dancing.</p>"
   },
   {
-    "id": 149,
+    "uid": "149",
+    "id": "149",
     "name": "Abbess",
-    "description": "You get 5 krones.",
+    "description": "<p>You get 5 krones.</p>",
     "notes": ""
   },
   {
-    "id": 150,
+    "uid": "150",
+    "id": "150",
     "name": "Consigliere",
-    "description": "You get 1 champagne and 2 krones.",
+    "description": "<p>You get 1 champagne and 2 krones.</p>",
     "notes": ""
   },
   {
-    "id": 151,
+    "uid": "151",
+    "id": "151",
     "name": "Admiral Winterbottom",
-    "description": "You can advance 2 spaces on the Emperor track. Additionally, you can send a dancer to a ballroom by paying the normal cost.",
-    "notes": "The Admiral can book a room or go dancing; in either case, his lieutenant definitely goes dancing."
+    "description": "<p>You can advance 2 spaces on the Emperor track. Additionally, you can send a dancer to a ballroom by paying the normal cost.</p>",
+    "notes": "<p>The Admiral can book a room or go dancing; in either case, his lieutenant definitely goes dancing.</p>"
   },
   {
-    "id": 152,
+    "uid": "152",
+    "id": "152",
     "name": "Impresario",
-    "description": "You get 1 champagne.",
+    "description": "<p>You get 1 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 153,
+    "uid": "153",
+    "id": "153",
     "name": "Cardinal",
-    "description": "No effect.",
-    "notes": "But he is worth 14 VP!"
+    "description": "<p>No effect.</p>",
+    "notes": "<p>But he is worth 14 VP!</p>"
   },
   {
-    "id": 154,
+    "uid": "154",
+    "id": "154",
     "name": "Mayor",
-    "description": "You get 2 champagne. Additionally, you can send a dancer to a ballroom by paying the normal cost.",
-    "notes": "The Mayor can book a room or go dancing; in either case, his secretary definitely goes dancing."
+    "description": "<p>You get 2 champagne. Additionally, you can send a dancer to a ballroom by paying the normal cost.</p>",
+    "notes": "<p>The Mayor can book a room or go dancing; in either case, his secretary definitely goes dancing.</p>"
   },
   {
-    "id": 155,
+    "uid": "155",
+    "id": "155",
     "name": "The Beast",
-    "description": "You get 1 champagne. Additionally, you can prepare one room (of any color) by paying the normal cost.",
-    "notes": "Note that you lose 1 VP for the Beast."
+    "description": "<p>You get 1 champagne. Additionally, you can prepare one room (of any color) by paying the normal cost.</p>",
+    "notes": "<p>Note that you lose 1 VP for the Beast.</p>"
   },
   {
-    "id": 156,
+    "uid": "156",
+    "id": "156",
     "name": "Kapellmeister Palfy",
-    "description": "You get 2 champagne.",
+    "description": "<p>You get 2 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 157,
+    "uid": "157",
+    "id": "157",
     "name": "C. Inderella",
-    "description": "You can send a dancer to a ballroom by paying the normal cost. Additionally, you can occupy a room (of any color) by turning it to the occupied side.",
-    "notes": "C. Inderella can book a room or go dancing; in either case, one of her friends definitely goes dancing—the other goes to bed."
+    "description": "<p>You can send a dancer to a ballroom by paying the normal cost. Additionally, you can occupy a room (of any color) by turning it to the occupied side.</p>",
+    "notes": "<p>C. Inderella can book a room or go dancing; in either case, one of her friends definitely goes dancing—the other goes to bed.</p>"
   },
   {
-    "id": 158,
+    "uid": "158",
+    "id": "158",
     "name": "Phantom",
-    "description": "You get 1 champagne. Additionally, you can take a guest from the queue at no cost.",
-    "notes": "Note that you lose 2 VP for the Phantom."
+    "description": "<p>You get 1 champagne. Additionally, you can take a guest from the queue at no cost.</p>",
+    "notes": "<p>Note that you lose 2 VP for the Phantom.</p>"
   },
   {
-    "id": 159,
+    "uid": "159",
+    "id": "159",
     "name": "The Beauty",
-    "description": "You can send a dancer to a ballroom by paying the normal cost.<br />Additionally, draw 3 staff cards from the deck and play one of them immediately, paying up to 3 krones less. Return the other two cards to the bottom of the deck, in an order of your choice.",
-    "notes": "The beauty can book a room or go dancing; in either case, her sister definitely goes dancing. If all three cards are too expensive for you, or you don’t want to play any of them, you must return all three to the bottom of the deck."
+    "description": "<p>You can send a dancer to a ballroom by paying the normal cost.</p><p>Additionally, draw 3 staff cards from the deck and play one of them immediately, paying up to 3 krones less. Return the other two cards to the bottom of the deck, in an order of your choice.</p>",
+    "notes": "<p>The beauty can book a room or go dancing; in either case, her sister definitely goes dancing. If all three cards are too expensive for you, or you don’t want to play any of them, you must return all three to the bottom of the deck.</p>"
   },
   {
-    "id": 160,
+    "uid": "160",
+    "id": "160",
     "name": "Medium",
-    "description": "You get 2 dishes and/or drinks of your choice (no champagne). Additionally, you get 1 champagne.",
-    "notes": "You can mix and match, e.g., take one cake and one coffee. And you get a champagne on top!"
+    "description": "<p>You get 2 dishes and/or drinks of your choice (no champagne). Additionally, you get 1 champagne.</p>",
+    "notes": "<p>You can mix and match, e.g., take one cake and one coffee. And you get a champagne on top!</p>"
   },
   {
-    "id": 161,
+    "uid": "161",
+    "id": "161",
     "name": "Partyer",
-    "description": "You can send a dancer to a ballroom for up to 2 champagne less.",
-    "notes": "The Partyer can book a room or go dancing; in either case, his plus one definitely goes dancing."
+    "description": "<p>You can send a dancer to a ballroom for up to 2 champagne less.</p>",
+    "notes": "<p>The Partyer can book a room or go dancing; in either case, his plus one definitely goes dancing.</p>"
   },
   {
-    "id": 162,
+    "uid": "162",
+    "id": "162",
     "name": "Pope",
-    "description": "The Pope must move into a room; he cannot be sent to a ballroom. In return, you can occupy an additional room (of any color) by turning it to the occupied side.",
-    "notes": "The Pope could use an additional room for his entourage."
+    "description": "<p>The Pope must move into a room; he cannot be sent to a ballroom. In return, you can occupy an additional room (of any color) by turning it to the occupied side.</p>",
+    "notes": "<p>The Pope could use an additional room for his entourage.</p>"
   },
   {
-    "id": 184,
+    "uid": "184",
+    "id": "184",
     "name": "E. Doolittle",
-    "description": "Eliza must be sent to a ballroom; she cannot move into a room. In return, you can send an additional dancer that you must place on the same ballroom space as Eliza. You must pay the cost printed on the space only once (for Eliza only) and you get the row bonus only once.<br />Afterwards, score 1 VP for each dancer token you have in a ballroom, including Eliza and the second dancer token on the same space.",
+    "description": "<p>Eliza must be sent to a ballroom; she cannot move into a room. In return, you can send an additional dancer that you must place on the same ballroom space as Eliza. You must pay the cost printed on the space only once (for Eliza only) and you get the row bonus only once.</p><p>Afterwards, score 1 VP for each dancer token you have in a ballroom, including Eliza and the second dancer token on the same space.</p>",
     "notes": ""
   },
   {
-    "id": 185,
+    "uid": "185",
+    "id": "185",
     "name": "M. Antoinette",
-    "description": "Marie must move into a room. Additionally, you can send a dancer to a ballroom by paying 1 fewer champagne per other player in the game. In return, each other player gets 1 dish or 1 drink of their choice (no champagne).<br />If you move Marie to her room in rounds 1-3, score 8 VP; in rounds 4-5, score 5 VP; in rounds 6-7, score 2 VP.",
-    "notes": "Marie occupies a room and goes dancing anyway."
+    "description": "<p>Marie must move into a room. Additionally, you can send a dancer to a ballroom by paying 1 fewer champagne per other player in the game. In return, each other player gets 1 dish or 1 drink of their choice (no champagne).</p><p>If you move Marie to her room in rounds 1-3, score 8 VP; in rounds 4-5, score 5 VP; in rounds 6-7, score 2 VP.</p>",
+    "notes": "<p>Marie occupies a room and goes dancing anyway.</p>"
   },
   {
-    "id": 186,
+    "uid": "186",
+    "id": "186",
     "name": "Lord Mayor of London",
-    "description": "Immediately score the current ballroom. It will be scored again as normal after the next Emperor scoring.",
-    "notes": "Of course, all players must participate in this additional scoring."
+    "description": "<p>Immediately score the current ballroom. It will be scored again as normal after the next Emperor scoring.</p>",
+    "notes": "<p>Of course, all players must participate in this additional scoring.</p>"
   },
   {
-    "id": 187,
+    "uid": "187",
+    "id": "187",
     "name": "J. Gatsby & D. Buchanan",
-    "description": "Jay and Daisy must move into a room; they cannot be sent to a ballroom. In return, you can occupy an additional room (of any color) by turning it to the occupied side. Additionally, advance 4 spaces on the Emperor track. Please note that the cost is two of each depicted item.",
-    "notes": "They prefer to stay in their rooms."
+    "description": "<p>Jay and Daisy must move into a room; they cannot be sent to a ballroom. In return, you can occupy an additional room (of any color) by turning it to the occupied side. Additionally, advance 4 spaces on the Emperor track. Please note that the cost is two of each depicted item.</p>",
+    "notes": "<p>They prefer to stay in their rooms.</p>"
   },
   {
-    "id": 188,
+    "uid": "188",
+    "id": "188",
     "name": "Ms. Hildegard",
-    "description": "Ms. Hildegard must move into a room; she cannot be sent to a ballroom.",
+    "description": "<p>Ms. Hildegard must move into a room; she cannot be sent to a ballroom.</p>",
     "notes": ""
   },
   {
-    "id": 189,
+    "uid": "189",
+    "id": "189",
     "name": "Dr. Hagedorn",
-    "description": "Dr. Hagedorn cannot be sent to a ballroom and he must occupy two horizontally adjacent rooms (of the same or different colors).",
-    "notes": "Dr. Hagedorn requires a double suite. If your hotel doesn’t have one, he’ll wait at his table until you make one available."
+    "description": "<p>Dr. Hagedorn cannot be sent to a ballroom and he must occupy two horizontally adjacent rooms (of the same or different colors).</p>",
+    "notes": "<p>Dr. Hagedorn requires a double suite. If your hotel doesn’t have one, he’ll wait at his table until you make one available.</p>"
   },
   {
-    "id": 190,
+    "uid": "190",
+    "id": "190",
     "name": "Mr. Schulze",
-    "description": "Mr. Schulze can neither be sent to a ballroom nor occupy a room—he stays at his table indefinitely (which is why he has no cost). Instead, he is like a staff card (but he is not considered one) that allows you, once per round, to spend any one item (dish, drink, or champagne). If you do, you can immediately play a staff card from hand by paying its cost, score 1 VP, and advance 1 space on the Emperor track. During final scoring, you do not lose 5 victory points for Mr. Schulze, even though he is still sitting in your café.",
+    "description": "<p>Mr. Schulze can neither be sent to a ballroom nor occupy a room—he stays at his table indefinitely (which is why he has no cost). Instead, he is like a staff card (but he is not considered one) that allows you, once per round, to spend any one item (dish, drink, or champagne). If you do, you can immediately play a staff card from hand by paying its cost, score 1 VP, and advance 1 space on the Emperor track. During final scoring, you do not lose 5 victory points for Mr. Schulze, even though he is still sitting in your café.</p>",
     "notes": ""
   },
   {
-    "id": 191,
+    "uid": "191",
+    "id": "191",
     "name": "J. Kesselhut",
-    "description": "Immediately fill the wine orders of your remaining guests with wine from the supply.",
+    "description": "<p>Immediately fill the wine orders of your remaining guests with wine from the supply.</p>",
     "notes": ""
   },
   {
-    "id": 192,
+    "uid": "192",
+    "id": "192",
     "name": "Mrs. Kunkel",
-    "description": "Mrs. Kunkel cannot be sent to a ballroom and she must occupy a room in the bottom floor",
-    "notes": "If you have no vacant rooms in the bottom floor left, you must make do with one fewer table for the rest of the game and, during final scoring, suffer the negative 5 victory points penalty for Mrs. Kunkel."
+    "description": "<p>Mrs. Kunkel cannot be sent to a ballroom and she must occupy a room in the bottom floor</p>",
+    "notes": "<p>If you have no vacant rooms in the bottom floor left, you must make do with one fewer table for the rest of the game and, during final scoring, suffer the negative 5 victory points penalty for Mrs. Kunkel.</p>"
   }
 ]

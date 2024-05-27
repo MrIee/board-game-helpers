@@ -1,470 +1,548 @@
 [
   {
-    "id": 1,
+    "uid": "1",
+    "id": "1",
     "name": "Breakfast Server",
-    "description": "Once per round, you can use this card to get 1 strudel",
+    "description": "<p>Once per round, you can use this card to get 1 strudel</p>",
     "notes": ""
   },
   {
-    "id": 2,
+    "uid": "2",
+    "id": "2",
     "name": "Waitress",
-    "description": "Once per round, you can use this card to get 1 cake",
+    "description": "<p>Once per round, you can use this card to get 1 cake</p>",
     "notes": ""
   },
   {
-    "id": 3,
+    "uid": "3",
+    "id": "3",
     "name": "Barkeeper",
-    "description": "Once per round, you can use this card to get 1 wine",
+    "description": "<p>Once per round, you can use this card to get 1 wine</p>",
     "notes": ""
   },
   {
-    "id": 4,
+    "uid": "4",
+    "id": "4",
     "name": "Sous-Chef",
-    "description": "Once per round, you can use this card to get 1 coffee",
+    "description": "<p>Once per round, you can use this card to get 1 coffee</p>",
     "notes": ""
   },
   {
-    "id": 5,
+    "uid": "5",
+    "id": "5",
     "name": "Groom",
-    "description": "Each time you remove a red guest whose order you completed from your café, you get 2 krones.",
+    "description": "<p>Each time you remove a red guest whose order you completed from your café, you get 2 krones.</p>",
     "notes": ""
   },
   {
-    "id": 6,
+    "uid": "6",
+    "id": "6",
     "name": "Stableman",
-    "description": "Each time you remove a blue guest whose order you completed from your café, you can advance 1 space on the Emperor track.",
+    "description": "<p>Each time you remove a blue guest whose order you completed from your café, you can advance 1 space on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 7,
+    "uid": "7",
+    "id": "7",
     "name": "Masseuse",
-    "description": "Each time you remove a yellow guest whose order you completed from your café, you get 1 krone.",
+    "description": "<p>Each time you remove a yellow guest whose order you completed from your café, you get 1 krone.</p>",
     "notes": ""
   },
   {
-    "id": 8,
+    "uid": "8",
+    "id": "8",
     "name": "Tour Guide",
-    "description": "Each time you remove a green guest whose order you completed from your café, score 2 VP.",
+    "description": "<p>Each time you remove a green guest whose order you completed from your café, score 2 VP.</p>",
     "notes": ""
   },
   {
-    "id": 9,
+    "uid": "9",
+    "id": "9",
     "name": "Butler",
-    "description": "From now on, whenever you prepare a blue room (from any action or effect), it is free to do so (pay 0 krones).",
-    "notes": "This does not grant a free action; it merely removes the cost."
+    "description": "<p>From now on, whenever you prepare a blue room (from any action or effect), it is free to do so (pay 0 krones).</p>",
+    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>"
   },
   {
-    "id": 10,
+    "uid": "10",
+    "id": "10",
     "name": "Chauffeur",
-    "description": "From now on, whenever you prepare a red room (from any action or effect), it is free to do so (pay 0 krones).",
-    "notes": "This does not grant a free action; it merely removes the cost."
+    "description": "<p>From now on, whenever you prepare a red room (from any action or effect), it is free to do so (pay 0 krones).</p>",
+    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>"
   },
   {
-    "id": 11,
+    "uid": "11",
+    "id": "11",
     "name": "Florist",
-    "description": "From now on, whenever you prepare a yellow room (from any action or effect), it is free to do so (pay 0 krones).",
-    "notes": "This does not grant a free action; it merely removes the cost."
+    "description": "<p>From now on, whenever you prepare a yellow room (from any action or effect), it is free to do so (pay 0 krones).</p>",
+    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>"
   },
   {
-    "id": 12,
+    "uid": "12",
+    "id": "12",
     "name": "Executive Housekeeper",
-    "description": "Each time you take a die showing 3 or 4, immediately score 2 VP.",
+    "description": "<p>Each time you take a die showing 3 or 4, immediately score 2 VP.</p>",
     "notes": ""
   },
   {
-    "id": 13,
+    "uid": "13",
+    "id": "13",
     "name": "Restaurant Manager",
-    "description": "Each time you take a die showing 1 or 2, you can add 1 to the strength of that action.",
-    "notes": "As always, you can boost this further by paying 1 krone."
+    "description": "<p>Each time you take a die showing 1 or 2, you can add 1 to the strength of that action.</p>",
+    "notes": "<p>As always, you can boost this further by paying 1 krone.</p>"
   },
   {
-    "id": 14,
+    "uid": "14",
+    "id": "14",
     "name": "Decorator",
-    "description": "Each time you take a die showing 1 or 2, before or after taking the main action, you can also prepare one room (of any color) by paying the normal cost.",
-    "notes": "You may not take any additional actions between the main action and preparing that room."
+    "description": "<p>Each time you take a die showing 1 or 2, before or after taking the main action, you can also prepare one room (of any color) by paying the normal cost.</p>",
+    "notes": "<p>You may not take any additional actions between the main action and preparing that room.</p>"
   },
   {
-    "id": 15,
+    "uid": "15",
+    "id": "15",
     "name": "Bootblack",
-    "description": "You no longer have to choose when taking a die showing 4: For each die on the action space, you get 1 krone and you can advance 1 space on the Emperor track.",
-    "notes": "As always, you can boost this by paying 1 krone, for which you will also get 1 krone (back) and advance 1 space on the Emperor track, effectively gaining one space for free."
+    "description": "<p>You no longer have to choose when taking a die showing 4: For each die on the action space, you get 1 krone and you can advance 1 space on the Emperor track.</p>",
+    "notes": "<p>As always, you can boost this by paying 1 krone, for which you will also get 1 krone (back) and advance 1 space on the Emperor track, effectively gaining one space for free.</p>"
   },
   {
-    "id": 16,
+    "uid": "16",
+    "id": "16",
     "name": "Laundress",
-    "description": "Each time you take a die showing 4, immediately score 4 VP.",
+    "description": "<p>Each time you take a die showing 4, immediately score 4 VP.</p>",
     "notes": ""
   },
   {
-    "id": 17,
+    "uid": "17",
+    "id": "17",
     "name": "Kitchen Hand",
-    "description": "You no longer have to pay 1 krone when taking a die showing 6; additionally, you can add 1 to the strength of this action.",
-    "notes": "As always, you can boost this further by paying 1 krone. For your information: We increased the cost of this card from 3 krones (in previous editions) to 5 krones."
+    "description": "<p>You no longer have to pay 1 krone when taking a die showing 6; additionally, you can add 1 to the strength of this action.</p>",
+    "notes": "<p>As always, you can boost this further by paying 1 krone. For your information: We increased the cost of this card from 3 krones (in previous editions) to 5 krones.</p>"
   },
   {
-    "id": 18,
+    "uid": "18",
+    "id": "18",
     "name": "Checker",
-    "description": "Each time you take a die showing 5, you can add 2 to the strength of this action.",
-    "notes": "In other words, you are getting an additional discount of 2 krones."
+    "description": "<p>Each time you take a die showing 5, you can add 2 to the strength of this action.</p>",
+    "notes": "<p>In other words, you are getting an additional discount of 2 krones.</p>"
   },
   {
-    "id": 19,
+    "uid": "19",
+    "id": "19",
     "name": "Interior Architect",
-    "description": "Each time you take a die showing 3, immediately score 5 VP.",
+    "description": "<p>Each time you take a die showing 3, immediately score 5 VP.</p>",
     "notes": ""
   },
   {
-    "id": 20,
+    "uid": "20",
+    "id": "20",
     "name": "Detective",
-    "description": "Each time you take a die showing 5, before or after taking the main action, you can also advance 2 spaces on the Emperor track.",
-    "notes": "You may not take any additional actions between the main action and advancing on the Emperor track."
+    "description": "<p>Each time you take a die showing 5, before or after taking the main action, you can also advance 2 spaces on the Emperor track.</p>",
+    "notes": "<p>You may not take any additional actions between the main action and advancing on the Emperor track.</p>"
   },
   {
-    "id": 21,
+    "uid": "21",
+    "id": "21",
     "name": "Chef",
-    "description": "Immediately (and only once) gain 1 strudel, 1 cake, 1 wine, and 1 coffee.",
+    "description": "<p>Immediately (and only once) gain 1 strudel, 1 cake, 1 wine, and 1 coffee.</p>",
     "notes": ""
   },
   {
-    "id": 22,
+    "uid": "22",
+    "id": "22",
     "name": "Staff Manager",
-    "description": "Each time you take a die showing 3, before or after taking the main action, you can also play a staff card from hand by paying its cost.",
-    "notes": "You may not take any additional actions between the main action and playing the staff card."
+    "description": "<p>Each time you take a die showing 3, before or after taking the main action, you can also play a staff card from hand by paying its cost.</p>",
+    "notes": "<p>You may not take any additional actions between the main action and playing the staff card.</p>"
   },
   {
-    "id": 23,
+    "uid": "23",
+    "id": "23",
     "name": "Custodian",
-    "description": "Each time you occupy a room (by whichever means), you also get 1 krone.",
+    "description": "<p>Each time you occupy a room (by whichever means), you also get 1 krone.</p>",
     "notes": ""
   },
   {
-    "id": 24,
+    "uid": "24",
+    "id": "24",
     "name": "Chief Waiter",
-    "description": "From now on, moving items from your kitchen onto your guests costs you nothing.",
+    "description": "<p>From now on, moving items from your kitchen onto your guests costs you nothing.</p>",
     "notes": ""
   },
   {
-    "id": 25,
+    "uid": "25",
+    "id": "25",
     "name": "Delivery Boy",
-    "description": "From now on, taking guests from the queue costs you nothing",
-    "notes": "This does not provide a guest; it merely removes the cost."
+    "description": "<p>From now on, taking guests from the queue costs you nothing</p>",
+    "notes": "<p>This does not provide a guest; it merely removes the cost.</p>"
   },
   {
-    "id": 26,
+    "uid": "26",
+    "id": "26",
     "name": "Conference Manager",
-    "description": "From now on, you can pay 1 krone to ignore the penalty during an Emperor scoring.",
+    "description": "<p>From now on, you can pay 1 krone to ignore the penalty during an Emperor scoring.</p>",
     "notes": ""
   },
   {
-    "id": 27,
+    "uid": "27",
+    "id": "27",
     "name": "Booking Manager",
-    "description": "During final scoring, score an additional 3 VP for each occupied red room in your hotel.",
+    "description": "<p>During final scoring, score an additional 3 VP for each occupied red room in your hotel.</p>",
     "notes": ""
   },
   {
-    "id": 28,
+    "uid": "28",
+    "id": "28",
     "name": "Concierge",
-    "description": "During final scoring, score an additional 3 VP for each occupied blue room in your hotel.",
+    "description": "<p>During final scoring, score an additional 3 VP for each occupied blue room in your hotel.</p>",
     "notes": ""
   },
   {
-    "id": 29,
+    "uid": "29",
+    "id": "29",
     "name": "Secretary",
-    "description": "During final scoring, select an opponent’s staff card in play with the <strong>⇥</strong> symbol and apply its effect to your hotel.",
-    "notes": "You may not use this to copy one of your staff. If none of your opponents have staff with the <strong>⇥</strong> symbol in play, the Secretary scores nothing"
+    "description": "<p>During final scoring, select an opponent’s staff card in play with the <strong>⇥</strong> symbol and apply its effect to your hotel.</p>",
+    "notes": "<p>You may not use this to copy one of your staff. If none of your opponents have staff with the <strong>⇥</strong> symbol in play, the Secretary scores nothing</p>"
   },
   {
-    "id": 30,
+    "uid": "30",
+    "id": "30",
     "name": "Reception Clerk",
-    "description": "During final scoring, score an additional 3 VP for each occupied yellow room in your hotel.",
+    "description": "<p>During final scoring, score an additional 3 VP for each occupied yellow room in your hotel.</p>",
     "notes": ""
   },
   {
-    "id": 31,
+    "uid": "31",
+    "id": "31",
     "name": "Chambermaid",
-    "description": "During final scoring, score an additional 1 VP for each occupied room in your hotel, regardless of color.",
+    "description": "<p>During final scoring, score an additional 1 VP for each occupied room in your hotel, regardless of color.</p>",
     "notes": ""
   },
   {
-    "id": 32,
+    "uid": "32",
+    "id": "32",
     "name": "Assistant Manager",
-    "description": "During final scoring, score 2 VP for each staff card you played (regardless of type), including this.",
+    "description": "<p>During final scoring, score 2 VP for each staff card you played (regardless of type), including this.</p>",
     "notes": ""
   },
   {
-    "id": 33,
+    "uid": "33",
+    "id": "33",
     "name": "Male Floor Housekeeper",
-    "description": "Each time you get the rewards for completing a guest’s order that required 4 (or more) items to complete it, in addition, score 4 VP.",
+    "description": "<p>Each time you get the rewards for completing a guest’s order that required 4 (or more) items to complete it, in addition, score 4 VP.</p>",
     "notes": ""
   },
   {
-    "id": 34,
+    "uid": "34",
+    "id": "34",
     "name": "Receptionist",
-    "description": "During final scoring, score (an additional) 1 VP for each room tile in your hotel, regardless of color and which side is facing up.",
+    "description": "<p>During final scoring, score (an additional) 1 VP for each room tile in your hotel, regardless of color and which side is facing up.</p>",
     "notes": ""
   },
   {
-    "id": 35,
+    "uid": "35",
+    "id": "35",
     "name": "Page Boy",
-    "description": "Immediately (and only once) occupy up to 2 rooms (of any color) in your hotel by turning them to the occupied side.",
+    "description": "<p>Immediately (and only once) occupy up to 2 rooms (of any color) in your hotel by turning them to the occupied side.</p>",
     "notes": ""
   },
   {
-    "id": 36,
+    "uid": "36",
+    "id": "36",
     "name": "Sommelier",
-    "description": "Immediately (and only once) gain 4 wine.",
+    "description": "<p>Immediately (and only once) gain 4 wine.</p>",
     "notes": ""
   },
   {
-    "id": 37,
+    "uid": "37",
+    "id": "37",
     "name": "Room Service",
-    "description": "During final scoring, score 2 VP for each fully occupied group of rooms (of any color) in your hotel.",
+    "description": "<p>During final scoring, score 2 VP for each fully occupied group of rooms (of any color) in your hotel.</p>",
     "notes": ""
   },
   {
-    "id": 38,
+    "uid": "38",
+    "id": "38",
     "name": "Porter",
-    "description": "Immediately (and only once) fill a guest’s order by taking the required items from the supply.",
+    "description": "<p>Immediately (and only once) fill a guest’s order by taking the required items from the supply.</p>",
     "notes": ""
   },
   {
-    "id": 39,
+    "uid": "39",
+    "id": "39",
     "name": "Confectioner",
-    "description": "Immediately (and only once) gain 4 cake.",
+    "description": "<p>Immediately (and only once) gain 4 cake.</p>",
     "notes": ""
   },
   {
-    "id": 40,
+    "uid": "40",
+    "id": "40",
     "name": "Marketing Director",
-    "description": "During final scoring, score 5 VP for each objective card that has your marker on it.",
+    "description": "<p>During final scoring, score 5 VP for each objective card that has your marker on it.</p>",
     "notes": ""
   },
   {
-    "id": 41,
+    "uid": "41",
+    "id": "41",
     "name": "Operator",
-    "description": "During final scoring, score a number of VP equal to double your position on the Emperor track.",
-    "notes": "Remember, you lose 7 spaces after the final Emperor scoring; as such, you will usually score at most 12 VP from the Operator. Under the right conditions, though, you can get more than 12 VP from this. This wasn’t allowed in earlier prints, but it is now."
+    "description": "<p>During final scoring, score a number of VP equal to double your position on the Emperor track.</p>",
+    "notes": "<p>Remember, you lose 7 spaces after the final Emperor scoring; as such, you will usually score at most 12 VP from the Operator. Under the right conditions, though, you can get more than 12 VP from this. This wasn’t allowed in earlier prints, but it is now.</p>"
   },
   {
-    "id": 42,
+    "uid": "42",
+    "id": "42",
     "name": "Gardener",
-    "description": "Each time you get the reward during an Emperor scoring, in addition, score 5 VP",
+    "description": "<p>Each time you get the reward during an Emperor scoring, in addition, score 5 VP</p>",
     "notes": ""
   },
   {
-    "id": 43,
+    "uid": "43",
+    "id": "43",
     "name": "Barista",
-    "description": "Immediately (and only once) gain 4 coffee",
+    "description": "<p>Immediately (and only once) gain 4 coffee</p>",
     "notes": ""
   },
   {
-    "id": 44,
+    "uid": "44",
+    "id": "44",
     "name": "Larder Cook",
-    "description": "Immediately (and only once) gain 4 strudel.",
+    "description": "<p>Immediately (and only once) gain 4 strudel.</p>",
     "notes": ""
   },
   {
-    "id": 45,
+    "uid": "45",
+    "id": "45",
     "name": "Pool Attendant",
-    "description": "Immediately (and only once) advance 3 spaces on the Emperor track.",
+    "description": "<p>Immediately (and only once) advance 3 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 46,
+    "uid": "46",
+    "id": "46",
     "name": "Female Floor Housekeeper",
-    "description": "During final scoring, score 5 VP for each floor in your hotel that has all of its rooms occupied.",
+    "description": "<p>During final scoring, score 5 VP for each floor in your hotel that has all of its rooms occupied.</p>",
     "notes": ""
   },
   {
-    "id": 47,
+    "uid": "47",
+    "id": "47",
     "name": "Liftboy",
-    "description": "During final scoring, score 5 VP for each column in your hotel that has all of its rooms occupied.",
+    "description": "<p>During final scoring, score 5 VP for each column in your hotel that has all of its rooms occupied.</p>",
     "notes": ""
   },
   {
-    "id": 48,
+    "uid": "48",
+    "id": "48",
     "name": "Hotel Manager",
-    "description": "During final scoring, score 4 VP for each set of occupied red, blue, and yellow rooms that you have in your hotel.",
-    "notes": "In other words, you get 4 VP for each occupied room of the color that you have the least of."
+    "description": "<p>During final scoring, score 4 VP for each set of occupied red, blue, and yellow rooms that you have in your hotel.</p>",
+    "notes": "<p>In other words, you get 4 VP for each occupied room of the color that you have the least of.</p>"
   },
   {
-    "id": 119,
+    "uid": "119",
+    "id": "119",
     "name": "Dancing Master",
-    "description": "Each time you take a die showing 3, before or after taking the main action, you can also send a dancer to a ballroom by paying the normal cost. Additionally, you get 1 krone.",
-    "notes": "You may not take any additional actions between the main action and sending the dancer."
+    "description": "<p>Each time you take a die showing 3, before or after taking the main action, you can also send a dancer to a ballroom by paying the normal cost. Additionally, you get 1 krone.</p>",
+    "notes": "<p>You may not take any additional actions between the main action and sending the dancer.</p>"
   },
   {
-    "id": 120,
+    "uid": "120",
+    "id": "120",
     "name": "Violinist",
-    "description": "Immediately (and only once), you get 3 champagne.",
+    "description": "<p>Immediately (and only once), you get 3 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 121,
+    "uid": "121",
+    "id": "121",
     "name": "Concertmaster",
-    "description": "Each time you take a die showing 1, after performing the action as normal, you get 1 champagne and score 1 VP.",
-    "notes": "The additional champagne has no impact on the minimum quantities of strudel and cake."
+    "description": "<p>Each time you take a die showing 1, after performing the action as normal, you get 1 champagne and score 1 VP.</p>",
+    "notes": "<p>The additional champagne has no impact on the minimum quantities of strudel and cake.</p>"
   },
   {
-    "id": 122,
+    "uid": "122",
+    "id": "122",
     "name": "Symphonist",
-    "description": "Once per round, you can spend exactly 1 champagne from your kitchen to score 5 VP",
+    "description": "<p>Once per round, you can spend exactly 1 champagne from your kitchen to score 5 VP</p>",
     "notes": ""
   },
   {
-    "id": 123,
+    "uid": "123",
+    "id": "123",
     "name": "Usherette",
-    "description": "Once per round, you can spend exactly 2 krones to get 1 champagne and score 3 VP.",
+    "description": "<p>Once per round, you can spend exactly 2 krones to get 1 champagne and score 3 VP.</p>",
     "notes": ""
   },
   {
-    "id": 124,
+    "uid": "124",
+    "id": "124",
     "name": "Conductor",
-    "description": "Each time you take a die showing 4, you also get 1 champagne and 1 krone.",
+    "description": "<p>Each time you take a die showing 4, you also get 1 champagne and 1 krone.</p>",
     "notes": ""
   },
   {
-    "id": 125,
+    "uid": "125",
+    "id": "125",
     "name": "Choirmaster",
-    "description": "Each time you take a die showing 5, before or after taking the main action, you can also send a dancer to a ballroom, paying 1 champagne less.",
-    "notes": "You may not take any additional actions between the main action and sending the dancer."
+    "description": "<p>Each time you take a die showing 5, before or after taking the main action, you can also send a dancer to a ballroom, paying 1 champagne less.</p>",
+    "notes": "<p>You may not take any additional actions between the main action and sending the dancer.</p>"
   },
   {
-    "id": 126,
+    "uid": "126",
+    "id": "126",
     "name": "Leading Dancer",
-    "description": "During final scoring, score 2 VP for each dancer you have in all ballrooms (including the balcony).",
+    "description": "<p>During final scoring, score 2 VP for each dancer you have in all ballrooms (including the balcony).</p>",
     "notes": ""
   },
   {
-    "id": 127,
+    "uid": "127",
+    "id": "127",
     "name": "Harpist",
-    "description": "Immediately (and only once) send up to 2 dancers to the same or different ballrooms, paying up to 2 champagne less for the first and 1 champagne less for the second.",
-    "notes": "You may not take any additional actions in-between."
+    "description": "<p>Immediately (and only once) send up to 2 dancers to the same or different ballrooms, paying up to 2 champagne less for the first and 1 champagne less for the second.</p>",
+    "notes": "<p>You may not take any additional actions in-between.</p>"
   },
   {
-    "id": 128,
+    "uid": "128",
+    "id": "128",
     "name": "Cellist",
-    "description": "Once per round, you can spend exactly 1 dish or drink from your kitchen to send a dancer to a ballroom for 1 champagne less.",
+    "description": "<p>Once per round, you can spend exactly 1 dish or drink from your kitchen to send a dancer to a ballroom for 1 champagne less.</p>",
     "notes": ""
   },
   {
-    "id": 129,
+    "uid": "129",
+    "id": "129",
     "name": "Pianist",
-    "description": "Once per round, you can use this card to get 1 champagne.",
+    "description": "<p>Once per round, you can use this card to get 1 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 130,
+    "uid": "130",
+    "id": "130",
     "name": "Ballet Master",
-    "description": "Each time you send a dancer to a ballroom, you also get 1 krone and you can draw 1 staff card from the deck.",
+    "description": "<p>Each time you send a dancer to a ballroom, you also get 1 krone and you can draw 1 staff card from the deck.</p>",
     "notes": ""
   },
   {
-    "id": 131,
+    "uid": "131",
+    "id": "131",
     "name": "Trumpeter",
-    "description": "Each time you take a die showing 2, after performing the action as normal, you get 1 champagne and you can draw 1 staff card from the deck.",
-    "notes": "The additional champagne has no impact on the minimum quantities of strudel and cake."
+    "description": "<p>Each time you take a die showing 2, after performing the action as normal, you get 1 champagne and you can draw 1 staff card from the deck.</p>",
+    "notes": "<p>The additional champagne has no impact on the minimum quantities of strudel and cake.</p>"
   },
   {
-    "id": 132,
+    "uid": "132",
+    "id": "132",
     "name": "Arranger",
-    "description": "Each time you place a marker on an objective card, you also get 2 champagne.",
+    "description": "<p>Each time you place a marker on an objective card, you also get 2 champagne.</p>",
     "notes": ""
   },
   {
-    "id": 133,
+    "uid": "133",
+    "id": "133",
     "name": "Danube Steamship Captain",
-    "description": "Once per round, after you play a staff card (except this one), you can send a dancer to a ballroom, paying 1 champagne less.",
+    "description": "<p>Once per round, after you play a staff card (except this one), you can send a dancer to a ballroom, paying 1 champagne less.</p>",
     "notes": ""
   },
   {
-    "id": 166,
+    "uid": "166",
+    "id": "166",
     "name": "Handmaid",
-    "description": "After you advance 3 or more spaces on the Emperor track during an action, you can turn this card face down. If you do, you can immediately (and only once) prepare up to 2 rooms (of any color) at no cost and immediately occupy them by turning them to the occupied side.",
+    "description": "<p>After you advance 3 or more spaces on the Emperor track during an action, you can turn this card face down. If you do, you can immediately (and only once) prepare up to 2 rooms (of any color) at no cost and immediately occupy them by turning them to the occupied side.</p>",
     "notes": ""
   },
   {
-    "id": 167,
+    "uid": "167",
+    "id": "167",
     "name": "Apprentice",
-    "description": "After you complete a blue guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 3 strudel and 3 cake.",
+    "description": "<p>After you complete a blue guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 3 strudel and 3 cake.</p>",
     "notes": ""
   },
   {
-    "id": 168,
+    "uid": "168",
+    "id": "168",
     "name": "Dishwasher",
-    "description": "After you complete a red guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 3 wine and 3 coffee.",
+    "description": "<p>After you complete a red guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 3 wine and 3 coffee.</p>",
     "notes": ""
   },
   {
-    "id": 169,
+    "uid": "169",
+    "id": "169",
     "name": "Tapster",
-    "description": "After you complete a yellow guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 6 krones.",
+    "description": "<p>After you complete a yellow guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 6 krones.</p>",
     "notes": ""
   },
   {
-    "id": 170,
+    "uid": "170",
+    "id": "170",
     "name": "Coachwoman",
-    "description": "Once per round, you can spend exactly 1 coffee from your kitchen. If you do, score 3 VP and you can take a guest from the queue at no cost.",
+    "description": "<p>Once per round, you can spend exactly 1 coffee from your kitchen. If you do, score 3 VP and you can take a guest from the queue at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 171,
+    "uid": "171",
+    "id": "171",
     "name": "Bookkeeper",
-    "description": "Once per round, you can spend exactly 1 cake from your kitchen. If you do, you can prepare one room (of any color), paying up to 2 krones less.",
+    "description": "<p>Once per round, you can spend exactly 1 cake from your kitchen. If you do, you can prepare one room (of any color), paying up to 2 krones less.</p>",
     "notes": ""
   },
   {
-    "id": 172,
+    "uid": "172",
+    "id": "172",
     "name": "Chef de Rang",
-    "description": "After you get 3 or more drinks (wine and/or coffee) from an action, you can turn this card face down. If you do, immediately (and only once) advance 5 spaces on the Emperor track.",
+    "description": "<p>After you get 3 or more drinks (wine and/or coffee) from an action, you can turn this card face down. If you do, immediately (and only once) advance 5 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 173,
+    "uid": "173",
+    "id": "173",
     "name": "Interpreter",
-    "description": "Once per round, you can spend exactly 2 strudel from your kitchen to get 2 krones and score 2 VP.",
+    "description": "<p>Once per round, you can spend exactly 2 strudel from your kitchen to get 2 krones and score 2 VP.</p>",
     "notes": ""
   },
   {
-    "id": 174,
+    "uid": "174",
+    "id": "174",
     "name": "Bartender",
-    "description": "After you get 3 or more dishes (strudel and/or cake) during an action, you can turn this card face down. If you do, you can immediately (and only once) take a guest from the queue at no cost and immediately fill their order by taking all of their required items from the supply.",
+    "description": "<p>After you get 3 or more dishes (strudel and/or cake) during an action, you can turn this card face down. If you do, you can immediately (and only once) take a guest from the queue at no cost and immediately fill their order by taking all of their required items from the supply.</p>",
     "notes": ""
   },
   {
-    "id": 175,
+    "uid": "175",
+    "id": "175",
     "name": "Wagon Master",
-    "description": "Once per round, you can spend exactly 2 dishes and/or drinks (no champagne) from your kitchen to get 2 other dishes and/or drinks (different from those spent; no champagne) and score 2 VP.",
+    "description": "<p>Once per round, you can spend exactly 2 dishes and/or drinks (no champagne) from your kitchen to get 2 other dishes and/or drinks (different from those spent; no champagne) and score 2 VP.</p>",
     "notes": ""
   },
   {
-    "id": 176,
+    "uid": "176",
+    "id": "176",
     "name": "Dog Walker",
-    "description": "Once per round, you can spend exactly 2 wine from your kitchen to score 2 VP and advance 2 spaces on the Emperor track.",
+    "description": "<p>Once per round, you can spend exactly 2 wine from your kitchen to score 2 VP and advance 2 spaces on the Emperor track.</p>",
     "notes": ""
   },
   {
-    "id": 177,
+    "uid": "177",
+    "id": "177",
     "name": "Hairdresser",
-    "description": "Once per round, you can retreat exactly 2 spaces on the Emperor track to play a staff card from hand for up to 3 krones less.",
+    "description": "<p>Once per round, you can retreat exactly 2 spaces on the Emperor track to play a staff card from hand for up to 3 krones less.</p>",
     "notes": ""
   },
   {
-    "id": 178,
+    "uid": "178",
+    "id": "178",
     "name": "Janitor",
-    "description": "After you fully occupy a group (of any color) comprising at least 3 rooms, you can turn this card face down. If you do, you can immediately (and only once) play up to 2 staff cards from hand at no cost.",
+    "description": "<p>After you fully occupy a group (of any color) comprising at least 3 rooms, you can turn this card face down. If you do, you can immediately (and only once) play up to 2 staff cards from hand at no cost.</p>",
     "notes": ""
   },
   {
-    "id": 179,
+    "uid": "179",
+    "id": "179",
     "name": "Entertainer",
-    "description": "After you place a marker on an objective card, you can turn this card face down. If you do, you can immediately (and only once) fill up to two guests’ orders by taking the required items from the supply.",
+    "description": "<p>After you place a marker on an objective card, you can turn this card face down. If you do, you can immediately (and only once) fill up to two guests’ orders by taking the required items from the supply.</p>",
     "notes": ""
   },
   {
-    "id": 183,
+    "uid": "183",
+    "id": "183",
     "name": "Manager's Son",
-    "description": "Each time you spend at least 1 champagne during an action, you get 1 krone.",
+    "description": "<p>Each time you spend at least 1 champagne during an action, you get 1 krone.</p>",
     "notes": ""
   }
 ]
