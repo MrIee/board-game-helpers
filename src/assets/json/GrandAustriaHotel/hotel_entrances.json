@@ -1,0 +1,57 @@
+[
+  {
+    "uid": "1",
+    "name": "Chateau Paulwei",
+    "description": "<p><strong>When gained:</strong> Place 1 cake, 1 wine, and 1 coffee in your kitchen. When preparing the initial three rooms, you can prepare an <strong>additional two rooms.</strong> If you do, you must pay the cost printed at the start of the floor as normal.</p><p><strong>Ongoing effect:</strong> This hotel entrance replaces the occupancy bonus charts on your hotel board:</p><ul><li>You score 4, 8, 13, and 20 VP for completing a group of 1, 2, 3, and 4 blue rooms, respectively.</li><li>You get 2, 4, 8, and 13 krones for completing a group of 1, 2, 3, and 4 red rooms, respectively.</li><li>You can advance 2, 4, 8, and 13 spaces on the Emperor track for completing a group of 1, 2, 3, and 4yellow rooms, respectively</li></ul>",
+    "notes": "<p>Consequently, you start the game with five vacant rooms.</p>"
+  },
+  {
+    "uid": "2",
+    "name": "Corogari Zant-Mainz",
+    "description": "<p><strong>When gained:</strong> Place 1 strudel and 1 wine in your kitchen.</p><p><strong>Ongoing effect:</strong> Each round, as soon as you take your second die, even before carrying out the associatedmain action, you get a bonus based on the combined value of your two dice:</p><ul><li>7: You get nothing.</li><li>6 or 8: You can immediately play a staff card from hand for 1 krone less.</li><li>5 or 9: You get 1 strudel and 1 wine.</li><li>4 or 10: You get 1 krone and you can advance 1 step on the Emperor track.</li><li>3 or 11: You get 1 cake and 1 coffee.</li><li>2 or 12: You can prepare one room (of any color) at no cost and you score 1 VP.</li></ul><p><strong>If both modules 3 and 4 are in play:</strong> For the purposes of this hotel entrance, the skeleton key (that you get by taking the Start Player action) copies the value of the one die youhave. In other words, as soon as you have one die and the skeleton key, double the valueof that die to determine your bonus.</p>"
+  },
+  {
+    "uid": "3",
+    "name": "Dove",
+    "description": "<p><strong>Setup:</strong> Place the 5 bonus tokens face up beside this hotel entrance.</p> <p><strong>When gained:</strong> Place 1 strudel and 1 wine in your kitchen. Place the 5 bonus tokens that come with this hotel entrance nearby. After preparing the initial three rooms, you can prepare a fourth room at no cost. ¹</p> <p><strong>Ongoing effect:</strong> Each time you complete a <strong>column</strong> in your hotel, by occupying the four rooms in that <strong>column</strong>, you must immediately choose one of your remaining bonus tokens and claim the bonus printed <strong>at the top.</strong> ² Each time you complete a <strong>floor</strong> in your hotel, by occupying the five rooms in that floor, you must immediately choose one of your remaining bonus tokens and claim the bonus printed <strong>at the bottom.</strong> ²</p> <p>In either case, remove the bonus token from play afterward.</p>",
+    "notes": "<p>¹ That room must be adjacent to an existing room as normal.</p><p>² So, in total, you can get a maximum of 5 bonuses over the course of the game.</p>"
+  },
+  {
+    "uid": "4",
+    "name": "Kaufman",
+    "description": "<p><strong>When gained:</strong> Place 1 strudel, 1 cake, 1 wine, and 1 coffee in your kitchen. After choosing your initial guest and replenishing the queue, you can immediately choose a second guest at no cost. If you do, replenish the queue as normal.</p> <p><strong>Ongoing effect:</strong> This hotel entrance expands your café, providing a fourth table for guests. Each time you take the optional action (i.e., taking a guest), after taking the guest and replenishing the queue, you can take a second guest from the queue by paying the cost. If you do, replenish the queue as normal.</p> <p>When completing a guest’s order, <strong>do not</strong> place the guest card on the discard pile, but collect it in a personal face-down pile. At the end of each <strong>round</strong>, you score 1, 3, 6, or 9 VP if that pile contains at least 2, 3, 4, or 5 guests, respectively. Afterward, place the guests on the common discard pile.</p>"
+  },
+  {
+    "uid": "5",
+    "name": "Mayenfels",
+    "description": "<p><strong>When gained:</strong> Place 1 cake and 1 coffee in your kitchen. Draw a staff card from the deck and add it to your hand. Then play a staff card from hand for up to 3 krones less.</p> <p><strong>Ongoing effect:</strong> Each time after you play a staff card, you get 1 krone and you can draw a new staff card from the deck. This <strong>does not</strong> apply to the staff card you play when gaining this hotel entrance.</p>"
+  },
+  {
+    "uid": "6",
+    "name": "Ninas Melange",
+    "description": "<p><strong>Setup:</strong> Before the auction begins, randomly select 1 each of the remaining A, B, and C objective cards and place them face up beside this hotel entrance.</p><p><strong>When gained:</strong> Place 1 strudel, 1 cake, 1 wine, and 1 coffee in your kitchen. Place the 3 objective cards that come with this hotel entrance nearby. These are your personal objectives.</p> <p><strong>Ongoing effect:</strong> On your turn, when you complete a personal objective, you immediately score 15, 10, or 5 VP if you do so in rounds 1-3, 4-5, or 6-7, respectively. Afterward, turn the completed objective card face down.</p> <p>Completing a personal objective <strong>does not</strong> activate any staff effects that require placing a marker on an objective card (cards #132 and #179), nor does it count towards any relevent Emperor tiles.</p> <p>During final scoring, you score 3, 6, or 10 VP if you completed a total of 4, 5, or 6 objectives, respectively, including personal objectives and common objectives on the game board.</p>",
+    "notes": "<p>This does not apply when you complete a common objective on the game board. In this case, place a marker on the objective card on the game board as normal.</p>"
+  },
+  {
+    "uid": "7",
+    "name": "Stroup",
+    "description": "<p><strong>When gained:</strong> Place 1 strudel, 1 cake, 1 wine, and 1 coffee in your kitchen.</p> <p><strong>Ongoing effect:</strong> Each time you <strong>occupy</strong> the <strong>first</strong> room in a group (for any reason), you immediately get a bonus based on the color of that room: if it is blue—3 VP; if it is red—2 krones; if it is yellow—2 spaces on the Emperor track.</p>"
+  },
+  {
+    "uid": "8",
+    "name": "The Grand Wray Hotel",
+    "description": "<p><strong>Setup:</strong> Before the auction begins, randomly select <strong>2 each</strong> of the remaining A, B, and C Emperor tiles and place them face up beside this hotel entrance.</p> <p><strong>When gained:</strong> Place 1 strudel in your kitchen. Advance 2 steps on the Emperor track and place the 6 Emperor tiles that come with this hotel entrance nearby.</p> <p><strong>Ongoing effect:</strong> Once per <strong>turn</strong>, you can retreat your marker on the Emperor track by 1, 2, or 3 spaces. If you do, you can immediately claim the reward (i.e., the top part) of an A, B, or C tile that came with this hotel entrance. Afterward, remove the chosen tile from play</p>",
+    "notes": "<p>We use the symbol which normally stands for “once per round” effects on staff cards, to indicate this effect is used once per turn. We apologize for any confusion this might cause.</p>"
+  },
+  {
+    "uid": "9",
+    "name": "The Kozi Palace, Vienna",
+    "description": "<p><strong>When gained:</strong> Place 1 cake and 1 coffee in your kitchen.</p> <p><strong>Ongoing effect:</strong> Each time you are about to use an action space, you can move one die from an adjacent action space onto the action space you are about to use. If you do, turn that die to the appropriate number. (1 and 6 are not adjacent to one another.)</p> <p><strong>Example:</strong> There are two dice each on the 5 and 6 action spaces. You want to play a staff card, so you move a 6 to the 5 action space, turning it to 5. As a result, you can now play a staff card for 3 krones less.</p> <p><strong>If both modules 3 and 4 are in play:</strong> You may not move a die when taking the skeleton key</p>"
+  },
+  {
+    "uid": "10",
+    "name": "The Ren",
+    "description": "<p><strong>Only used when both modules 1 and 3 are in play.</strong></p> <p><strong>When gained:</strong> Place 1 strudel, 1 cake, 1 wine, and 1 <strong>additional</strong> champagne in your kitchen ¹</p> <p><strong>Ongoing effect:</strong> Each time you send a dancer to a ballroom, you get double the row bonus. ²</p><p>Each time a ballroom is scored, you get 4 VP if you alone have the most dancers in that ballroom. ³</p>",
+    "notes": "<p>¹ Consequently, you start the game with 2 champagne in your kitchen: one that every player starts with and one from this hotel entrance.</p>  <p>² That is, unless you send them to the bottom row: two times nothing is still nothing.</p> <p>³ Being tied for most dancers does nothing for you. </p>"
+  }
+]

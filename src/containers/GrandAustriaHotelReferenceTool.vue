@@ -18,6 +18,7 @@
           <option value="3">Emperor Tiles</option>
           <option value="4">Ballrooms</option>
           <option value="5">Celebrities</option>
+          <option value="6">Hotel Entrances</option>
         </select>
       </div>
       <div
@@ -68,6 +69,7 @@ import objectivesJSON from '../assets/json/GrandAustriaHotel/objectives.json';
 import emperorTilesJSON from '../assets/json/GrandAustriaHotel/emperor_tiles.json';
 import ballroomsJSON from '../assets/json/GrandAustriaHotel/ballrooms.json';
 import celebritiesJSON from '../assets/json/GrandAustriaHotel/celebrities.json';
+import hotelEntrancesJSON from '../assets/json/GrandAustriaHotel/hotel_entrances.json';
 
 export default defineComponent({
   components: {
@@ -82,6 +84,7 @@ export default defineComponent({
     const emperorTilesList = ref<Array<InfoItem>>(emperorTilesJSON);
     const ballroomList = ref<Array<InfoItem>>(ballroomsJSON);
     const celebrityist = ref<Array<InfoItem>>(celebritiesJSON);
+    const hotelEntrancesList = ref<Array<InfoItem>>(hotelEntrancesJSON);
     const list = ref<Array<InfoItem>>([]);
     const listType = ref<string>('0');
     const columns = ref<number>(1);
@@ -144,6 +147,11 @@ export default defineComponent({
           break;
         case '5':
           list.value = celebrityist.value;
+          columns.value = 1;
+          isColumnView.value = false;
+          break;
+        case '6':
+          list.value = hotelEntrancesList.value;
           columns.value = 1;
           isColumnView.value = false;
           break;
