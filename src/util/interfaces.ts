@@ -7,3 +7,8 @@ export interface InfoItem {
   imageUrl?: string;
   tag?: string;
 }
+
+export interface Category {
+  value: string;
+  label: string;
+}

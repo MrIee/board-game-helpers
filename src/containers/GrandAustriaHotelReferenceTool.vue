@@ -12,13 +12,13 @@
           class="tw-w-1/4 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0"
           v-model="listType"
         >
-          <option value="0">Staff</option>
-          <option value="1">Guests</option>
-          <option value="2">Objectives</option>
-          <option value="3">Emperor Tiles</option>
-          <option value="4">Ballrooms</option>
-          <option value="5">Celebrities</option>
-          <option value="6">Hotel Entrances</option>
+          <option
+            v-for="(category, index) in categories"
+            :key="index"
+            :value="category.value"
+          >
+            {{ category.label }}
+          </option>
         </select>
       </div>
       <div
@@ -62,7 +62,7 @@
 import { defineComponent, ref, computed, watch, onMounted  } from 'vue';
 import InfoCard from '../components/InfoCard.vue';
 import InfoCardWithImage from '../components/InfoCardWithImage.vue';
-import { InfoItem } from '../util/interfaces';
+import { InfoItem, Category } from '../util/interfaces';
 import staffJSON from '../assets/json/GrandAustriaHotel/staff.json';
 import guestsJSON from '../assets/json/GrandAustriaHotel/guests.json';
 import objectivesJSON from '../assets/json/GrandAustriaHotel/objectives.json';
@@ -89,6 +89,38 @@ export default defineComponent({
     const listType = ref<string>('0');
     const columns = ref<number>(1);
     const isColumnView = ref<boolean>(false);
+    const categories = ref<Array<Category>>([]);
+
+    categories.value = [
+      {
+        value: '0',
+        label: "Staff",
+      },
+      {
+        value: '1',
+        label: "Guests",
+      },
+      {
+        value: '2',
+        label: "Objectives",
+      },
+      {
+        value: '3',
+        label: "Emperor Tiles",
+      },
+      {
+        value: '4',
+        label: "Ballrooms",
+      },
+      {
+        value: '5',
+        label: "Celebrities",
+      },
+      {
+        value: '6',
+        label: "Hotel Entrances",
+      },
+    ];
 
     onMounted((): void => {
       list.value = staffList.value;
@@ -160,6 +192,7 @@ export default defineComponent({
 
     return {
       searchTerm,
+      categories,
       listType,
       filteredList,
       isColumnView,
