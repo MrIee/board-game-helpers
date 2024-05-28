@@ -1,0 +1,66 @@
+[
+  {
+    "uid": "1",
+    "name": "Agatha Christie",
+    "description": "<p>Each time after you advance at least 1 space on the Emperor track, you can play a staff card from hand for up to 2 krones less. If you advance on the Emperor track from multiple sources (e.g., a guest reward and an occupancy bonus), you can play one staff card per source.</p>"
+  },
+  {
+    "uid": "2",
+    "name": "Albert Einstein",
+    "description": "<p>At any time during this round, but only once, you can exchange up to four dishes and/or drinks in your kitchen for an equal number of other dishes and/or drinks from the supply (different from those spent). As always, you can place the dishes and drinks that you get from the supply on guests or in your kitchen. Champagne and money cannot be part of the exchange.</p>"
+  },
+  {
+    "uid": "3",
+    "name": "Charlie Chaplin",
+    "description": "<p>Each time you get at least 1 VP, you get an additional 2 VP. If you get VP from multiple sources (e.g., a guest and an occupancy bonus), you get the bonus VP per source.</p>",
+    "notes": "<p>And no, this effect does not trigger itself.</p>"
+  },
+  {
+    "uid": "4",
+    "name": "Elizabeth Magie",
+    "description": "<p>Each time after you get at least 1 krone, you can prepare one room (of any color) for 1 krone less. If you get money from multiple sources (e.g., a guest reward and an occupancy bonus), you can prepare one room per source.</p>"
+  },
+  {
+    "uid": "5",
+    "name": "Giacomo Puccini",
+    "description": "<p><strong>Only used when both modules 1 and 2 are in play.</strong> Each time after you play a staff card, you also get 1 champagne and 2 VP.</p>"
+  },
+  {
+    "uid": "6",
+    "name": "J.R.R. Tolkien",
+    "description": "<p>Each time you occupy a room (of any color, and by any effect), you also score 2 VP.</p>"
+  },
+  {
+    "uid": "7",
+    "name": "Mahatma Gandhi",
+    "description": "<p>Preparing rooms (of any color) costs you nothing this round.</p>",
+    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>"
+  },
+  {
+    "uid": "8",
+    "name": "Marie Curie",
+    "description": "<p>Each time after you play a staff card, you also get your choice of 2 dishes and/or drinks (no champagne). You can take the same or different dishes and/ or drinks.</p>"
+  },
+  {
+    "uid": "9",
+    "name": "Mata Hari",
+    "description": "<p><strong>Only used when both modules 1 and 2 are in play.</strong> Each time you send a dancer to a ballroom (for any reason), you also score 1 VP and you can advance 1 space on the Emperor track. If you send multiple dancers, you can apply this effect once for each dancer sent.</p>"
+  },
+  {
+    "uid": "10",
+    "name": "Pablo Picasso",
+    "description": "<p><strong>Only used when both modules 1 and 2 are in play.</strong> Each time you get at least 1 champagne, you also get 1 dish or drink of your choice (no additional champagne) and 1 VP. If you get champagne from multiple sources (e.g., a guest reward and a room bonus), you get the bonus VP and dish/drink per source.</p>"
+  },
+  {
+    "uid": "11",
+    "name": "Sigmund Freud",
+    "description": "<p>You can complete a guest’s order ignoring any 1 item required for their order. You cannot apply this effect on guests that only order 1 item.</p>",
+    "notes": "<p>After talking with them, they realized that they really didn’t want that item in the first place.</p>"
+  },
+  {
+    "uid": "12",
+    "name": "Winston Churchill",
+    "description": "<p>Each time you advance at least 1 space on the Emperor track, you can advance one additional space. If you advance on the Emperor track from multiple sources (e.g., a guest reward and an occupancy bonus), you get an additional space for each source. </p>",
+    "notes": "<p>And no, this effect does not trigger itself.</p>"
+  }
+]
