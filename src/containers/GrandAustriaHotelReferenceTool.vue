@@ -1,7 +1,7 @@
 <template>
   <div class="theme-grand-austria-hotel">
-    <div class="wrapper container">
-      <div class="tw-w-full tw-flex tw-flex-col md:tw-flex-row tw-mb-5">
+    <div class="wrapper container tw-pt-12 sm:tw-pt-14">
+      <div class="wrapper tw-flex tw-flex-col md:tw-flex-row tw-fixed tw-bg-gah-tan tw-py-6 sm:tw-py-8">
         <input
           class="tw-w-full tw-rounded tw-rounded-r-none tw-py-1 tw-px-2 tw-border tw-border-solid tw-border-gray-800"
           type="text"
@@ -23,7 +23,7 @@
       </div>
       <div
         :class="{
-          'tw-flex tw-flex-wrap': true,
+          'tw-flex tw-flex-wrap tw-mt-[114px] sm:tw-mt-[100px]': true,
           'tw-pt-px tw-pl-px': isColumnView,
         }"
       >
@@ -32,7 +32,7 @@
             'tw-w-full': true,
             'tw-border-b tw-border-solid tw-border-gray-800 last:tw-border-b-0': columns === 1,
             'sm:tw-w-1/2': columns === 2,
-            'sm:tw-w-1/4': columns === 4,
+            'sm:tw-w-1/2 md:tw-w-1/4': columns === 4,
           }"
           v-for="item in filteredList"
           :key="item.uid"
