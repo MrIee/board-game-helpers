@@ -1,0 +1,28 @@
+[
+  {
+    "uid": "1",
+    "name": "Apollosaal",
+    "description": "<p><strong>Top row bonus:</strong> You get 3 krones.</p><p><strong>Middle row bonus:</strong> You get 2 krones.</p><p><strong>Ballroom scoring:</strong> Multiply the total number of dancers you have in this ballroom by the highest row they occupy (bottom = 1, middle = 2, top = 3) and score that many VP. Lose 5 VP if you have no dancers at all in this ballroom when scored.</p><p><strong>Example:</strong> <em>Anna has two dancers in this ballroom, one of them in the top row, so she scores 2 × 3 = 6 VP. Beth has one dancer in the bottom row, so she scores only 1 × 1 = 1 VP. Cyril has three dancers, all in the middle row, so he scores 3 × 2 = 6 VP</em></p>"
+  },
+  {
+    "uid": "2",
+    "name": "Goldener Strauß",
+    "description": "<p><strong>Top row bonus:</strong> Advance 3 spaces on the Emperor track.</p><p><strong>Middle row bonus:</strong> Advance 1 space on the Emperor track.</p><p><strong>Ballroom scoring:</strong> Score the rows individually: in each row, the player with the most dancers in that row scores 7 VP; the player with the second most dancers scores 2 VP. All other players score nothing for that row. To score VP, you must have at least one dancer in that row. In case of a tie in a row, apply the tiebreaking rules detailed in the “Resolving Ties” box on the next page. Lose 5 VP if you have no dancers at all in this ballroom when scored.</p><p><strong>Example:</strong> <em>The top row is empty, so nobody scores any VP for it. In the middle row, Beth (gray) and Cyril (purple) have one dancer each, so they both score 4 VP each (= half of 7 VP + 2 VP, rounded down). In the bottom row, Anna (blue) has two dancers and Cyril has one; consequently, Anna scores 7 VP and Cyril scores 2 VP.</em></p>"
+  },
+  {
+    "uid": "3",
+    "name": "Odeonsaal",
+    "description": "<p><strong>Top row bonus:</strong> You can occupy one room in your hotel (of any color) by turning it to the occupied side. Additionally, score 3 VP.</p><p><strong>Middle row bonus:</strong> You can occupy one room in your hotel (of any color) by turning it to the occupied side. You must choose a room in the bottom three rows of your hotel board.</p><p><strong>Ballroom scoring:</strong> Score VP for the total of dancers you have in this ballroom as indicated by the table below. Lose 5 VP if you have no dancers at all in this ballroom when scored. Example: Anna has six dancers, Beth has one dancer, and Cyril has no dancers in this ballroom. Consequently, Anna scores 25 VP, Beth scores 1 VP, and Cyril loses 5 VP.</p><p><strong>Example:</strong> <em>Anna has six dancers, Beth has one dancer, and Cyril has no dancers in this ballroom. Consequently, Anna scores 25 VP, Beth scores 1 VP, and Cyril loses 5 VP</em></p>",
+    "notes": "<table><tr><td>Dancers</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5+</td></tr><tr><td>VP</td><td>-5</td><td>1</td><td>4</td><td>9</td><td>16</td><td>25</td></tr></table>"
+  },
+  {
+    "uid": "4",
+    "name": "Zum Sperl",
+    "description": "<p><strong>Top row bonus:</strong> You get 1 strudel, 1 wine, and 1 coffee.</p><p><strong>Middle row bonus:</strong> You get 1 cake.</p><p><strong>Ballroom scoring:</strong> Total the number of dancers you have in this ballroom across all rows. Then score VP according to your rank as follows:</p><ul><li><strong>In a 2-player game,</strong> the player with the most total dancers in this ballroom scores 10 VP. If the other player has at least one dancer in this ballroom, they score 3 VP.</li><li><strong>In a 3- and 4-player game,</strong> the player with the most total dancers in this ballroom scores 15 VP; the player with the second most total dancers scores 10 VP; and the player with the third most total dancers scores 5 VP. (The fourth player scores nothing.)</li></ul><p>In either case, lose 5 VP if you have no dancers at all in this ballroom when scored.</p><p><strong>Resolving Ties:</strong> In case of a tie, the tied players share a rank and an according number of subsequent ranks are skipped. Total the VP of the shared rank and any skipped ranks and divide the total by the number of tied players of that rank, rounded down. The tied players score that many VP.</p><p><strong>Example:</strong> <em>Anna and Beth both have three dancers each in this ballroom; Cyril has only one dancer. Consequently, Anna and Beth tie for most dancers, scoring 12 VP each, i.e. 15 VP + 10 VP divided by two, rounded down; Cyril scores 5 VP for third most dancers.</em></p>"
+  },
+  {
+    "uid": "5",
+    "name": "Zur Kettenbrücke",
+    "description": "<p><strong>Top row bonus:</strong> Score 5 VP.</p><p><strong>Middle row bonus:</strong> Score 2 VP.</p><p><strong>Ballroom scoring:</strong> Score 7 VP for every second dancer you have in this ballroom, rounded down. Lose 5 VP if you have no dancers at all in this ballroom when scored.</p><p><strong>Example:</strong> <em>Anna has one dancer in this ballroom; Beth has four dancers; and Cyril has three dancers. Consequently, Anna scores 0 VP, Beth scores 14 VP, and Cyril scores 7 VP.</em></p>"
+  }
+]

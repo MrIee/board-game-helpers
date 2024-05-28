@@ -55,10 +55,15 @@ export default defineComponent({
   @apply tw-w-full
   tw-flex
   tw-flex-col
-  md:tw-flex-row
-  tw-border-b
-  tw-border-solid
-  tw-border-gray-800;
+  md:tw-flex-row;
+}
+
+.infoCard table td {
+  @apply tw-min-w-7 tw-text-center tw-p-1.5 tw-border tw-border-solid tw-border-gray-800;
+}
+
+.infoCard ul {
+  @apply tw-list-disc tw-ml-4 tw-mb-1.5;
 }
 
 .infoCard .infoCell {

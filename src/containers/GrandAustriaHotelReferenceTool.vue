@@ -16,6 +16,7 @@
           <option value="1">Guests</option>
           <option value="2">Objectives</option>
           <option value="3">Emperor Tiles</option>
+          <option value="4">Ballrooms</option>
         </select>
       </div>
       <div
@@ -26,7 +27,7 @@
       >
         <div
           :class="{
-            'tw-w-full': columns === 1,
+            'tw-w-full tw-border-b tw-border-solid tw-border-gray-800 last:tw-border-b-0': columns === 1,
             'tw-w-1/2': columns === 2,
             'tw-w-1/4': columns === 4,
           }"
@@ -64,6 +65,7 @@ import staffJSON from '../assets/json/GrandAustriaHotel/staff.json';
 import guestsJSON from '../assets/json/GrandAustriaHotel/guests.json';
 import objectivesJSON from '../assets/json/GrandAustriaHotel/objectives.json';
 import emperorTilesJSON from '../assets/json/GrandAustriaHotel/emperor_tiles.json';
+import ballroomsJSON from '../assets/json/GrandAustriaHotel/ballrooms.json';
 
 export default defineComponent({
   components: {
@@ -75,7 +77,8 @@ export default defineComponent({
     const staffList = ref<Array<InfoItem>>(staffJSON);
     const guestList = ref<Array<InfoItem>>(guestsJSON);
     const objectivesList = ref<Array<InfoItem>>(objectivesJSON);
-    const emperorTilessList = ref<Array<InfoItem>>(emperorTilesJSON);
+    const emperorTilesList = ref<Array<InfoItem>>(emperorTilesJSON);
+    const ballroomList = ref<Array<InfoItem>>(ballroomsJSON);
     const list = ref<Array<InfoItem>>([]);
     const listType = ref<string>('0');
     const columns = ref<number>(1);
@@ -127,10 +130,14 @@ export default defineComponent({
           isColumnView.value = true;
           break;
         case '3':
-          list.value = emperorTilessList.value;
+          list.value = emperorTilesList.value;
           columns.value = 2;
           isColumnView.value = false;
           break;
+        case '4':
+          list.value = ballroomList.value;
+          columns.value = 1;
+          isColumnView.value = false;
       }
     });
 
