@@ -15,9 +15,9 @@
           <option
             v-for="(category, index) in categories"
             :key="index"
-            :value="category.value"
+            :value="index"
           >
-            {{ category.label }}
+            {{ category }}
           </option>
         </select>
       </div>
@@ -63,7 +63,7 @@
 import { defineComponent, ref, computed, watch, onMounted  } from 'vue';
 import InfoCard from '../components/InfoCard.vue';
 import InfoCardWithImage from '../components/InfoCardWithImage.vue';
-import { InfoItem, Category } from '../util/interfaces';
+import { InfoItem, ImageModule } from '../util/interfaces';
 import staffJSON from '../assets/json/GrandAustriaHotel/staff.json';
 import guestsJSON from '../assets/json/GrandAustriaHotel/guests.json';
 import objectivesJSON from '../assets/json/GrandAustriaHotel/objectives.json';
@@ -90,42 +90,31 @@ export default defineComponent({
     const listType = ref<string>('0');
     const columns = ref<number>(1);
     const isColumnView = ref<boolean>(false);
-    const categories = ref<Array<Category>>([]);
-
-    categories.value = [
-      {
-        value: '0',
-        label: "Staff",
-      },
-      {
-        value: '1',
-        label: "Guests",
-      },
-      {
-        value: '2',
-        label: "Objectives",
-      },
-      {
-        value: '3',
-        label: "Emperor Tiles",
-      },
-      {
-        value: '4',
-        label: "Ballrooms",
-      },
-      {
-        value: '5',
-        label: "Celebrities",
-      },
-      {
-        value: '6',
-        label: "Hotel Entrances",
-      },
-    ];
+    const categories = ref<Array<string>>([
+      'Staff',
+      'Guests',
+      'Objectives',
+      'Emperor Tiles',
+      'Ballrooms',
+      'Celebrities',
+      'Hotel Entrances',
+    ]);
 
     onMounted((): void => {
       list.value = staffList.value;
     });
+
+    const images = import.meta.glob('../assets/images/**/*[.jpg, .png]');
+
+    const updateImageUrls = async (list: Array<InfoItem>): Promise<void> => {
+      list.forEach(async (item: InfoItem) => {
+        const fullPath = await images[item.imageUrl as string]();
+        item.imageUrl = (fullPath as ImageModule).default;
+      });
+    };
+
+    updateImageUrls(objectivesList.value);
+    updateImageUrls(emperorTilesList.value);
 
     const filteredList = computed((): Array<InfoItem> => {
       return list.value.filter((item: InfoItem) => {
@@ -150,40 +139,41 @@ export default defineComponent({
     });
 
     watch(listType, (type: string): void => {
+      const categoryType = parseInt(type, 10);
       searchTerm.value = '';
 
-      switch (type) {
-        case '0':
+      switch (categoryType) {
+        case 0:
           list.value = staffList.value;
           columns.value = 1;
           isColumnView.value = false;
           break;
-        case '1':
+        case 1:
           list.value = guestList.value;
           columns.value = 1;
           isColumnView.value = false;
           break;
-        case '2':
+        case 2:
           list.value = objectivesList.value;
           columns.value = 4;
           isColumnView.value = true;
           break;
-        case '3':
+        case 3:
           list.value = emperorTilesList.value;
           columns.value = 2;
           isColumnView.value = false;
           break;
-        case '4':
+        case 4:
           list.value = ballroomList.value;
           columns.value = 1;
           isColumnView.value = false;
           break;
-        case '5':
+        case 5:
           list.value = celebrityist.value;
           columns.value = 1;
           isColumnView.value = false;
           break;
-        case '6':
+        case 6:
           list.value = hotelEntrancesList.value;
           columns.value = 1;
           isColumnView.value = false;

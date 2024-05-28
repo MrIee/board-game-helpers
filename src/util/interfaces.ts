@@ -8,7 +8,6 @@ export interface InfoItem {
   tag?: string;
 }
 
-export interface Category {
-  value: string;
-  label: string;
+export interface ImageModule {
+  default: string;
 }

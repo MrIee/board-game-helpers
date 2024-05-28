@@ -2,117 +2,117 @@
   {
     "uid": "1",
     "description": "<p><strong>Reward:</strong> You get 3 krones.</p><p><strong>Penalty</strong>: Lose 3 krones. If you have less than 3 krones, lose 5 VP instead.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-A-3Krones.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-A-3Krones.png",
     "tag": "A"
   },
   {
     "uid": "2",
     "description": "<p><strong>Reward:</strong> You get 2 dishes and/or drinks of your choice. You can place them on guests as normal.</p><p><strong>Penalty:</strong> Return all dishes and drinks in your kitchen to the supply.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-A-2ofAny.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-A-2ofAny.png",
     "tag": "A"
   },
   {
     "uid": "3",
     "description": "<p><strong>Reward:</strong> Draw 3 staff cards from the deck and play one of them immediately, paying up to 3 krones less. Return the other two cards to the bottom of the deck, in an order of your choice.</p><p><strong>Penalty</strong>: Return 2 staff cards from hand to the bottom of the deck. If you have less than 2 staff cards in hand, lose 5 VP instead.</p>",
     "notes": "<p>If you cannot afford or do not want to play any of them, return all three to the bottom of the deck.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-A-3KroneDiscount.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-A-3KroneDiscount.png",
     "tag": "A"
   },
   {
     "uid": "4",
     "description": "<p><strong>Reward:</strong> You can prepare one room at no cost.</p><p><strong>Penalty:</strong> Remove one vacant room from your hotel, from as high a floor as possible. If you do not have a vacant room, lose 5 VP instead.</p>",
     "notes": "<p>If this causes to break up your hotel into separate clusters of rooms, you can add rooms to any cluster in the future. You do not need to connect the clusters.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-A-Prepare1RoomNoCost.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-A-Prepare1RoomNoCost.png",
     "tag": "A"
   },
   {
     "uid": "5",
     "description": "<p><strong>Reward:</strong> You get 2 champagne.</p><p><strong>Penalty:</strong> Return 2 champagne from your kitchen to the supply. If you have less than 2 champagne in your kitchen, lose 5 VP instead.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-A-2Champagne.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-A-2Champagne.png",
     "tag": "A"
   },
   {
     "uid": "6",
     "description": "<p><strong>Reward:</strong> You get 2 krones and 1 dish or drink of your choice (no champagne).</p><p><strong>Penalty:</strong> Pay 2 krones and return 1 dish or drink of your choice (no champagne) from your kitchen to the supply. If you have less than 2 krones or no dishes or drinks in your kitchen, lose 5 VP instead.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-A-2Krone1ofAny.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-A-2Krone1ofAny.png",
     "tag": "A"
   },
   {
     "uid": "7",
     "description": "<p><strong>Reward:</strong> You get 1 strudel, 1 cake, 1 wine, and 1 coffee.</p><p><strong>Penalty:</strong> Return all dishes and drinks in your kitchen and on guest cards in your café to the supply.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-B-1ofEach.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-B-1ofEach.png",
     "tag": "B"
   },
   {
     "uid": "8",
     "description": "<p><strong>Reward:</strong> You get 5 krones.</p><p><strong>Penalty:</strong> Lose 5 krones. If you have less than 5 krones, lose 7 VP instead. </p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-B-5Krones.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-B-5Krones.png",
     "tag": "B"
   },
   {
     "uid": "9",
     "description": "<p><strong>Reward:</strong> Draw 3 staff cards from the deck and immediately play one of them at no cost. Return the other two cards to the bottom of the deck, in an order of your choice.</p><p><strong>Penalty:</strong> Return 3 staff cards from hand to the bottom of the deck. If you have less than 3 staff cards in hand, lose 7 VP instead.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-B-Draw3Play1.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-B-Draw3Play1.png",
     "tag": "B"
   },
   {
     "uid": "10",
     "description": "<p><strong>Reward:</strong> You can prepare one room at no cost and immediately turn it to the occupied side; you must choose a room in the bottom two floors of your hotel. If the bottom two floors are full of rooms already, you get nothing.</p><p><strong>Penalty:</strong> Remove two vacant rooms from your hotel, each from as high a floor as possible. If you have at most one vacant room, lose 7 VP instead.</p>",
     "notes": "<p>If this causes to break up your hotel into separate clusters of rooms, you can add rooms to any cluster in the future. You do not need to connect the clusters</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-B-2MaxLevel2Rooms.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-B-2MaxLevel2Rooms.png",
     "tag": "B"
   },
   {
     "uid": "11",
     "description": "<p><strong>Reward:</strong> You can send a dancer to a ballroom at no champagne cost, with all the usual benefits, if any.</p><p><strong>Penalty:</strong> Remove one of your dancer tokens from the middle ballroom and return it to the game box. If you have no dancer in the middle ballroom, lose 7 VP instead.</p>",
     "notes": "<p>This is the ballroom that is about to be scored after this Emperor scoring</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-B-SendDancerNoCost.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-B-SendDancerNoCost.png",
     "tag": "B"
   },
   {
     "uid": "12",
     "description": "<p><strong>Reward:</strong> Draw 3 staff cards from the deck and add them to your hand. Additionally, score 4 VP.</p><p><strong>Penalty:</strong> Return 3 staff cards from hand to the bottom of the deck. If you have less than 3 staff cards in hand, lose 7 VP instead.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-B-Draw3Staff.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-B-Draw3Staff.png",
     "tag": "B"
   },
   {
     "uid": "13",
     "description": "<p><strong>Reward:</strong> Score 8 VP.</p><p><strong>Penalty:</strong> Lose 8 VP.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-C-8VP.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-C-8VP.png",
     "tag": "C"
   },
   {
     "uid": "14",
     "description": "<p><strong>Reward:</strong> You can prepare one room at no cost and immediately occupy it by turning it to the occupied side.¹ ²</p><p><strong>Penalty:</strong> Remove an occupied room from the highest possible floor of your hotel and, if possible, a second occupied room from the next highest possible floor (from the same or a different column).³</p>",
     "notes": "<p>¹ You do get the occupancy bonus if you complete a group with this.</p><p>² Even if this completes an objective for you, you cannot claim it, because claiming objectives is an additional action that you have to take on your turn; and now that the game is over, there will not be another turn for you to claim this.</p><p>³ This is different from previous editions, in which the removed rooms had to be in the same column</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-C-Occupy1Room.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-C-Occupy1Room.png",
     "tag": "C"
   },
   {
     "uid": "15",
     "description": "<p><strong>Reward:</strong> Score 2 VP for each staff card you played (regardless of type).</p><p><strong>Penalty:</strong> Lose 2 VP for each staff card you (regardless of type).</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-C-2VPPerStaff.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-C-2VPPerStaff.png",
     "tag": "C"
   },
   {
     "uid": "16",
     "description": "<p><strong>Reward:</strong> You can play a staff card from hand at no cost.</p><p><strong>Penalty:</strong> Remove a staff card with the <strong>⇥</strong> symbol from your display. If you do not have any staff with the <strong>⇥</strong> symbol in play, lose 10 VP instead.</p>",
     "note": "<p>Even if this completes an objective for you, you cannot claim it, because claiming objectives is an additional action that you have to take on your turn; and now that the game is over, there will not be another turn for you to claim this.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-C-1FreeStaff.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-C-1FreeStaff.png",
     "tag": "C"
   },
   {
     "uid": "17",
     "description": "<p><strong>Reward:</strong> Score 2 VP for each dancer you have across all ballrooms.²</p><p><strong>Penalty:</strong> Remove two of your dancer tokens from the rightmost ballroom and return them to the game box.¹ If you have at most one dancer in the rightmost ballroom, lose 10 VP instead. ²</p>",
     "notes": "<p>¹ This is the ballroom that is about to be scored after this Emperor scoring</p><p>² Remember that dancers on the balcony count as being in the top row of the rightmost ballroom.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-C-2VPPerDancer.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-C-2VPPerDancer.png",
     "tag": "C"
   },
   {
     "uid": "18",
     "description": "<p><strong>Reward:</strong> Score 5 VP for each of your markers placed on any objective cards.</p><p><strong>Penalty:</strong> Lose all of your money and remove all items (dishes, drinks, and champagne) from your kitchen.</p>",
     "notes": "<p>When using module 3, as the Ninas Melange player, you do not score these 5 VP for the personal objectives you completed.</p>",
-    "imageUrl": "src/assets/images/grandaustriahotel/GAH-Emperor-C-5PerObjective.png",
+    "imageUrl": "../assets/images/grandaustriahotel/GAH-Emperor-C-5PerObjective.png",
     "tag": "C"
   }
 ]
