@@ -1,7 +1,7 @@
 <template>
   <div class="theme-grand-austria-hotel">
     <div class="wrapper container">
-      <div class="tw-w-full tw-flex tw-mb-5">
+      <div class="tw-w-full tw-flex tw-flex-col md:tw-flex-row tw-mb-5">
         <input
           class="tw-w-full tw-rounded tw-rounded-r-none tw-py-1 tw-px-2 tw-border tw-border-solid tw-border-gray-800"
           type="text"
@@ -9,7 +9,7 @@
           v-model="searchTerm"
         />
         <select
-          class="tw-w-1/4 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0"
+          class="tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0"
           v-model="listType"
         >
           <option
@@ -29,9 +29,10 @@
       >
         <div
           :class="{
-            'tw-w-full tw-border-b tw-border-solid tw-border-gray-800 last:tw-border-b-0': columns === 1,
-            'tw-w-1/2': columns === 2,
-            'tw-w-1/4': columns === 4,
+            'tw-w-full': true,
+            'tw-border-b tw-border-solid tw-border-gray-800 last:tw-border-b-0': columns === 1,
+            'sm:tw-w-1/2': columns === 2,
+            'sm:tw-w-1/4': columns === 4,
           }"
           v-for="item in filteredList"
           :key="item.uid"

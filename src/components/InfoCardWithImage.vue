@@ -8,7 +8,7 @@
     <img
       v-if="imageUrl"
       :class="{
-        'tw-p-3': true,
+        'tw-max-w-72 tw-self-center md:tw-self-auto tw-p-3': true,
         'tw-w-[30%] tw-mb-auto': display === 'row',
       }"
       :src="imageUrl"
@@ -19,7 +19,7 @@
         'tw-flex-col': imageUrl,
       }"
     >
-      <div class="tw-flex tw-border-b tw-border-b-gray-800 tw-border-solid md:tw-border-none">
+      <div v-if="id || name" class="tw-flex tw-border-b tw-border-b-gray-800 tw-border-solid md:tw-border-none">
         <div v-if="id" class="infoCell tw-min-w-12 tw-max-w-12 tw-border-r tw-border-solid tw-border-gray-800">
           <strong>{{ id }}</strong>
         </div>
@@ -92,6 +92,8 @@ export default defineComponent({
   tw-flex
   -tw-mt-px
   -tw-ml-px
+  tw-text-center
+  md:tw-text-left
   tw-border
   tw-border-solid
   tw-border-gray-800;

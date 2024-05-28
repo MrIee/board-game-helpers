@@ -1,6 +1,6 @@
 <template>
   <div class="infoCard">
-    <div class="tw-flex tw-border-b tw-border-b-gray-800 tw-border-solid md:tw-border-none">
+    <div class="tw-flex tw-border-b tw-border-b-gray-800 tw-border-solid md:tw-border-none tw-bg-black tw-bg-opacity-10">
       <div v-if="id" class="infoCell tw-min-w-12 tw-max-w-12 tw-border-r tw-border-solid tw-border-gray-800">
         <strong>{{ id }}</strong>
       </div>
