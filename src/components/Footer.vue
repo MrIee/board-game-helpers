@@ -5,7 +5,7 @@
     >
       <span>
         For more info or suggestions, visit the project page on
-        <a href="https://github.com/MrIee/board-game-helpers">
+        <a href="https://github.com/MrIee/board-game-helpers" target="_blank">
           github
         </a>
       </span>

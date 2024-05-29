@@ -9,7 +9,7 @@
           v-model="searchTerm"
         />
         <select
-          class="tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0"
+          class="tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0 hover:tw-cursor-pointer"
           v-model="listType"
         >
           <option

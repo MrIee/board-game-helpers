@@ -27,40 +27,27 @@ export default defineComponent({
         const listType = ref('0');
         const columns = ref(1);
         const isColumnView = ref(false);
-        const categories = ref([]);
-        categories.value = [
-            {
-                value: '0',
-                label: "Staff",
-            },
-            {
-                value: '1',
-                label: "Guests",
-            },
-            {
-                value: '2',
-                label: "Objectives",
-            },
-            {
-                value: '3',
-                label: "Emperor Tiles",
-            },
-            {
-                value: '4',
-                label: "Ballrooms",
-            },
-            {
-                value: '5',
-                label: "Celebrities",
-            },
-            {
-                value: '6',
-                label: "Hotel Entrances",
-            },
-        ];
+        const categories = ref([
+            'Staff',
+            'Guests',
+            'Objectives',
+            'Emperor Tiles',
+            'Ballrooms',
+            'Celebrities',
+            'Hotel Entrances',
+        ]);
         onMounted(() => {
             list.value = staffList.value;
         });
+        const images = import.meta.glob('../assets/images/**/*[.jpg, .png]');
+        const updateImageUrls = async (list) => {
+            list.forEach(async (item) => {
+                const fullPath = await images[item.imageUrl]();
+                item.imageUrl = fullPath.default;
+            });
+        };
+        updateImageUrls(objectivesList.value);
+        updateImageUrls(emperorTilesList.value);
         const filteredList = computed(() => {
             return list.value.filter((item) => {
                 if (!searchTerm.value) {
@@ -79,60 +66,46 @@ export default defineComponent({
             });
         });
         watch(listType, (type) => {
+            const categoryType = parseInt(type, 10);
             searchTerm.value = '';
-            switch (type) {
-                case '0':
+            switch (categoryType) {
+                case 0:
                     list.value = staffList.value;
                     columns.value = 1;
                     isColumnView.value = false;
                     break;
-                case '1':
+                case 1:
                     list.value = guestList.value;
                     columns.value = 1;
                     isColumnView.value = false;
                     break;
-                case '2':
+                case 2:
                     list.value = objectivesList.value;
-                    updateImageUrls(list.value);
                     columns.value = 4;
                     isColumnView.value = true;
                     break;
-                case '3':
+                case 3:
                     list.value = emperorTilesList.value;
-                    updateImageUrls(list.value);
                     columns.value = 2;
                     isColumnView.value = false;
                     break;
-                case '4':
+                case 4:
                     list.value = ballroomList.value;
                     columns.value = 1;
                     isColumnView.value = false;
                     break;
-                case '5':
+                case 5:
                     list.value = celebrityist.value;
                     columns.value = 1;
                     isColumnView.value = false;
                     break;
-                case '6':
+                case 6:
                     list.value = hotelEntrancesList.value;
                     columns.value = 1;
                     isColumnView.value = false;
                     break;
             }
         });
-        const images = import.meta.glob('../assets/images/**/*[.jpg, .png]');
-        const updateImageUrls = async (list) => {
-            list.forEach(async (item) => {
-                if (item.imageUrl) {
-                    for (const path in images) {
-                        const mod = await images[path]();
-                        if (path.indexOf(item.imageUrl || '') > -1) {
-                            item.imageUrl = mod.default;
-                        }
-                    }
-                }
-            });
-        };
         return {
             searchTerm,
             categories,
@@ -199,14 +172,14 @@ function __VLS_template() {
     const __VLS_19 = __VLS_pickFunctionalComponentCtx(__VLS_15, __VLS_17);
     const __VLS_20 = __VLS_intrinsicElements["select"];
     const __VLS_21 = __VLS_elementAsFunctionalComponent(__VLS_20);
-    const __VLS_22 = __VLS_21({ ...{}, class: ("tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0"), value: ((__VLS_ctx.listType)), }, ...__VLS_functionalComponentArgsRest(__VLS_21));
-    ({}({ ...{}, class: ("tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0"), value: ((__VLS_ctx.listType)), }));
+    const __VLS_22 = __VLS_21({ ...{}, class: ("tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0 hover:tw-cursor-pointer"), value: ((__VLS_ctx.listType)), }, ...__VLS_functionalComponentArgsRest(__VLS_21));
+    ({}({ ...{}, class: ("tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0 hover:tw-cursor-pointer"), value: ((__VLS_ctx.listType)), }));
     for (const [category, index] of __VLS_getVForSourceType((__VLS_ctx.categories))) {
         const __VLS_25 = __VLS_intrinsicElements["option"];
         const __VLS_26 = __VLS_elementAsFunctionalComponent(__VLS_25);
-        const __VLS_27 = __VLS_26({ ...{}, key: ((index)), value: ((category.value)), }, ...__VLS_functionalComponentArgsRest(__VLS_26));
-        ({}({ ...{}, key: ((index)), value: ((category.value)), }));
-        (category.label);
+        const __VLS_27 = __VLS_26({ ...{}, key: ((index)), value: ((index)), }, ...__VLS_functionalComponentArgsRest(__VLS_26));
+        ({}({ ...{}, key: ((index)), value: ((index)), }));
+        (category);
         (__VLS_29.slots).default;
         const __VLS_29 = __VLS_pickFunctionalComponentCtx(__VLS_25, __VLS_27);
         // @ts-ignore

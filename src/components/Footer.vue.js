@@ -39,8 +39,8 @@ function __VLS_template() {
     ({}({ ...{}, }));
     const __VLS_15 = __VLS_intrinsicElements["a"];
     const __VLS_16 = __VLS_elementAsFunctionalComponent(__VLS_15);
-    const __VLS_17 = __VLS_16({ ...{}, href: ("https://github.com/MrIee/board-game-helpers"), }, ...__VLS_functionalComponentArgsRest(__VLS_16));
-    ({}({ ...{}, href: ("https://github.com/MrIee/board-game-helpers"), }));
+    const __VLS_17 = __VLS_16({ ...{}, href: ("https://github.com/MrIee/board-game-helpers"), target: ("_blank"), }, ...__VLS_functionalComponentArgsRest(__VLS_16));
+    ({}({ ...{}, href: ("https://github.com/MrIee/board-game-helpers"), target: ("_blank"), }));
     (__VLS_19.slots).default;
     const __VLS_19 = __VLS_pickFunctionalComponentCtx(__VLS_15, __VLS_17);
     (__VLS_14.slots).default;

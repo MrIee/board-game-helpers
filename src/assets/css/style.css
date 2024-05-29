@@ -21,7 +21,7 @@
   }
 
   h1 {
-    @apply tw-text-5xl;
+    @apply tw-text-4xl tw-mb-4;
   }
 
   a {
