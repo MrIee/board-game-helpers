@@ -6,6 +6,8 @@ export interface InfoItem {
   notes?: string;
   imageUrl?: string;
   tag?: string;
+  module?: string;
+  expansion?: string;
 }
 
 export interface ImageModule {

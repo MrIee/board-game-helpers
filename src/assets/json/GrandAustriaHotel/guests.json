@@ -410,265 +410,341 @@
     "id": "134",
     "name": "Debutante",
     "description": "<p>You get 1 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "135",
     "id": "135",
     "name": "Lady Companion",
     "description": "<p>You can advance 1 space on the Emperor track. Additionally, you can play a staff card from hand at no cost.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "136",
     "id": "136",
     "name": "Governess",
     "description": "<p>You get 1 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "137",
     "id": "137",
     "name": "Prima Ballerina",
     "description": "<p>You get 2 krones. Additionally, you can send up to two dancers to the same or different ballrooms by paying the normal cost.</p>",
-    "notes": "<p>The Prima Ballerina can book a room or go dancing; in either case, her two friends definitely go dancing.</p>"
+    "notes": "<p>The Prima Ballerina can book a room or go dancing; in either case, her two friends definitely go dancing.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "138",
     "id": "138",
     "name": "Mannequin",
     "description": "<p>n You get 1 champagne. Additionally, you can play a staff card from hand for up to 3 krones less</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "139",
     "id": "139",
     "name": "Diva",
     "description": "<p>You get 2 champagne</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "140",
     "id": "140",
     "name": "Waltz Queen",
     "description": "<p>No effect.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "141",
     "id": "141",
     "name": "Khan",
     "description": "<p>You get 1 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "142",
     "id": "142",
     "name": "Tenno",
     "description": "<p>You get 1 champagne. Additionally, you can prepare one room (of any color) for 1 krone less.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "143",
     "id": "143",
     "name": "Laird",
     "description": "<p>You get 2 dishes and/or drinks of your choice (no champagne).</p>",
-    "notes": "<p>You can mix and match, e.g., take one cake and one coffee.</p>"
+    "notes": "<p>You can mix and match, e.g., take one cake and one coffee.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "144",
     "id": "144",
     "name": "Maharani",
     "description": "<p>You get 1 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "145",
     "id": "145",
     "name": "Marquis",
     "description": "<p>You get 2 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "146",
     "id": "146",
     "name": "Contessa",
     "description": "<p>No effect.</p>",
-    "notes": "<p>But she is worth 15 VP!</p>"
+    "notes": "<p>But she is worth 15 VP!</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "147",
     "id": "147",
     "name": "Tsarina",
     "description": "<p>You can send a dancer to a ballroom for 1 champagne less.</p>",
-    "notes": "<p>The Tsarina can book a room or go dancing; in either case, her spouse definitely goes dancing.</p>"
+    "notes": "<p>The Tsarina can book a room or go dancing; in either case, her spouse definitely goes dancing.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "148",
     "id": "148",
     "name": "Ambassador",
     "description": "<p>You can send a dancer to a ballroom for the normal cost.</p>",
-    "notes": "<p>The Ambassador can book a room or go dancing; in either case, her assistant definitely goes dancing.</p>"
+    "notes": "<p>The Ambassador can book a room or go dancing; in either case, her assistant definitely goes dancing.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "149",
     "id": "149",
     "name": "Abbess",
     "description": "<p>You get 5 krones.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "150",
     "id": "150",
     "name": "Consigliere",
     "description": "<p>You get 1 champagne and 2 krones.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "151",
     "id": "151",
     "name": "Admiral Winterbottom",
     "description": "<p>You can advance 2 spaces on the Emperor track. Additionally, you can send a dancer to a ballroom by paying the normal cost.</p>",
-    "notes": "<p>The Admiral can book a room or go dancing; in either case, his lieutenant definitely goes dancing.</p>"
+    "notes": "<p>The Admiral can book a room or go dancing; in either case, his lieutenant definitely goes dancing.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "152",
     "id": "152",
     "name": "Impresario",
     "description": "<p>You get 1 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "153",
     "id": "153",
     "name": "Cardinal",
     "description": "<p>No effect.</p>",
-    "notes": "<p>But he is worth 14 VP!</p>"
+    "notes": "<p>But he is worth 14 VP!</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "154",
     "id": "154",
     "name": "Mayor",
     "description": "<p>You get 2 champagne. Additionally, you can send a dancer to a ballroom by paying the normal cost.</p>",
-    "notes": "<p>The Mayor can book a room or go dancing; in either case, his secretary definitely goes dancing.</p>"
+    "notes": "<p>The Mayor can book a room or go dancing; in either case, his secretary definitely goes dancing.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "155",
     "id": "155",
     "name": "The Beast",
     "description": "<p>You get 1 champagne. Additionally, you can prepare one room (of any color) by paying the normal cost.</p>",
-    "notes": "<p>Note that you lose 1 VP for the Beast.</p>"
+    "notes": "<p>Note that you lose 1 VP for the Beast.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "156",
     "id": "156",
     "name": "Kapellmeister Palfy",
     "description": "<p>You get 2 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "157",
     "id": "157",
     "name": "C. Inderella",
     "description": "<p>You can send a dancer to a ballroom by paying the normal cost. Additionally, you can occupy a room (of any color) by turning it to the occupied side.</p>",
-    "notes": "<p>C. Inderella can book a room or go dancing; in either case, one of her friends definitely goes dancing—the other goes to bed.</p>"
+    "notes": "<p>C. Inderella can book a room or go dancing; in either case, one of her friends definitely goes dancing—the other goes to bed.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "158",
     "id": "158",
     "name": "Phantom",
     "description": "<p>You get 1 champagne. Additionally, you can take a guest from the queue at no cost.</p>",
-    "notes": "<p>Note that you lose 2 VP for the Phantom.</p>"
+    "notes": "<p>Note that you lose 2 VP for the Phantom.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "159",
     "id": "159",
     "name": "The Beauty",
     "description": "<p>You can send a dancer to a ballroom by paying the normal cost.</p><p>Additionally, draw 3 staff cards from the deck and play one of them immediately, paying up to 3 krones less. Return the other two cards to the bottom of the deck, in an order of your choice.</p>",
-    "notes": "<p>The beauty can book a room or go dancing; in either case, her sister definitely goes dancing. If all three cards are too expensive for you, or you don’t want to play any of them, you must return all three to the bottom of the deck.</p>"
+    "notes": "<p>The beauty can book a room or go dancing; in either case, her sister definitely goes dancing. If all three cards are too expensive for you, or you don’t want to play any of them, you must return all three to the bottom of the deck.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "160",
     "id": "160",
     "name": "Medium",
     "description": "<p>You get 2 dishes and/or drinks of your choice (no champagne). Additionally, you get 1 champagne.</p>",
-    "notes": "<p>You can mix and match, e.g., take one cake and one coffee. And you get a champagne on top!</p>"
+    "notes": "<p>You can mix and match, e.g., take one cake and one coffee. And you get a champagne on top!</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "161",
     "id": "161",
     "name": "Partyer",
     "description": "<p>You can send a dancer to a ballroom for up to 2 champagne less.</p>",
-    "notes": "<p>The Partyer can book a room or go dancing; in either case, his plus one definitely goes dancing.</p>"
+    "notes": "<p>The Partyer can book a room or go dancing; in either case, his plus one definitely goes dancing.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "162",
     "id": "162",
     "name": "Pope",
     "description": "<p>The Pope must move into a room; he cannot be sent to a ballroom. In return, you can occupy an additional room (of any color) by turning it to the occupied side.</p>",
-    "notes": "<p>The Pope could use an additional room for his entourage.</p>"
+    "notes": "<p>The Pope could use an additional room for his entourage.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "184",
     "id": "184",
     "name": "E. Doolittle",
     "description": "<p>Eliza must be sent to a ballroom; she cannot move into a room. In return, you can send an additional dancer that you must place on the same ballroom space as Eliza. You must pay the cost printed on the space only once (for Eliza only) and you get the row bonus only once.</p><p>Afterwards, score 1 VP for each dancer token you have in a ballroom, including Eliza and the second dancer token on the same space.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "185",
     "id": "185",
     "name": "M. Antoinette",
     "description": "<p>Marie must move into a room. Additionally, you can send a dancer to a ballroom by paying 1 fewer champagne per other player in the game. In return, each other player gets 1 dish or 1 drink of their choice (no champagne).</p><p>If you move Marie to her room in rounds 1-3, score 8 VP; in rounds 4-5, score 5 VP; in rounds 6-7, score 2 VP.</p>",
-    "notes": "<p>Marie occupies a room and goes dancing anyway.</p>"
+    "notes": "<p>Marie occupies a room and goes dancing anyway.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "186",
     "id": "186",
     "name": "Lord Mayor of London",
     "description": "<p>Immediately score the current ballroom. It will be scored again as normal after the next Emperor scoring.</p>",
-    "notes": "<p>Of course, all players must participate in this additional scoring.</p>"
+    "notes": "<p>Of course, all players must participate in this additional scoring.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "187",
     "id": "187",
     "name": "J. Gatsby & D. Buchanan",
     "description": "<p>Jay and Daisy must move into a room; they cannot be sent to a ballroom. In return, you can occupy an additional room (of any color) by turning it to the occupied side. Additionally, advance 4 spaces on the Emperor track. Please note that the cost is two of each depicted item.</p>",
-    "notes": "<p>They prefer to stay in their rooms.</p>"
+    "notes": "<p>They prefer to stay in their rooms.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "188",
     "id": "188",
     "name": "Ms. Hildegard",
     "description": "<p>Ms. Hildegard must move into a room; she cannot be sent to a ballroom.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "189",
     "id": "189",
     "name": "Dr. Hagedorn",
     "description": "<p>Dr. Hagedorn cannot be sent to a ballroom and he must occupy two horizontally adjacent rooms (of the same or different colors).</p>",
-    "notes": "<p>Dr. Hagedorn requires a double suite. If your hotel doesn’t have one, he’ll wait at his table until you make one available.</p>"
+    "notes": "<p>Dr. Hagedorn requires a double suite. If your hotel doesn’t have one, he’ll wait at his table until you make one available.</p>",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "190",
     "id": "190",
     "name": "Mr. Schulze",
     "description": "<p>Mr. Schulze can neither be sent to a ballroom nor occupy a room—he stays at his table indefinitely (which is why he has no cost). Instead, he is like a staff card (but he is not considered one) that allows you, once per round, to spend any one item (dish, drink, or champagne). If you do, you can immediately play a staff card from hand by paying its cost, score 1 VP, and advance 1 space on the Emperor track. During final scoring, you do not lose 5 victory points for Mr. Schulze, even though he is still sitting in your café.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "191",
     "id": "191",
     "name": "J. Kesselhut",
     "description": "<p>Immediately fill the wine orders of your remaining guests with wine from the supply.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": ""
   },
   {
     "uid": "192",
     "id": "192",
     "name": "Mrs. Kunkel",
     "description": "<p>Mrs. Kunkel cannot be sent to a ballroom and she must occupy a room in the bottom floor</p>",
-    "notes": "<p>If you have no vacant rooms in the bottom floor left, you must make do with one fewer table for the rest of the game and, during final scoring, suffer the negative 5 victory points penalty for Mrs. Kunkel.</p>"
+    "notes": "<p>If you have no vacant rooms in the bottom floor left, you must make do with one fewer table for the rest of the game and, during final scoring, suffer the negative 5 victory points penalty for Mrs. Kunkel.</p>",
+    "module": "",
+    "expansion": ""
   }
 ]

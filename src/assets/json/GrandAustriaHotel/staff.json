@@ -340,209 +340,269 @@
     "id": "119",
     "name": "Dancing Master",
     "description": "<p>Each time you take a die showing 3, before or after taking the main action, you can also send a dancer to a ballroom by paying the normal cost. Additionally, you get 1 krone.</p>",
-    "notes": "<p>You may not take any additional actions between the main action and sending the dancer.</p>"
+    "notes": "<p>You may not take any additional actions between the main action and sending the dancer.</p>",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "120",
     "id": "120",
     "name": "Violinist",
     "description": "<p>Immediately (and only once), you get 3 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "121",
     "id": "121",
     "name": "Concertmaster",
     "description": "<p>Each time you take a die showing 1, after performing the action as normal, you get 1 champagne and score 1 VP.</p>",
-    "notes": "<p>The additional champagne has no impact on the minimum quantities of strudel and cake.</p>"
+    "notes": "<p>The additional champagne has no impact on the minimum quantities of strudel and cake.</p>",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "122",
     "id": "122",
     "name": "Symphonist",
     "description": "<p>Once per round, you can spend exactly 1 champagne from your kitchen to score 5 VP</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "123",
     "id": "123",
     "name": "Usherette",
     "description": "<p>Once per round, you can spend exactly 2 krones to get 1 champagne and score 3 VP.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "124",
     "id": "124",
     "name": "Conductor",
     "description": "<p>Each time you take a die showing 4, you also get 1 champagne and 1 krone.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "125",
     "id": "125",
     "name": "Choirmaster",
     "description": "<p>Each time you take a die showing 5, before or after taking the main action, you can also send a dancer to a ballroom, paying 1 champagne less.</p>",
-    "notes": "<p>You may not take any additional actions between the main action and sending the dancer.</p>"
+    "notes": "<p>You may not take any additional actions between the main action and sending the dancer.</p>",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "126",
     "id": "126",
     "name": "Leading Dancer",
-    "description": "<p>During final scoring, score 2 VP for each dancer you have in all ballrooms (including the balcony).</p>",
-    "notes": ""
+    "description": "<p>During final scoring, score 2 VP for each dancer you have in all 1 (including the balcony).</p>",
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "127",
     "id": "127",
     "name": "Harpist",
-    "description": "<p>Immediately (and only once) send up to 2 dancers to the same or different ballrooms, paying up to 2 champagne less for the first and 1 champagne less for the second.</p>",
-    "notes": "<p>You may not take any additional actions in-between.</p>"
+    "description": "<p>Immediately (and only once) send up to 2 dancers to the same or different 1, paying up to 2 champagne less for the first and 1 champagne less for the second.</p>",
+    "notes": "<p>You may not take any additional actions in-between.</p>",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "128",
     "id": "128",
     "name": "Cellist",
     "description": "<p>Once per round, you can spend exactly 1 dish or drink from your kitchen to send a dancer to a ballroom for 1 champagne less.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "129",
     "id": "129",
     "name": "Pianist",
     "description": "<p>Once per round, you can use this card to get 1 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "130",
     "id": "130",
     "name": "Ballet Master",
     "description": "<p>Each time you send a dancer to a ballroom, you also get 1 krone and you can draw 1 staff card from the deck.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "131",
     "id": "131",
     "name": "Trumpeter",
     "description": "<p>Each time you take a die showing 2, after performing the action as normal, you get 1 champagne and you can draw 1 staff card from the deck.</p>",
-    "notes": "<p>The additional champagne has no impact on the minimum quantities of strudel and cake.</p>"
+    "notes": "<p>The additional champagne has no impact on the minimum quantities of strudel and cake.</p>",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "132",
     "id": "132",
     "name": "Arranger",
     "description": "<p>Each time you place a marker on an objective card, you also get 2 champagne.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "133",
     "id": "133",
     "name": "Danube Steamship Captain",
     "description": "<p>Once per round, after you play a staff card (except this one), you can send a dancer to a ballroom, paying 1 champagne less.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "1",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "166",
     "id": "166",
     "name": "Handmaid",
     "description": "<p>After you advance 3 or more spaces on the Emperor track during an action, you can turn this card face down. If you do, you can immediately (and only once) prepare up to 2 rooms (of any color) at no cost and immediately occupy them by turning them to the occupied side.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "167",
     "id": "167",
     "name": "Apprentice",
     "description": "<p>After you complete a blue guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 3 strudel and 3 cake.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "168",
     "id": "168",
     "name": "Dishwasher",
     "description": "<p>After you complete a red guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 3 wine and 3 coffee.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "169",
     "id": "169",
     "name": "Tapster",
     "description": "<p>After you complete a yellow guest’s order that required at least 3 items, you can turn this card face down. If you do, immediately (and only once) gain 6 krones.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "170",
     "id": "170",
     "name": "Coachwoman",
     "description": "<p>Once per round, you can spend exactly 1 coffee from your kitchen. If you do, score 3 VP and you can take a guest from the queue at no cost.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "171",
     "id": "171",
     "name": "Bookkeeper",
     "description": "<p>Once per round, you can spend exactly 1 cake from your kitchen. If you do, you can prepare one room (of any color), paying up to 2 krones less.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "172",
     "id": "172",
     "name": "Chef de Rang",
     "description": "<p>After you get 3 or more drinks (wine and/or coffee) from an action, you can turn this card face down. If you do, immediately (and only once) advance 5 spaces on the Emperor track.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "173",
     "id": "173",
     "name": "Interpreter",
     "description": "<p>Once per round, you can spend exactly 2 strudel from your kitchen to get 2 krones and score 2 VP.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "174",
     "id": "174",
     "name": "Bartender",
     "description": "<p>After you get 3 or more dishes (strudel and/or cake) during an action, you can turn this card face down. If you do, you can immediately (and only once) take a guest from the queue at no cost and immediately fill their order by taking all of their required items from the supply.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "175",
     "id": "175",
     "name": "Wagon Master",
     "description": "<p>Once per round, you can spend exactly 2 dishes and/or drinks (no champagne) from your kitchen to get 2 other dishes and/or drinks (different from those spent; no champagne) and score 2 VP.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "176",
     "id": "176",
     "name": "Dog Walker",
     "description": "<p>Once per round, you can spend exactly 2 wine from your kitchen to score 2 VP and advance 2 spaces on the Emperor track.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "177",
     "id": "177",
     "name": "Hairdresser",
     "description": "<p>Once per round, you can retreat exactly 2 spaces on the Emperor track to play a staff card from hand for up to 3 krones less.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "178",
     "id": "178",
     "name": "Janitor",
     "description": "<p>After you fully occupy a group (of any color) comprising at least 3 rooms, you can turn this card face down. If you do, you can immediately (and only once) play up to 2 staff cards from hand at no cost.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "179",
     "id": "179",
     "name": "Entertainer",
     "description": "<p>After you place a marker on an objective card, you can turn this card face down. If you do, you can immediately (and only once) fill up to two guests’ orders by taking the required items from the supply.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "5",
+    "expansion": "Let's Waltz"
   },
   {
     "uid": "183",
     "id": "183",
     "name": "Manager's Son",
     "description": "<p>Each time you spend at least 1 champagne during an action, you get 1 krone.</p>",
-    "notes": ""
+    "notes": "",
+    "module": "",
+    "expansion": "Let's Waltz"
   }
 ]
