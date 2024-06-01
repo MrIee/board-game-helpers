@@ -1,25 +1,30 @@
 <template>
   <div class="theme-grand-austria-hotel">
     <div class="wrapper container tw-pt-12 sm:tw-pt-14">
-      <div class="wrapper tw-flex tw-flex-col md:tw-flex-row tw-fixed tw-bg-gah-tan tw-py-6 sm:tw-py-8">
-        <input
-          class="tw-w-full tw-rounded tw-rounded-r-none tw-py-1 tw-px-2 tw-border tw-border-solid tw-border-gray-800"
-          type="text"
-          placeholder="Type a name or id to start searching"
-          v-model="searchTerm"
-        />
-        <select
-          class="tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0 hover:tw-cursor-pointer"
-          v-model="listType"
-        >
-          <option
-            v-for="(category, index) in categories"
-            :key="index"
-            :value="index"
+      <div class="wrapper tw-flex tw-flex-col tw-fixed tw-bg-gah-tan tw-py-6 sm:tw-py-8">
+        <div class="tw-w-full tw-flex tw-flex-col md:tw-flex-row">
+          <input
+            class="tw-h-9 tw-w-full tw-rounded tw-rounded-r-none tw-py-1 tw-px-2 tw-border tw-border-solid tw-border-gray-800"
+            type="text"
+            placeholder="Type a name or id to start searching"
+            v-model="searchTerm"
+          />
+          <select
+            class="tw-h-9 tw-w-full md:tw-w-1/4 tw-py-1 tw-px-2 tw-rounded tw-rounded-l-none tw-border tw-border-solid tw-border-gray-800 tw-border-l-0 hover:tw-cursor-pointer"
+            v-model="listType"
           >
-            {{ category }}
-          </option>
-        </select>
+            <option
+              v-for="(category, index) in categories"
+              :key="index"
+              :value="index"
+            >
+              {{ category }}
+            </option>
+          </select>
+        </div>
+        <div class="tw-flex tw-w-full">
+          <Filter label="Expansions" :items="filter" @filter="filterList" />
+        </div>
       </div>
       <div
         :class="{
@@ -61,9 +66,10 @@
 
 <script lang="ts">
 import { defineComponent, ref, computed, watch, onMounted  } from 'vue';
+import Filter from '../components/Filter.vue';
 import InfoCard from '../components/InfoCard.vue';
 import InfoCardWithImage from '../components/InfoCardWithImage.vue';
-import { InfoItem, ImageModule } from '../util/interfaces';
+import { InfoItem, ImageModule, FilterItem } from '../util/interfaces';
 import staffJSON from '../assets/json/GrandAustriaHotel/staff.json';
 import guestsJSON from '../assets/json/GrandAustriaHotel/guests.json';
 import objectivesJSON from '../assets/json/GrandAustriaHotel/objectives.json';
@@ -74,10 +80,27 @@ import hotelEntrancesJSON from '../assets/json/GrandAustriaHotel/hotel_entrances
 
 export default defineComponent({
   components: {
+    Filter,
     InfoCard,
     InfoCardWithImage,
   },
   setup() {
+    const filter = ref<Array<FilterItem>>([
+      {
+        type: 'expansion',
+        value: 'Base',
+      },
+      {
+        type: 'expansion',
+        value: 'Let\'s Waltz',
+      },
+    ]);
+
+    const filterList = (filter: FilterItem): void => {
+      console.log('filter:', filter);
+    };
+
+
     const searchTerm = ref<string>('');
     const staffList = ref<Array<InfoItem>>(staffJSON);
     const guestList = ref<Array<InfoItem>>(guestsJSON);
@@ -183,6 +206,8 @@ export default defineComponent({
 
     return {
       searchTerm,
+      filter,
+      filterList,
       categories,
       listType,
       filteredList,

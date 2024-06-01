@@ -8,8 +8,12 @@ export interface InfoItem {
   tag?: string;
   module?: string;
   expansion?: string;
-}
+};
 
 export interface ImageModule {
   default: string;
-}
+};
+export interface FilterItem {
+  type: string;
+  value: string;
+};
