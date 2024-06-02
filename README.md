@@ -1,2 +1,7 @@
-# wreck-raiders-dice-roller
-A vue based dice rolling application for the board game wreck raiders
+# Board Game Helpers
+
+A vue based application containing helpers for various boardgames. Their utility ranges from dice rollers to searchable reference sheets
+
+### Games Included
+- Grand Austria Hotel
+- Wreck Raiders
