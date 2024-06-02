@@ -1,7 +1,7 @@
 <template>
   <div class="theme-grand-austria-hotel">
     <div class="wrapper container tw-pt-12 sm:tw-pt-14">
-      <div class="wrapper tw-flex tw-flex-col tw-fixed tw-bg-gah-tan tw-py-6 sm:tw-py-8">
+      <div class="wrapper tw-flex tw-flex-col tw-fixed tw-bg-gah-tan tw-pt-6 sm:tw-pt-8">
         <div class="tw-w-full tw-flex tw-flex-col md:tw-flex-row">
           <input
             class="tw-h-9 tw-w-full tw-rounded tw-rounded-r-none tw-py-1 tw-px-2 tw-border tw-border-solid tw-border-gray-800"
@@ -22,14 +22,16 @@
             </option>
           </select>
         </div>
-        <div class="tw-flex tw-w-full">
-          <Filter label="Expansions" :items="filter" @filter="filterList" />
+        <div class="tw-w-full tw-flex tw-items-center">
+          <Filter label="Expansions" :items="expansionsFilter" :filter-list="filterList" @filter="applyFilter" />
+          <Filter label="Modules" :items="modulesFilter" :filter-list="filterList" @filter="applyFilter" />
+          <a class="tw-mx-2" @click="filterList = []">Reset filters</a>
         </div>
       </div>
       <div
         :class="{
-          'tw-flex tw-flex-wrap tw-mt-[114px] sm:tw-mt-[100px]': true,
-          'tw-pt-px tw-pl-px': isColumnView,
+          'tw-flex tw-flex-wrap tw-mt-36 sm:tw-mt-[115px]': true,
+          'tw-pt-px tw-pl-px': columns > 1,
         }"
       >
         <div
@@ -85,22 +87,6 @@ export default defineComponent({
     InfoCardWithImage,
   },
   setup() {
-    const filter = ref<Array<FilterItem>>([
-      {
-        type: 'expansion',
-        value: 'Base',
-      },
-      {
-        type: 'expansion',
-        value: 'Let\'s Waltz',
-      },
-    ]);
-
-    const filterList = (filter: FilterItem): void => {
-      console.log('filter:', filter);
-    };
-
-
     const searchTerm = ref<string>('');
     const staffList = ref<Array<InfoItem>>(staffJSON);
     const guestList = ref<Array<InfoItem>>(guestsJSON);
@@ -139,8 +125,55 @@ export default defineComponent({
     updateImageUrls(objectivesList.value);
     updateImageUrls(emperorTilesList.value);
 
+    const filterList = ref<Array<FilterItem>>([]);
+    const expansionsFilter = ref<Array<FilterItem>>([
+      {
+        type: 'expansion',
+        value: 'Let\'s Waltz',
+        label: 'Let\'s Waltz',
+      },
+    ]);
+
+    const modulesFilter = ref<Array<FilterItem>>([
+      {
+        type: 'module',
+        value: '1',
+        label: 'Vienna Ballrooms',
+      },
+      {
+        type: 'module',
+        value: '5',
+        label: 'Would you like some more?',
+      },
+    ]);
+
+    const applyFilter = (filter: FilterItem): void => {
+      let index: number = -1;
+
+      filterList.value.forEach((f: FilterItem, i: number) => {
+        if (f.value === filter.value) {
+          index = i;
+        }
+      });
+
+      if (index === -1) {
+        filterList.value.push(filter);
+      } else {
+        filterList.value.splice(index, 1);
+      }
+    };
+
     const filteredList = computed((): Array<InfoItem> => {
-      return list.value.filter((item: InfoItem) => {
+      let listFiltered: Array<InfoItem> = list.value;
+
+      if (filterList.value.length > 0) {
+        listFiltered = list.value.filter((item: InfoItem) =>
+          filterList.value.every((filter: FilterItem): boolean =>
+            item[filter.type as keyof InfoItem] === filter.value
+        ));
+      }
+
+      return listFiltered.filter((item: InfoItem) => {
         if (!searchTerm.value) {
           return true;
         }
@@ -206,8 +239,10 @@ export default defineComponent({
 
     return {
       searchTerm,
-      filter,
+      expansionsFilter,
+      modulesFilter,
       filterList,
+      applyFilter,
       categories,
       listType,
       filteredList,

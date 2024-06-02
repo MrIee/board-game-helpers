@@ -25,7 +25,7 @@
   }
 
   a {
-    @apply tw-underline;
+    @apply tw-underline tw-cursor-pointer;
   }
 
   .app {

@@ -4,336 +4,384 @@
     "id": "1",
     "name": "Breakfast Server",
     "description": "<p>Once per round, you can use this card to get 1 strudel</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "2",
     "id": "2",
     "name": "Waitress",
     "description": "<p>Once per round, you can use this card to get 1 cake</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "3",
     "id": "3",
     "name": "Barkeeper",
     "description": "<p>Once per round, you can use this card to get 1 wine</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "4",
     "id": "4",
     "name": "Sous-Chef",
     "description": "<p>Once per round, you can use this card to get 1 coffee</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "5",
     "id": "5",
     "name": "Groom",
     "description": "<p>Each time you remove a red guest whose order you completed from your café, you get 2 krones.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "6",
     "id": "6",
     "name": "Stableman",
     "description": "<p>Each time you remove a blue guest whose order you completed from your café, you can advance 1 space on the Emperor track.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "7",
     "id": "7",
     "name": "Masseuse",
     "description": "<p>Each time you remove a yellow guest whose order you completed from your café, you get 1 krone.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "8",
     "id": "8",
     "name": "Tour Guide",
     "description": "<p>Each time you remove a green guest whose order you completed from your café, score 2 VP.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "9",
     "id": "9",
     "name": "Butler",
     "description": "<p>From now on, whenever you prepare a blue room (from any action or effect), it is free to do so (pay 0 krones).</p>",
-    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>"
+    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "10",
     "id": "10",
     "name": "Chauffeur",
     "description": "<p>From now on, whenever you prepare a red room (from any action or effect), it is free to do so (pay 0 krones).</p>",
-    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>"
+    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "11",
     "id": "11",
     "name": "Florist",
     "description": "<p>From now on, whenever you prepare a yellow room (from any action or effect), it is free to do so (pay 0 krones).</p>",
-    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>"
+    "notes": "<p>This does not grant a free action; it merely removes the cost.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "12",
     "id": "12",
     "name": "Executive Housekeeper",
     "description": "<p>Each time you take a die showing 3 or 4, immediately score 2 VP.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "13",
     "id": "13",
     "name": "Restaurant Manager",
     "description": "<p>Each time you take a die showing 1 or 2, you can add 1 to the strength of that action.</p>",
-    "notes": "<p>As always, you can boost this further by paying 1 krone.</p>"
+    "notes": "<p>As always, you can boost this further by paying 1 krone.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "14",
     "id": "14",
     "name": "Decorator",
     "description": "<p>Each time you take a die showing 1 or 2, before or after taking the main action, you can also prepare one room (of any color) by paying the normal cost.</p>",
-    "notes": "<p>You may not take any additional actions between the main action and preparing that room.</p>"
+    "notes": "<p>You may not take any additional actions between the main action and preparing that room.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "15",
     "id": "15",
     "name": "Bootblack",
     "description": "<p>You no longer have to choose when taking a die showing 4: For each die on the action space, you get 1 krone and you can advance 1 space on the Emperor track.</p>",
-    "notes": "<p>As always, you can boost this by paying 1 krone, for which you will also get 1 krone (back) and advance 1 space on the Emperor track, effectively gaining one space for free.</p>"
+    "notes": "<p>As always, you can boost this by paying 1 krone, for which you will also get 1 krone (back) and advance 1 space on the Emperor track, effectively gaining one space for free.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "16",
     "id": "16",
     "name": "Laundress",
     "description": "<p>Each time you take a die showing 4, immediately score 4 VP.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "17",
     "id": "17",
     "name": "Kitchen Hand",
     "description": "<p>You no longer have to pay 1 krone when taking a die showing 6; additionally, you can add 1 to the strength of this action.</p>",
-    "notes": "<p>As always, you can boost this further by paying 1 krone. For your information: We increased the cost of this card from 3 krones (in previous editions) to 5 krones.</p>"
+    "notes": "<p>As always, you can boost this further by paying 1 krone. For your information: We increased the cost of this card from 3 krones (in previous editions) to 5 krones.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "18",
     "id": "18",
     "name": "Checker",
     "description": "<p>Each time you take a die showing 5, you can add 2 to the strength of this action.</p>",
-    "notes": "<p>In other words, you are getting an additional discount of 2 krones.</p>"
+    "notes": "<p>In other words, you are getting an additional discount of 2 krones.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "19",
     "id": "19",
     "name": "Interior Architect",
     "description": "<p>Each time you take a die showing 3, immediately score 5 VP.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "20",
     "id": "20",
     "name": "Detective",
     "description": "<p>Each time you take a die showing 5, before or after taking the main action, you can also advance 2 spaces on the Emperor track.</p>",
-    "notes": "<p>You may not take any additional actions between the main action and advancing on the Emperor track.</p>"
+    "notes": "<p>You may not take any additional actions between the main action and advancing on the Emperor track.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "21",
     "id": "21",
     "name": "Chef",
     "description": "<p>Immediately (and only once) gain 1 strudel, 1 cake, 1 wine, and 1 coffee.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "22",
     "id": "22",
     "name": "Staff Manager",
     "description": "<p>Each time you take a die showing 3, before or after taking the main action, you can also play a staff card from hand by paying its cost.</p>",
-    "notes": "<p>You may not take any additional actions between the main action and playing the staff card.</p>"
+    "notes": "<p>You may not take any additional actions between the main action and playing the staff card.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "23",
     "id": "23",
     "name": "Custodian",
     "description": "<p>Each time you occupy a room (by whichever means), you also get 1 krone.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "24",
     "id": "24",
     "name": "Chief Waiter",
     "description": "<p>From now on, moving items from your kitchen onto your guests costs you nothing.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "25",
     "id": "25",
     "name": "Delivery Boy",
     "description": "<p>From now on, taking guests from the queue costs you nothing</p>",
-    "notes": "<p>This does not provide a guest; it merely removes the cost.</p>"
+    "notes": "<p>This does not provide a guest; it merely removes the cost.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "26",
     "id": "26",
     "name": "Conference Manager",
     "description": "<p>From now on, you can pay 1 krone to ignore the penalty during an Emperor scoring.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "27",
     "id": "27",
     "name": "Booking Manager",
     "description": "<p>During final scoring, score an additional 3 VP for each occupied red room in your hotel.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "28",
     "id": "28",
     "name": "Concierge",
     "description": "<p>During final scoring, score an additional 3 VP for each occupied blue room in your hotel.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "29",
     "id": "29",
     "name": "Secretary",
     "description": "<p>During final scoring, select an opponent’s staff card in play with the <strong>⇥</strong> symbol and apply its effect to your hotel.</p>",
-    "notes": "<p>You may not use this to copy one of your staff. If none of your opponents have staff with the <strong>⇥</strong> symbol in play, the Secretary scores nothing</p>"
+    "notes": "<p>You may not use this to copy one of your staff. If none of your opponents have staff with the <strong>⇥</strong> symbol in play, the Secretary scores nothing</p>",
+    "expansion": "Base"
   },
   {
     "uid": "30",
     "id": "30",
     "name": "Reception Clerk",
     "description": "<p>During final scoring, score an additional 3 VP for each occupied yellow room in your hotel.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "31",
     "id": "31",
     "name": "Chambermaid",
     "description": "<p>During final scoring, score an additional 1 VP for each occupied room in your hotel, regardless of color.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "32",
     "id": "32",
     "name": "Assistant Manager",
     "description": "<p>During final scoring, score 2 VP for each staff card you played (regardless of type), including this.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "33",
     "id": "33",
     "name": "Male Floor Housekeeper",
     "description": "<p>Each time you get the rewards for completing a guest’s order that required 4 (or more) items to complete it, in addition, score 4 VP.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "34",
     "id": "34",
     "name": "Receptionist",
     "description": "<p>During final scoring, score (an additional) 1 VP for each room tile in your hotel, regardless of color and which side is facing up.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "35",
     "id": "35",
     "name": "Page Boy",
     "description": "<p>Immediately (and only once) occupy up to 2 rooms (of any color) in your hotel by turning them to the occupied side.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "36",
     "id": "36",
     "name": "Sommelier",
     "description": "<p>Immediately (and only once) gain 4 wine.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "37",
     "id": "37",
     "name": "Room Service",
     "description": "<p>During final scoring, score 2 VP for each fully occupied group of rooms (of any color) in your hotel.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "38",
     "id": "38",
     "name": "Porter",
     "description": "<p>Immediately (and only once) fill a guest’s order by taking the required items from the supply.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "39",
     "id": "39",
     "name": "Confectioner",
     "description": "<p>Immediately (and only once) gain 4 cake.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "40",
     "id": "40",
     "name": "Marketing Director",
     "description": "<p>During final scoring, score 5 VP for each objective card that has your marker on it.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "41",
     "id": "41",
     "name": "Operator",
     "description": "<p>During final scoring, score a number of VP equal to double your position on the Emperor track.</p>",
-    "notes": "<p>Remember, you lose 7 spaces after the final Emperor scoring; as such, you will usually score at most 12 VP from the Operator. Under the right conditions, though, you can get more than 12 VP from this. This wasn’t allowed in earlier prints, but it is now.</p>"
+    "notes": "<p>Remember, you lose 7 spaces after the final Emperor scoring; as such, you will usually score at most 12 VP from the Operator. Under the right conditions, though, you can get more than 12 VP from this. This wasn’t allowed in earlier prints, but it is now.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "42",
     "id": "42",
     "name": "Gardener",
     "description": "<p>Each time you get the reward during an Emperor scoring, in addition, score 5 VP</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "43",
     "id": "43",
     "name": "Barista",
     "description": "<p>Immediately (and only once) gain 4 coffee</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "44",
     "id": "44",
     "name": "Larder Cook",
     "description": "<p>Immediately (and only once) gain 4 strudel.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "45",
     "id": "45",
     "name": "Pool Attendant",
     "description": "<p>Immediately (and only once) advance 3 spaces on the Emperor track.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "46",
     "id": "46",
     "name": "Female Floor Housekeeper",
     "description": "<p>During final scoring, score 5 VP for each floor in your hotel that has all of its rooms occupied.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "47",
     "id": "47",
     "name": "Liftboy",
     "description": "<p>During final scoring, score 5 VP for each column in your hotel that has all of its rooms occupied.</p>",
-    "notes": ""
+    "notes": "",
+    "expansion": "Base"
   },
   {
     "uid": "48",
     "id": "48",
     "name": "Hotel Manager",
     "description": "<p>During final scoring, score 4 VP for each set of occupied red, blue, and yellow rooms that you have in your hotel.</p>",
-    "notes": "<p>In other words, you get 4 VP for each occupied room of the color that you have the least of.</p>"
+    "notes": "<p>In other words, you get 4 VP for each occupied room of the color that you have the least of.</p>",
+    "expansion": "Base"
   },
   {
     "uid": "119",

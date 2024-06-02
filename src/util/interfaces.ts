@@ -16,4 +16,5 @@ export interface ImageModule {
 export interface FilterItem {
   type: string;
   value: string;
+  label: string;
 };
