@@ -1,0 +1,97 @@
+[
+  {
+    "uid": "1",
+    "name": "Sentinel Wood",
+    "module": "Forest",
+    "expansion": "Base"
+  },
+  {
+    "uid": "2",
+    "name": "Greenborough",
+    "module": "Forest",
+    "expansion": "Base"
+  },
+  {
+    "uid": "3",
+    "name": "Treetower",
+    "module": "Forest",
+    "expansion": "Base"
+  },
+  {
+    "uid": "4",
+    "name": "Stoneside Forest",
+    "module": "Forest",
+    "expansion": "Base"
+  },
+  {
+    "uid": "5",
+    "name": "Canal Lake",
+    "module": "Water",
+    "expansion": "Base"
+  },
+  {
+    "uid": "6",
+    "name": "Mages Valley",
+    "module": "Water",
+    "expansion": "Base"
+  },
+  {
+    "uid": "7",
+    "name": "The Golden Granary",
+    "module": "Water",
+    "expansion": "Base"
+  },
+  {
+    "uid": "8",
+    "name": "Shoreside Expanse",
+    "module": "Water",
+    "expansion": "Base"
+  },
+  {
+    "uid": "9",
+    "name": "Wildholds",
+    "module": "Village",
+    "expansion": "Base"
+  },
+  {
+    "uid": "10",
+    "name": "Great City",
+    "module": "Village",
+    "expansion": "Base"
+  },
+  {
+    "uid": "11",
+    "name": "Greengold Plains",
+    "module": "Village",
+    "expansion": "Base"
+  },
+  {
+    "uid": "12",
+    "name": "Shieldgate",
+    "module": "Village",
+    "expansion": "Base"
+  },
+  {
+    "uid": "13",
+    "name": "Borderlands",
+    "module": "Grid",
+    "expansion": "Base"
+  },
+  {
+    "uid": "14",
+    "name": "Lost Barony",
+    "module": "Grid",
+    "expansion": "Base"
+  },{
+    "uid": "15",
+    "name": "The Broken Road",
+    "module": "Grid",
+    "expansion": "Base"
+  },
+  {
+    "uid": "16",
+    "name": "The Cauldrons",
+    "module": "Grid",
+    "expansion": "Base"
+  }
+]

@@ -2,7 +2,7 @@ export interface InfoItem {
   uid: string;
   id?: string | undefined;
   name?: string | undefined;
-  description: string;
+  description?: string;
   notes?: string;
   imageUrl?: string;
   tag?: string;
@@ -17,4 +17,9 @@ export interface FilterItem {
   type: string;
   value: string;
   label: string;
+};
+
+export interface RandomItemResult {
+  pickedItems: Array<any>;
+  items: Array<any>;
 };

@@ -17,6 +17,12 @@
           Wreck Raiders Dice Roller
         </router-link>
       </li>
+      <li>
+        <router-link to="/cartographersscoringcardrandomizer">
+          <img :src="CartographersCoverImg" alt="Wreck Raiders" />
+          Cartographers Scoring Card Randomizer
+        </router-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -25,12 +31,14 @@
 import { defineComponent } from 'vue';
 import GAHCoverImg from '../assets/images/covers/cover-grand-austria-hotel.jpg';
 import WWCoverImg from '../assets/images/covers/cover-wreck-raiders.jpg';
+import CartographersCoverImg from '../assets/images/covers/cover-cartographers.jpg';
 
 export default defineComponent({
   setup() {
     return {
       GAHCoverImg,
       WWCoverImg,
+      CartographersCoverImg,
     }
   },
 });
@@ -39,7 +47,7 @@ export default defineComponent({
 
 <style>
 .bg-cover-link-list li {
-  @apply tw-inline-block tw-text-center tw-align-top tw-mx-3;
+  @apply tw-w-36 tw-inline-block tw-text-center tw-align-top tw-mx-3 tw-text-sm;
 }
 
 .bg-cover-link-list li img {

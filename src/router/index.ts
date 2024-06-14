@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Home from '../containers/Home.vue';
 import GrandAustriaHotelReferenceTool from '../containers/GrandAustriaHotelReferenceTool.vue';
 import WreckRaidersDiceRoller from '../containers/WreckRaidersDiceRoller.vue';
+import CartographersScoringCardRandomizer from '../containers/CartographersScoringCardRandomizer.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -18,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/grandaustriahotelreferencetool',
     name: 'grandaustriahotelreferencetool',
     component: GrandAustriaHotelReferenceTool,
+  },
+  {
+    path: '/cartographersscoringcardrandomizer',
+    name: 'cartographersscoringcardrandomizer',
+    component: CartographersScoringCardRandomizer,
   },
 ];
 

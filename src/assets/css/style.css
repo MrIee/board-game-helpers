@@ -28,6 +28,10 @@
     @apply tw-underline tw-cursor-pointer;
   }
 
+  button {
+    @apply tw-py-3 tw-px-5 tw-font-bold tw-border-2 tw-border-solid tw-border-gray-800 tw-cursor-pointer;
+  }
+
   .app {
     @apply tw-min-h-full tw-h-full;
   }

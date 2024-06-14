@@ -64,7 +64,6 @@ export default defineComponent({
     },
     description: {
       type: String,
-      required: true,
     },
     notes: {
       type: String,
