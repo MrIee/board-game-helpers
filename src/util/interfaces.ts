@@ -17,6 +17,7 @@ export interface FilterItem {
   type: string;
   value: string;
   label: string;
+  checked: boolean;
 };
 
 export interface RandomItemResult {

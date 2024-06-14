@@ -23,9 +23,9 @@
           </select>
         </div>
         <div class="tw-w-full tw-flex tw-items-center">
-          <Filter label="Expansions" :items="expansionsFilter" :filter-list="filterList" @filter="applyFilter" />
-          <Filter label="Modules" :items="modulesFilter" :filter-list="filterList" @filter="applyFilter" />
-          <a class="tw-mx-2" @click="filterList = []">Reset filters</a>
+          <CheckboxDropdown label="Expansions" :items="expansionsFilter" @select="applyFilter" />
+          <CheckboxDropdown label="Modules" :items="modulesFilter" @select="applyFilter" />
+          <a class="tw-mx-2" @click="resetFilters">Reset filters</a>
         </div>
       </div>
       <div
@@ -68,7 +68,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, computed, watch, onMounted  } from 'vue';
-import Filter from '../components/Filter.vue';
+import CheckboxDropdown from '../components/CheckboxDropdown.vue';
 import InfoCard from '../components/InfoCard.vue';
 import InfoCardWithImage from '../components/InfoCardWithImage.vue';
 import { InfoItem, ImageModule, FilterItem } from '../util/interfaces';
@@ -82,7 +82,7 @@ import hotelEntrancesJSON from '../assets/json/GrandAustriaHotel/hotel_entrances
 
 export default defineComponent({
   components: {
-    Filter,
+    CheckboxDropdown,
     InfoCard,
     InfoCardWithImage,
   },
@@ -131,6 +131,7 @@ export default defineComponent({
         type: 'expansion',
         value: 'Let\'s Waltz',
         label: 'Let\'s Waltz',
+        checked: false,
       },
     ]);
 
@@ -139,16 +140,20 @@ export default defineComponent({
         type: 'module',
         value: '1',
         label: 'Vienna Ballrooms',
+        checked: false,
       },
       {
         type: 'module',
         value: '5',
         label: 'Would you like some more?',
+        checked: false,
       },
     ]);
 
     const applyFilter = (filter: FilterItem): void => {
       let index: number = -1;
+
+      filter.checked = !filter.checked;
 
       filterList.value.forEach((f: FilterItem, i: number) => {
         if (f.value === filter.value) {
@@ -193,6 +198,18 @@ export default defineComponent({
         }
       });
     });
+
+    const resetFilters = (): void => {
+      filterList.value = [];
+
+      expansionsFilter.value.forEach((filter: FilterItem): void => {
+        filter.checked = false;
+      });
+
+      modulesFilter.value.forEach((filter: FilterItem): void => {
+        filter.checked = false;
+      });
+    }
 
     watch(listType, (type: string): void => {
       const categoryType = parseInt(type, 10);
@@ -241,8 +258,8 @@ export default defineComponent({
       searchTerm,
       expansionsFilter,
       modulesFilter,
-      filterList,
       applyFilter,
+      resetFilters,
       categories,
       listType,
       filteredList,

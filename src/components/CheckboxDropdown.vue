@@ -29,8 +29,8 @@
           <input
             type="checkbox"
             :id="item.value"
-            :checked="isFilterChecked(item.value)"
-            @change="onClickFilter(item)"
+            :checked="item.checked"
+            @change="onClickCheckbox(item)"
           />
           {{ item.label }}
         </label>
@@ -41,8 +41,13 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import Chevron from '../components/icons/Chevron.vue';
-import { FilterItem } from '../util/interfaces';
+import Chevron from './icons/Chevron.vue';
+
+interface CheckboxItem {
+  value: string;
+  label: string;
+  checked: boolean;
+}
 
 export default defineComponent({
   components: {
@@ -54,28 +59,20 @@ export default defineComponent({
       default: 'Filter by:',
     },
     items: {
-      type: Array<FilterItem>,
+      type: Array<CheckboxItem>,
       required: true,
     },
-    filterList: {
-      type: Array<FilterItem>,
-      default: () => [],
-    },
   },
-  setup(props, ctx) {
+  setup(_props, ctx) {
     const isVisible = ref<boolean>(false);
 
-    const onClickFilter = (filter: Object): void => {
-      ctx.emit('filter', filter);
+    const onClickCheckbox = (item: CheckboxItem): void => {
+      ctx.emit('select', item);
     };
-
-    const isFilterChecked = (value: string): boolean =>
-      props.filterList.some((filter: FilterItem): boolean => filter.value == value);
 
     return {
       isVisible,
-      isFilterChecked,
-      onClickFilter,
+      onClickCheckbox,
     };
   },
 });
