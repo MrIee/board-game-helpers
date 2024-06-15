@@ -2,7 +2,7 @@
   <div class="wrapper container tw-pt-12 sm:tw-pt-14">
     <div class="tw-flex tw-flex-col sm:tw-flex-row tw-justify-center sm:tw-mt-5 tw-mb-3">
       <button
-        class="tw-h-9 tw-py-1 tw-px-2 tw-rounded tw-rounded-r-none"
+        class="tw-hidden sm:tw-block tw-h-9 tw-py-1 tw-px-2 tw-rounded tw-rounded-r-none"
         @click="getScoringEdicts"
       >
         Generate Random Scoring Cards
@@ -42,6 +42,12 @@
         <strong>{{ beacon.name }}</strong>
       </div>
     </div>
+    <button
+      class="sm:tw-hidden tw-h-9 tw-py-1 tw-px-2 tw-mt-3 tw-rounded tw-rounded-r-none"
+      @click="getScoringEdicts"
+    >
+      Generate Random Scoring Cards
+    </button>
   </div>
 </template>
 
