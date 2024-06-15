@@ -20,9 +20,9 @@ export interface FilterItem {
   checked: boolean;
 };
 export interface CheckboxItem {
-  value: any;
+  value?: any;
   label: string;
-  checked: boolean;
+  checked?: boolean;
   exclusive?: boolean;
 }
 

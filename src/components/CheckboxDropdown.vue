@@ -23,6 +23,7 @@
         class="filter__item"
       >
         <label
+          v-if="item.value"
           class="tw-inline-block tw-h-full tw-w-full tw-py-1 tw-px-2 hover:tw-cursor-pointer tw-whitespace-nowrap"
           :for="item.label.toLowerCase().replace(/\s/g,'')"
         >
@@ -34,6 +35,7 @@
           />
           {{ item.label }}
         </label>
+        <span v-else>{{ item.label }}</span>
       </li>
     </ul>
   </div>

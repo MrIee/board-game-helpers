@@ -9,7 +9,7 @@
       </button>
       <CheckboxDropdown
         class="sm:tw-rounded-l-none"
-        label="Score cards to add"
+        label="Choose your expansions"
         :items="scoreCardGroups"
         @select="onClickScoreCardGroup"
       />
@@ -115,6 +115,9 @@ export default defineComponent({
 
     const scoreCardGroups = ref<Array<CheckboxItem>>([
       {
+        label: 'Choose Any',
+      },
+      {
         value: baseCards,
         label: 'Base',
         checked: true,
@@ -127,6 +130,15 @@ export default defineComponent({
         exclusive: false,
       },
       {
+        value: kethraCards,
+        label: 'Kethra\'s Steppe',
+        checked: false,
+        exclusive: false,
+      },
+      {
+        label: 'Choose One',
+      },
+      {
         value: affrilCards,
         label: 'Affril',
         checked: false,
@@ -137,12 +149,6 @@ export default defineComponent({
         label: 'Undercity',
         checked: false,
         exclusive: true,
-      },
-      {
-        value: kethraCards,
-        label: 'Kethra\'s Steppe',
-        checked: false,
-        exclusive: false,
       },
     ]);
 
@@ -186,7 +192,7 @@ export default defineComponent({
     };
 
     const assignRandomBeacon = (cardGroup: CheckboxItem): void => {
-      if (cardGroup.value[0].module?.toLowerCase() === 'beacon') {
+      if (cardGroup.value && cardGroup.value[0].module?.toLowerCase() === 'beacon') {
         if (cardGroup.checked) {
             const res = pickXRandomItems(cardGroup.value, 1);
             beacon.value = res.pickedItems[0];
@@ -234,7 +240,7 @@ export default defineComponent({
     };
 
     const addExclusiveExpansion = (cardGroup: CheckboxItem): void => {
-      const exlusiveExpansions = [scoreCardGroups.value[2].label, scoreCardGroups.value[3].label];
+      const exlusiveExpansions = ['Affril', 'Undercity'];
 
       if (exlusiveExpansions.indexOf(cardGroup.label) > -1) {
         removeCardsByCategory('grid');
