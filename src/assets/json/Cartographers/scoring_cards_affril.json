@@ -1,0 +1,20 @@
+[
+  {
+    "uid": "1",
+    "name": "Purplestone Miners",
+    "module": "Grid",
+    "expansion": "Affril"
+  },
+  {
+    "uid": "2",
+    "name": "Crystalline Surveyor",
+    "module": "Grid",
+    "expansion": "Affril"
+  },
+  {
+    "uid": "3",
+    "name": "Klynoks Settlement",
+    "module": "Grid",
+    "expansion": "Affril"
+  }
+]

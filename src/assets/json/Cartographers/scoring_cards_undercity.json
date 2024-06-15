@@ -1,0 +1,20 @@
+[
+  {
+    "uid": "1",
+    "name": "The Pit",
+    "module": "Grid",
+    "expansion": "Undercity"
+  },
+  {
+    "uid": "2",
+    "name": "Azema's Bones",
+    "module": "Grid",
+    "expansion": "Undercity"
+  },
+  {
+    "uid": "3",
+    "name": "Ancient Sepulchre",
+    "module": "Grid",
+    "expansion": "Undercity"
+  }
+]

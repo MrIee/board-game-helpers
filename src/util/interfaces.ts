@@ -14,11 +14,17 @@ export interface ImageModule {
   default: string;
 };
 export interface FilterItem {
-  type: string;
+  type?: string;
   value: string;
   label: string;
   checked: boolean;
 };
+export interface CheckboxItem {
+  value: any;
+  label: string;
+  checked: boolean;
+  exclusive?: boolean;
+}
 
 export interface RandomItemResult {
   pickedItems: Array<any>;

@@ -24,11 +24,11 @@
       >
         <label
           class="tw-inline-block tw-h-full tw-w-full tw-py-1 tw-px-2 hover:tw-cursor-pointer tw-whitespace-nowrap"
-          :for="item.value"
+          :for="item.label.toLowerCase().replace(/\s/g,'')"
         >
           <input
             type="checkbox"
-            :id="item.value"
+            :id="item.label.toLowerCase().replace(/\s/g,'')"
             :checked="item.checked"
             @change="onClickCheckbox(item)"
           />
@@ -42,12 +42,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import Chevron from './icons/Chevron.vue';
-
-interface CheckboxItem {
-  value: string;
-  label: string;
-  checked: boolean;
-}
+import { CheckboxItem } from '../util/interfaces';
 
 export default defineComponent({
   components: {
@@ -80,13 +75,14 @@ export default defineComponent({
 
 <style>
 .filter__label {
+  border-radius: inherit;
+
   @apply tw-h-full
   tw-flex
   tw-justify-between
   tw-items-center
   tw-py-1
   tw-px-2
-  tw-rounded
   tw-border
   tw-border-solid
   tw-border-gray-800

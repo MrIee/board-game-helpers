@@ -1,0 +1,20 @@
+[
+  {
+    "uid": "1",
+    "name": "Beacon's Radiance",
+    "module": "Beacon",
+    "expansion": "Kethra"
+  },
+  {
+    "uid": "2",
+    "name": "Everburning Flame",
+    "module": "Beacon",
+    "expansion": "Kethra"
+  },
+  {
+    "uid": "3",
+    "name": "Summit's Splendor",
+    "module": "Beacon",
+    "expansion": "Kethra"
+  }
+]

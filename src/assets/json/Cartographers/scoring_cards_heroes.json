@@ -1,0 +1,98 @@
+[
+  {
+    "uid": "1",
+    "name": "Faunlost Thicket",
+    "module": "Forest",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "2",
+    "name": "Deepwood",
+    "module": "Forest",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "3",
+    "name": "Heart of the Forest",
+    "module": "Forest",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "4",
+    "name": "Sleepy Valley",
+    "module": "Forest",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "5",
+    "name": "Craylund",
+    "module": "Water",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "6",
+    "name": "Ulem's Wallow",
+    "module": "Water",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "7",
+    "name": "Clawsgrave Peaks",
+    "module": "Water",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "8",
+    "name": "Jorekburg",
+    "module": "Water",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "9",
+    "name": "Traylo Monastery",
+    "module": "Village",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "10",
+    "name": "Outer Enclave",
+    "module": "Village",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "11",
+    "name": "Gnomish Colony",
+    "module": "Village",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "12",
+    "name": "Caravansary",
+    "module": "Village",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "13",
+    "name": "Dwarvenholds",
+    "module": "Grid",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "14",
+    "name": "Silos",
+    "module": "Grid",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "15",
+    "name": "Banded Hills",
+    "module": "Grid",
+    "expansion": "Heroes"
+  },
+  {
+    "uid": "16",
+    "name": "Starlit Sigils",
+    "module": "Grid",
+    "expansion": "Heroes"
+  }
+]
