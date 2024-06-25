@@ -11,7 +11,7 @@ A vue based application containing helpers for various boardgames. Their utility
 - Wreck Raiders Dice Roller
   - Wreck Raiders has a unique dice rolling mechanic. The box lid has an inlaid graphic with several printed 'action' spots
   for dice to potentially land on, however rolling the dice in the lid can be quite loud and not ideal for many situations
-  so I created this simple tool to emulate the dice rolling experience with adjusting probabilty of landing on a printed
+  so I created this simple tool to emulate the dice rolling experience with adjustable probabilty of landing on a printed
   action spot.
 
 - Cartographers Scoring Card Randomizer
